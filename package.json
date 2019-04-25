@@ -1,7 +1,7 @@
 {
-  "name": "obj-this",
+  "name": "site-1-temp",
   "version": "1.0.0",
-  "description": "",
+  "description": "first site template",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
