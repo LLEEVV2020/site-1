@@ -2,9 +2,9 @@
 if (isset($_POST['lang'])) {$lang = $_POST['lang'];}
 if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
 
-$to = "stroy@l-eve-l.ru"; /*Укажите ваш адрес электоронной почты*/
+$to = "lleevv2015@yandex.ru"; /*Укажите ваш адрес электоронной почты*/
 $headers = "Content-type: text/plain; charset = utf-8";
-$subject = "anapa.remont-level.ru";
+$subject = "anapa.test.ru";
 $message = "Название формы: $lang \nТелефон: $phone";
 $utm_source = isset($_COOKIE['utm_source']) ? 'источник: '.$_COOKIE['utm_source'].'; ':'';
 $utm_term = isset($_COOKIE['utm_term']) ? 'Ключевое слово: '.$_COOKIE['utm_term'].'; ':'';
@@ -27,9 +27,9 @@ echo "<p><b>Ошибка. Сообщение не отправлено!";
 if (isset($_POST['lang'])) {$lang = $_POST['lang'];}
 if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
 
-$to = "avoshnikov@yandex.ru"; /*Укажите ваш адрес электоронной почты*/
+$to = "lleevv2020@yandex.ru"; /*Укажите ваш адрес электоронной почты*/
 $headers = "Content-type: text/plain; charset = utf-8";
-$subject = "anapa.remont-level.ru";
+$subject = "anapa.test.ru";
 $message = "Название формы: $lang \nТелефон: $phone";
 $message .= " \n $utm_source $utm_term";
 $send = mail ($to, $subject, $message, $headers);
@@ -48,7 +48,7 @@ echo "<p><b>Ошибка. Сообщение не отправлено!";
 
 <?php 
 /* AMO.CRM */
-$url_delivery_amo = 'https://apicrm.ru/amo/domain/anapa.remont-level.ru/send.php';
+$url_delivery_amo = 'send.php';
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $url_delivery_amo);
 curl_setopt($curl, CURLOPT_POST, true);
