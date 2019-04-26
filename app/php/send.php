@@ -48,11 +48,8 @@ else
 echo "<p><b>Ошибка. Сообщение не отправлено!";
 }
 
-?>
-
-<?php 
 /* AMO.CRM */
-$url_delivery_amo = 'send.php';
+$url_delivery_amo = 'https://apicrm.ru/amo/domain/anapa.test.ru/send.php';
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $url_delivery_amo);
 curl_setopt($curl, CURLOPT_POST, true);
@@ -62,7 +59,7 @@ curl_setopt($curl,CURLOPT_HEADER,false);
 curl_exec($curl);
 curl_close($curl); #Заверашем сеанс cURL
 /* /AMO.CRM */
- ?>
+?>
 
 
 <center><a onclick="javascript:history.back(); return false;"><img src="bg.png"></a></center>
