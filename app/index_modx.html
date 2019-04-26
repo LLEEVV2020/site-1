@@ -1,67 +1,97 @@
-<?php include "../php/utm.php"; ?>
+<?php include "php/utm.php"; ?>
 <html>
+
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="yandex-verification" content="7ca45477c39a23bf" />
 
-<link href="../js/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+<link href="js/fancybox/source/jquery.fancybox.css" rel="stylesheet">
 
-<script src="../js/jquery-1.11.3.min.js"></script>
-    <script src="../js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
 
+
+    <script language="JavaScript">
+
+dayarray=new Array("воскресенье","понедельник","вторник","среда","четверг","пятница","суббота")
+montharray=new Array ("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октебря","ноября","декабря")
+ndata=new Date();
+day=dayarray[ndata.getDay()];
+month=montharray[ndata.getMonth()];
+date=ndata.getDate();
+year=ndata.getYear();
+datastr=( month )
+
+</script>
+
+    <script language="JavaScript">
+dayarray=new Array("воскресенье","понедельник","вторник","среда","четверг","пятница","суббота")
+montharray=new Array ("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октебря","ноября","декабря")
+ndataarray=new Date("С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 1 ПО 15","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31","С 15 по 31");
+day=dayarray[ndata.getDay()];
+month=montharray[ndata.getMonth()];
+date=ndata.getDate();
+year=ndata.getYear();
+datastr7=( "ndata" + "month" )
+</script>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="robots" content="index, follow" />
-<meta name="keywords" content="Цены на ремонт квартир. Калькулятор ремонта." />
-<meta name="description" content="Цены на ремонт квартир. Калькулятор ремонта." />
-<link href="../bitrix/cache/css/s1/main/kernel_main/kernel_mainf85d.css?149207081948075" type="text/css"  rel="stylesheet" />
-<link href="../bitrix/cache/css/s1/main/page_2c01e545f051d40031c500ec29b79a6e/page_2c01e545f051d40031c500ec29b79a6e90e6.css?149207255134270" type="text/css"  rel="stylesheet" />
-<script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
-<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
-<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1494435949','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'e905fc88b8902fce1040d9c2729a833a'});</script>
+<meta name="keywords" content="&quot;LEVEL&quot; - Ремонт Квартир. Цены на ремонт Квартир." />
+<meta name="description" content="&quot;LEVEL&quot; - Ремонт Квартир. Цены на ремонт Квартир." />
+<link href="bitrix/cache/css/s1/main/kernel_main/kernel_mainf85d.css?149207081948075" type="text/css"  rel="stylesheet" />
+<link href="bitrix/cache/css/s1/main/page_f01d178c93292938c0f6b1167201627c/page_f01d178c93292938c0f6b1167201627cb2a4.css?149207143715413" type="text/css"  rel="stylesheet" />
 
 
-<script type="text/javascript" src="../bitrix/cache/js/s1/main/kernel_main/kernel_main690a.js?1492070819280259"></script>
-<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?147375411670993','../bitrix/js/main/core/core_ajaxb86b.js?147375411620978','../bitrix/js/main/json/json2.min79e0.js?14737541163467','../bitrix/js/main/core/core_ls50f8.js?14737541167365','../bitrix/js/main/sessionfb79.js?14737541183642','../bitrix/js/main/core/core_windowd9ed.js?147375411674917','../bitrix/js/main/core/core_popup8356.js?147375411631170','../bitrix/js/main/core/core_date32da.js?147375411634276','../bitrix/js/main/utils29fd.js?147375411830973','../bitrix/components/bitrix/map.yandex.view/templates/.default/scriptd971.js?14737541191540','../bitrix/templates/main/components/bitrix/news.list/map_city_slider/scriptfc7e.js?14918981129117','/bitrix/templates/main/components/bitrix/news.list/map_city_slider/swiper.min.js?148722444196165']); </script>
-<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14737541162854','../bitrix/js/main/core/css/core_popup2c1b.css?147375411633075','../bitrix/js/main/core/css/core_dateddd0.css?14737541169689','../js/countdown/flipclock85da.css?14737541053968','../bitrix/templates/.default/components/bitrix/news/otzivi-mezhkomnatnie-dveri/bitrix/news.list/.default/style717e.css?1473754107150','../bitrix/components/bitrix/map.yandex.system/templates/.default/style972f.css?1473754120666','../bitrix/templates/main/components/bitrix/news.list/map_city_slider/style45eb.css?14893815725210','../bitrix/templates/main/components/bitrix/news.list/map_city_slider/swiper.min14e2.css?147658489417761','../bitrix/templates/main/components/bitrix/map.yandex.system/office_map/stylea1da.css?14915403484636','/bitrix/templates/.default/components/bitrix/news/primeri-glavnaya/bitrix/news.list/.default/style.css?1473754107150']); </script>
+<script type="text/javascript" src="bitrix/cache/js/s1/main/kernel_main/kernel_main690a.js?1492070819280259"></script>
+<script type="text/javascript">BX.setJSList(['/bitrix/js/main/core/core.js?147375411670993','bitrix/js/main/core/core_ajaxb86b.js?147375411620978','bitrix/js/main/json/json2.min79e0.js?14737541163467','bitrix/js/main/core/core_ls50f8.js?14737541167365','bitrix/js/main/sessionfb79.js?14737541183642','bitrix/js/main/core/core_windowd9ed.js?147375411674917','bitrix/js/main/core/core_popup8356.js?147375411631170','bitrix/js/main/core/core_date32da.js?147375411634276','bitrix/js/main/utils29fd.js?147375411830973','bitrix/templates/main/components/bitrix/news.list/map_city_slider/scriptfc7e.js?14918981129117','/bitrix/templates/main/components/bitrix/news.list/map_city_slider/swiper.min.js?148722444196165']); </script>
+<script type="text/javascript">BX.setCSSList(['/bitrix/js/main/core/css/core.css?14737541162854','bitrix/js/main/core/css/core_popup2c1b.css?147375411633075','bitrix/js/main/core/css/core_dateddd0.css?14737541169689','js/countdown/flipclock85da.css?14737541053968','bitrix/templates/.default/components/bitrix/news/otzivi-mezhkomnatnie-dveri/bitrix/news.list/.default/style717e.css?1473754107150','bitrix/templates/main/components/bitrix/news.list/map_city_slider/style45eb.css?14893815725210','bitrix/templates/main/components/bitrix/map.yandex.system/office_map/stylea1da.css?14915403484636','/bitrix/templates/.default/components/bitrix/news/primeri-glavnaya/bitrix/news.list/.default/style.css?1473754107150']); </script>
 
 
-<script type="text/javascript" src="../bitrix/cache/js/s1/main/page_7c9e8d82d585619527e743aba5e92fbc/page_7c9e8d82d585619527e743aba5e92fbc2c84.js?1492072551107943"></script>
+<script type="text/javascript" src="bitrix/cache/js/s1/main/page_2b24a1606a81948821879348e91e4094/page_2b24a1606a81948821879348e91e40945cc8.js?1492071340106046"></script>
 
 
-<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico?1" type="image/x-icon">
 
-<link rel="stylesheet" href="../css/normalize.css"/>
-<link rel="stylesheet" href="../css/fonts.css"/>
-<link href="../css/style-old.css?2_2" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.css"/>
+<link rel="stylesheet" href="css/fonts.css"/>
+<link href="css/style-old.css?2_2" rel="stylesheet">
 
 <!-- Bootstrap -->
-<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- ProdesCode -->
 
-<link href="../css/media.css" rel="stylesheet">
-<link href="../css/skin.css" rel="stylesheet">
+<link href="css/media.css" rel="stylesheet">
+<link href="css/skin.css" rel="stylesheet">
 
 
 
-<link href="../js/twentytwenty-master/twentytwenty.css" rel="stylesheet">
+<link href="js/twentytwenty-master/twentytwenty.css" rel="stylesheet">
 
 
-<link href="../css/stylef5eb.css?vrs_4" rel="stylesheet">
-
-<script src="../js/twentytwenty-master/jquery.event.move.js"></script>
-<script src="../js/twentytwenty-master/jquery.twentytwenty.js"></script>
-
-<script src="../js/compile.js?1"></script>
+<link href="css/stylef5eb.css?vrs_4" rel="stylesheet">
 
 
 
-<title>Цены на ремонт квартир. Калькулятор ремонта.</title></head>
+
+
+
+
+
+<script src="js/twentytwenty-master/jquery.event.move.js"></script>
+<script src="js/twentytwenty-master/jquery.twentytwenty.js"></script>
+
+<script src="js/compile.js?1"></script>
+
+
+
+<title>"LEVEL" - Ремонт Квартир. Цены на ремонт Квартир.</title></head>
 
 <body>
+
 <div class="topclose5px"></div>
 	<div id="tzloadding">
     <div id="loader-wrapper">
@@ -77,8 +107,8 @@
         <div class="top_block__item">
             <div class="top_block__logo">
  
+<img src="img/logo.png" alt="Двери цены" />
  
-<a href="../index.html"><img src="../img/logo.png" alt="" class=""></a>
  
 </div>
         </div>
@@ -112,28 +142,28 @@
             <ul class="nav navbar-nav">
 
                 <li class="dropdown ">
-					<a href="../remont-kvartir-tseny/index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200" data-close-others="false">Ремонт квартир</a>
+					<a href="remont-kvartir-tseny/index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200" data-close-others="false">Ремонт квартир</a>
                     <ul class="dropdown-menu" style="margin-left: -35px;">
                         <li><div class="menu_str hidden-xs"></div></li>
-						<li><a tabindex="-1" href="../remont-kvartir-tseny/index.html">Ремонт квартир</a></li>
+						<li><a tabindex="-1" href="remont-kvartir-tseny/index.html">Ремонт квартир</a></li>
                         <li class="divider hidden-xs"></li>
-						<li><a tabindex="-1" href="../remont-ofisov-tseny/index.html">Ремонт офисов</a></li>
+						<li><a tabindex="-1" href="remont-ofisov-tseny/index.html">Ремонт офисов</a></li>
                         <li class="divider hidden-xs"></li>
-						<li><a tabindex="-1" href="../remont-kottedzhey-tseny/index.html">Ремонт коттеджей</a></li>
+						<li><a tabindex="-1" href="remont-kottedzhey-tseny/index.html">Ремонт коттеджей</a></li>
                         <li class="divider hidden-xs"></li>
-						<li><a tabindex="-1" href="../remont-kvartir-pod-klyuch/index.html">Типовые размеры квартир</a></li>
+						<li><a tabindex="-1" href="remont-kvartir-pod-klyuch/index.html">Типовые размеры квартир</a></li>
                         <li class="divider hidden-xs"></li>
-                        <li><a tabindex="-1" href="../remont-materialy/index.html">Материалы для ремонта</a></li>
+                        <li><a tabindex="-1" href="remont-materialy/index.html">Материалы для ремонта</a></li>
                     </ul>
                 </li>
 
                 <li>
-					<a href="index.html">Цены на ремонт квартир</a>
+					<a href="remont-tseny/index.html">Цены на ремонт квартир</a>
 
                 </li>
 
                 <li>
-                    <a href="../remont-kvartir-rassrochka/index.html">Рассрочка</a>
+                    <a href="remont-kvartir-rassrochka/index.html">Рассрочка</a>
 
                 </li>
 
@@ -141,556 +171,56 @@
 
 
                 <li class="dropdown ">
-					<a href="../remont-kvartir/index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200" data-close-others="false">Гарантии/Контакты</a>
+					<a href="remont-kvartir/index.html" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200" data-close-others="false">Гарантии/Контакты</a>
 
 <ul class="dropdown-menu" style="margin-left: 50px;">
                         <li><div class="menu_str hidden-xs"></div></li>
-                        <li><a tabindex="-1" href="../remont-kvartir/index.html">Контакты</a></li>
+                        <li><a tabindex="-1" href="remont-kvartir/index.html">Контакты</a></li>
                         <li class="divider hidden-xs"></li>
-                        <li><a tabindex="-1" href="../remont-kvartir-otzyvy/index.html">Отзывы</a></li>
+                        <li><a tabindex="-1" href="remont-kvartir-otzyvy/index.html">Отзывы</a></li>
 
                     </ul>
                 </li>
-                <li class="hidden-lg "><a href="../remont-kvartir-besplatno/index.html">Акции</a></li>
+                <li class="hidden-lg "><a href="remont-kvartir-besplatno/index.html">Акции</a></li>
             </ul>
 
 
             <ul class="nav navbar-nav navbar-right visible-lg">
-				<li><div class="menu_aksii"><a href="../remont-kvartir-besplatno/index.html"><img src="../img/menu_aksii.png" alt=""></a></div></li>
+				<li><div class="menu_aksii"><a href="remont-kvartir-besplatno/index.html"><img src="img/menu_aksii.png" alt=""></a></div></li>
             </ul>
 
         </div><!-- navbar-collapse -->
     </div><!-- container -->
 </nav><!-- top_menu -->
-<div class="b-calc-bg">
-<div class="b-calc">
-<div class="container">
-<h2>Калькулятор стоимости ремонта</h2>
-<script type="text/javascript">
-
-    //Квартира  в м
-    dlina_kvart_min = 4;
-    dlina_kvart_max = 20;
-    shir_kvart_min = 4;
-    shir_kvart_max = 20;
-    stoim_kvart = 930;
-
-    //Офис  в м
-    dlina_office_min = 4;
-    dlina_office_max = 20;
-    shir_office_min = 4;
-    shir_office_max = 20;
-    stoim_office = 940;
-
-    //Коттедж  в м
-    dlina_cottege_min = 4;
-    dlina_cottege_max = 20;
-    shir_cottege_min = 4;
-    shir_cottege_max = 20;
-    stoim_cottege = 960;
-
-    //СКИДКА процент скидки
-    skidka = 0.63;
-
-    //КОЭФФИЦИЕНТ К СТОИМОСТИ РЕМОНТА
-    koeffits = 1;
-
-    //РАССРОЧКА. количество месяцев
-    rassrochkames = 8;
-
-
-</script>
-
-
-<script type="text/javascript" src="../js/jquery-ui.min.js"></script>
-<script src="../js/jquery.ui.touch-punch.min.html"></script>
-<script type="text/javascript">
-
-
-//задаем первоначальные минимальные и максимальные значения ширины и высоты
-minsliderhor = shir_office_min;
-maxsliderhor = shir_cottege_max;
-minsliderver = dlina_office_min;
-maxsliderver = dlina_cottege_max;
-
-//объявляем переменные
-tipokna = 'kvart'; //задаем тип помещения
-costfin = 0; // стоимость финальная
-rassrochka = 0; // стоимость рассрочки
-block_econom_text = 0;
-block_econom_bg = 0;
-stoim1 = stoim_kvart; // присваиваем стоимость из прайса
-skidka = 1 - skidka;
-
-
-
-
-jQuery(document).ready(function(){
-
-    jQuery("#sliderhor").slider({
-        animate:true,
-
-        min: minsliderhor,
-        max: maxsliderhor,
-        step: 0.1,
-        values: [0,minsliderhor],
-        range: true,
-        stop: function(event, ui) {
-            jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
-            jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
-            change_price();
-        },
-        slide: function(event, ui){
-            /*
-             jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
-             jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
-             */
-        }
-    });
-
-    jQuery("#sliderver").slider({
-        orientation: "vertical",
-        animate:true,
-        min: minsliderver,
-        max: maxsliderver,
-        step: 0.1,
-        //изначальные значения
-        values: [0,minsliderver],
-        range: true,
-        stop: function(event, ui) {
-            jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
-            jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
-            change_price();
-        },
-        slide: function(event, ui){
-            /*
-             jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
-             jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
-             */
-
-        }
-    });
-
-    //Первоначальные значения бабблов со слайдерами
-    $('#Costhor').val(minsliderhor);
-    $('#Costver').val(minsliderver);
-
-
-
-    change_price();
-
-    function change_price()
-    {
-        //Просчет средней цены: длина x ширина х тип помещения
-        sred_tsena = $('#Costhor').val() * $('#Costver').val() * stoim1;
-
-        //Цена со скидкой
-        costfin= sred_tsena*koeffits*skidka;
-        costfin = Math.round(costfin); // округляем до целого
-        $('.costfin').html(costfin); // выводим финальную стоимость
-
-        //Блок экономии
-        block_econom_bg = sred_tsena - costfin;
-        block_econom_bg = Math.round(block_econom_bg); // округляем до целого
-        $('.block_econom_bg span').html(block_econom_bg);
-
-        //
-        block_econom_text = sred_tsena;
-        block_econom_text = Math.round(block_econom_text); // округляем до целого
-        $('.block_econom_text span').html(block_econom_text);
-
-        //расчитываем рассрочку
-        rassrochka = costfin / rassrochkames;
-        rassrochka = Math.round(rassrochka); // округляем до целого
-        $('.rassrochka').html(rassrochka); // выводим финальную стоимость
-
-        CostverES = $('#Costver').val()
-        $('#CostverES').val(CostverES);
-        CosthorES = $('#Costhor').val()
-        $('#CosthorES').val(CosthorES);
-
-    }	// конец  change_price()
-
-
-
-//РАСЧЕТ КВАРТИРЫ
-    $(".tipokna1").click(function () {
-        $('.tipokna1').addClass('actok');
-        $('.tipokna2').removeClass('actok');
-        $('.tipokna3').removeClass('actok');
-        $('.oknofull').html('<img src="../img/calc/okno/1_1.png" >');
-
-        minsliderhor = shir_kvart_min;
-        maxsliderhor = shir_kvart_max;
-        minsliderver = dlina_kvart_min;
-        maxsliderver = dlina_kvart_max;
-        $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
-        $('#Costver').val((maxsliderver-minsliderver)/2);
-
-        jQuery("#sliderhor").slider({
-            animate:true,
-            step:0.1,
-            min: minsliderhor,
-            max: maxsliderhor,
-            values: [0,minsliderhor],
-            range: true,
-            stop: function(event, ui) {
-                jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
-                jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
-                change_price();
-            },
-            slide: function(event, ui){
-                /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
-                 jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
-            }
-        });
-
-        jQuery("#sliderver").slider({
-            orientation: "vertical",
-            animate:true,
-            step:0.1,
-            min: minsliderver,
-            max: maxsliderver,
-            values: [0,(maxsliderver-minsliderver)/2],
-            range: true,
-            stop: function(event, ui) {
-                jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
-                jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
-                change_price();
-            },
-            slide: function(event, ui){
-                /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
-                 jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
-
-            }
-        });
-
-        stoim1 = stoim_kvart; // присваиваем стоимость из прайса
-        stoim2 = 0;
-        stoim3 = 0;
-        stoim4 = 0;
-        change_price();
-
-    });
-//конец расчета Квартиры
-
-//ОФИС
-    $(".tipokna2").click(function () {
-        $('.tipokna2').addClass('actok');
-        $('.tipokna1').removeClass('actok');
-        $('.tipokna3').removeClass('actok');
-        $('.oknofull').html('<img src="../img/calc/okno/2_1.png" >');
-
-        minsliderhor = shir_office_min;
-        maxsliderhor = shir_office_max;
-        minsliderver = dlina_office_min;
-        maxsliderver = dlina_office_max;
-        $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
-        $('#Costver').val((maxsliderver-minsliderver)/2);
-
-        jQuery("#sliderhor").slider({
-            animate:true,
-            min: minsliderhor,
-            max: maxsliderhor,
-            step: 0.1,
-            values: [0,minsliderhor],
-            range: true,
-            stop: function(event, ui) {
-                jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
-                jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
-                change_price();
-            },
-            slide: function(event, ui){
-                /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
-                 jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
-            }
-        });
-
-        jQuery("#sliderver").slider({
-            orientation: "vertical",
-            animate:true,
-            step: 0.1,
-            min: minsliderver,
-            max: maxsliderver,
-            values: [0,(maxsliderver-minsliderver)/2],
-            range: true,
-            stop: function(event, ui) {
-                jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
-                jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
-                change_price();
-            },
-            slide: function(event, ui){
-                /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
-                 jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
-
-            }
-        });
-
-        stoim1 = stoim_office; // присваиваем стоимость из прайса
-        change_price();
-
-    });
-//конец расчета Офиса
-
-//Коттедж
-    $(".tipokna3").click(function () {
-        $('.tipokna3').addClass('actok');
-        $('.tipokna2').removeClass('actok');
-        $('.tipokna1').removeClass('actok');
-        $('.oknofull').html('<img src="../img/calc/okno/3_1.png" >');
-
-        minsliderhor = shir_cottege_min;
-        maxsliderhor = shir_cottege_max;
-
-        minsliderver = dlina_cottege_min;
-        maxsliderver = dlina_cottege_max;
-        $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
-        $('#Costver').val((maxsliderver-minsliderver)/2);
-
-        jQuery("#sliderhor").slider({
-            animate:true,
-            min: minsliderhor,
-            max: maxsliderhor,
-            step: 0.1,
-            values: [0,minsliderhor],
-            range: true,
-            stop: function(event, ui) {
-                jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
-                jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
-                change_price();
-            },
-            slide: function(event, ui){
-                /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
-                 jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
-            }
-        });
-
-        jQuery("#sliderver").slider({
-            orientation: "vertical",
-            animate:true,
-            step: 0.1,
-            min: minsliderver,
-            max: maxsliderver,
-            values: [0,(maxsliderver-minsliderver)/2],
-            range: true,
-            stop: function(event, ui) {
-                jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
-                jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
-                change_price();
-            },
-            slide: function(event, ui){
-                /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
-                 jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
-
-            }
-        });
-
-        stoim1 = stoim_cottege; // присваиваем стоимость из прайса
-        change_price();
-
-    });
-//конец расчета Коттеджа	
-
-    $(".tipoknasyschekpodnet").click(function () {
-        $('.tipoknasyschekpodnet').removeClass('tipoknachek').addClass('tipoknachekact');
-        $('.tipoknasyschekpodda').removeClass('tipoknachekact').addClass('tipoknachek');
-        chekpodokonnik = 0;
-        change_price();
-    });
-
-    $(".tipoknasyschekpodda").click(function () {
-        $('.tipoknasyschekpodda').removeClass('tipoknachek').addClass('tipoknachekact');
-        $('.tipoknasyschekpodnet').removeClass('tipoknachekact').addClass('tipoknachek');
-        chekpodokonnik = 1;
-        change_price();
-    });
-
-
-
-    $(".tipoknasyschekrabotnet").click(function () {
-        $('.tipoknasyschekrabotnet').removeClass('tipoknachek').addClass('tipoknachekact');
-        $('.tipoknasyschekrabotda').removeClass('tipoknachekact').addClass('tipoknachek');
-        chekmontazhrab = 0;
-        change_price();
-    });
-
-    $(".tipoknasyschekrabotda").click(function () {
-        $('.tipoknasyschekrabotda').removeClass('tipoknachek').addClass('tipoknachekact');
-        $('.tipoknasyschekrabotnet').removeClass('tipoknachekact').addClass('tipoknachek');
-        chekmontazhrab = 1;
-        change_price();
-    });
-
-
-
-
-//Подвеска к ползункам инпутов
-    $("#sliderhor span.ui-slider-handle:eq(1)").append($(".Costhor11_block"));
-    $("#sliderver span.ui-slider-handle:eq(1)").append($(".Costver11_block"));
-
-
-// фильтрация ввода в поля только цифр
-    jQuery('input#Costver').keypress(function(event){
-        var key, keyChar;
-        if(!event) var event = window.event;
-
-        if (event.keyCode) key = event.keyCode;
-        else if(event.which) key = event.which;
-
-        if(key==null || key==0 || key==8 || key==13 || key==9 || key==46 || key==37 || key==39 ) return true;
-        keyChar=String.fromCharCode(key);
-
-        if(!/\d/.test(keyChar))	return false;
-
-    });
-
-
-
-
-
-    jQuery('input#Costhor').keypress(function(event){
-        var key, keyChar;
-        if(!event) var event = window.event;
-
-        if (event.keyCode) key = event.keyCode;
-        else if(event.which) key = event.which;
-
-        if(key==null || key==0 || key==8 || key==13 || key==9 || key==46 || key==37 || key==39 ) return true;
-        keyChar=String.fromCharCode(key);
-
-        if(!/\d/.test(keyChar))	return false;
-
-    });
-
-
-
-
-
-// передаем значение введенное пользователем вручную
-    jQuery("input#Costhor").change(function(){
-        var value2=jQuery("input#Costhor").val();
-        if (value2 > maxsliderhor) { value2 = maxsliderhor; jQuery("input#Costhor").val(maxsliderhor)}
-        if (value2 < minsliderhor) { value2 = minsliderhor; jQuery("input#Costhor").val(minsliderhor)}
-        jQuery("#sliderhor").slider("values",1,value2);
-        change_price();
-    });
-
-    jQuery("input#Costver").change(function(){
-        var value2=jQuery("input#Costver").val();
-        if (value2 > maxsliderver) { value2 = maxsliderver; jQuery("input#Costver").val(maxsliderver)}
-        if (value2 < minsliderver) { value2 = minsliderver; jQuery("input#Costver").val(minsliderver)}
-        jQuery("#sliderver").slider("values",1,value2);
-        change_price();
-    });
-
-
-
-
-
-// скрытие первого ползунка на слайдере
-    $("#sliderhor a.ui-slider-handle:eq(0)").css({"display":"none" , "visibility":"hidden"});
-    $("#sliderver a.ui-slider-handle:eq(0)").css("display","none");
-
-
-
-
-
-
-
-});
-
-
-</script><div class="b-calc__left">
-
-      <div class="tabletipokna">
-
-        <div class="tipokna1 actok">
-            <div class="ok1_1"></div>
-            <div class="calc_tub">Квартира</div>
-        </div><!-- /.tipokna1 -->
-
-        <div class="tipokna2">
-                    <div class="ok2_1"></div>
-            <div class="calc_tub">Офис</div>
-        </div><!-- /.tipokna2 -->
-
-        <div class="tipokna3">
-                    <div class="ok3_1"></div>
-            <div class="calc_tub">Коттедж</div>
-        </div><!-- /.tipokna3 -->
-    </div><!-- /.tabletipokna -->
-
-    <div class="oknofull"><img src="../img/calc/okno/1_1.png" ></div>
-
-
-    <div id="sliderhor" style="margin-left:15px; margin-bottom:10px;"></div>
-    <div class="markhor"></div>
-    <div id="sliderver" style="margin:20px auto 0 auto;"></div>
-    <div class="markver"></div>
-
-    <div class="Costhor11_block"><span>ширина</span> <input type="text" id="Costhor" />м</div>
-    <div class="Costver11_block"><span>длина</span>  <input type="text" id="Costver" />м</div>
-
-
-
-
-
-    <!--
-<div class="Costhor11_block"><input type="text" id="CosthorES" disabled=""/></div>
-    <div class="Costver11_block"><input type="text" id="CostverES" disabled=""/></div>
-
-
-              <div style="display:none;"><input type="text" id="Costhor" disabled=""/></div>
-    <div style="display:none;"><input type="text" id="Costver" disabled=""/></div>
--->
-
-
-
-    <div class="stage1"></div>
-    <div class="stage2"></div>
-    <div class="stage3"></div>
-
-    <div class="block_econom">
-        <div class="block_econom_text">Средняя цена такого ремонта: <span>3200</span> р.</div>
-        <div class="block_econom_bg">ВАША ЭКОНОМИЯ = <span>1100</span> <div class="rub-dark"> р.</div></div>
+<div class="es1 _main">
+    <div class="container">
+      <div class="es1__pict"></div>
+      <div class="es1__sto"><img src="img/sto.png"/> </div>
+      <div class="es1__block">
+          <h2><span>Все виды</span></h2>
+          <h1><span>Ремонта</span></h1>
+          <div class="es1__menu">
+              <a href="remont-kvartir-tseny/index.html" class="es1__menu_item lbl1"><span>Ремонт квартир</span></a>
+              <a href="remont-kottedzhey-tseny/index.html" class="es1__menu_item lbl2"><span>Ремонт коттеджей</span></a>
+              <a href="remont-ofisov-tseny/index.html" class="es1__menu_item lbl3"><span>Ремонт офисов</span></a>
+
+          </div>
+          <div class="es1_skidka__block">
+            <div class="es1_skidka__block_item">
+              <div class="es1_7day">Только <span>7</span> дней!</div>
+              <div class="es1_skidka">скидка</div>
+            </div>
+              <div class="es1_sale"><img src="img/sale63.png"/> </div>
+          </div>
+
+          <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
+              <div class="b-top__zamer_ruler "></div>
+              <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span><br>
+                  выезд замерщика</div>
+          </div>
+      </div>
     </div>
-
-
-</div><!-- /.b-calc__left -->
-
-<div class="b-calc__right">
-    <div class="proc"><div></div></div>
-    <div class="dostavka" data-toggle="modal" data-target="#kupitDeshevle"></div>
-    <div class="underdostavka">* купим и привезем стройматериалы сами</div>
-
-
-
-
-    <div class="basetsena">
-        <div class="costonsale">Цена ремонта по акции</div>
-
-		<div class="tsena_base_cost"><span class="costfin">2190</span> <span style="color: #030303; margin-left: 10px; font-family: Roboto, sans-serif; font-style: italic; font-weight: bold; text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); font-size: 80px;">р.</span></div>
-    </div><!-- /.basetsena -->
-
-    <div class="calc_but">
-        <img src="../img/calc/but.png" alt="" class="hidden-xs" data-toggle="modal" data-target="#kupitDeshevle"/>
-        <img src="../img/calc/but260.png" alt="" class="hidden-lg hidden-md hidden-sm" data-toggle="modal" data-target="#kupitDeshevle"/>
-    </div><!-- /.calc_but -->
-
-    <div class="calc_rassr">
-        Этот ремонт в <a href="../remont-kvartir-rassrochka/index.html" class="b-link">рассрочку</a> <br>
-        <span class="credd">ВСЕГО <span class="rassrochka">320</span><div class="v-mes">р. в месяц</div></span>
-    </div><!-- /.calc_rassr -->
-
-
-
-</div><!-- /.b-calc__right --></div>
-</div>
-</div>
-<div class="b-line"></div>
-<p>&nbsp;</p>
-<div class="es2">
-
+</div><div class="es2">
 <!-- $$$$$$$ -->
 <!-- $$$$$$$ -->
 <!-- $$$$$$$ -->
@@ -722,7 +252,6 @@ jQuery(document).ready(function(){
 <!-- $$$$$$$ -->
 <!-- $$$$$$$ -->
 <!-- $$$$$$$ -->
-
  <div class="es2_block">
 
 
@@ -757,11 +286,11 @@ jQuery(document).ready(function(){
                     </tr>
                 </table></div>
                 <div class="es2_oknatseny_row_right es2_oknatseny_row_right_stars">
-                    <img src="../img/es11_star.png" alt="">
-                    <img src="../img/es11_star.png" alt="">
-                    <img src="../img/es11_star.png" alt="">
-                    <img src="../img/es11_star.png" alt="">
-                    <img src="../img/es11_star.png" alt="">
+                    <img src="img/es11_star.png" alt="">
+                    <img src="img/es11_star.png" alt="">
+                    <img src="img/es11_star.png" alt="">
+                    <img src="img/es11_star.png" alt="">
+                    <img src="img/es11_star.png" alt="">
                 </div>
             </div>
             <div class="es2_oknatseny_row">
@@ -812,9 +341,9 @@ jQuery(document).ready(function(){
 
                     <div class="es2_okna_row">
                         <div class="es2_okna_row_right">
-                            <img src="../img/es11_star.png" alt="">
-                            <img src="../img/es11_star.png" alt="">
-                            <img src="../img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
                         </div>
                     </div>
                     <div class="es2_okna_row">
@@ -841,10 +370,10 @@ jQuery(document).ready(function(){
 
                     <div class="es2_okna_row">
                         <div class="es2_okna_row_right">
-                            <img src="../img/es11_star.png" alt="">
-                            <img src="../img/es11_star.png" alt="">
-                            <img src="../img/es11_star.png" alt="">
-                            <img src="../img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
                         </div>
                     </div>
                     <div class="es2_okna_row">
@@ -871,9 +400,9 @@ jQuery(document).ready(function(){
 
                     <div class="es2_okna_row">
                         <div class="es2_okna_row_right">
-                            <img src="../img/es11_star.png" alt="">
-                            <img src="../img/es11_star.png" alt="">
-                            <img src="../img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
+                            <img src="img/es11_star.png" alt="">
                         </div>
                     </div>
                     <div class="es2_okna_row">
@@ -893,7 +422,8 @@ jQuery(document).ready(function(){
 
 
 
-    </div><!-- /.es2_block -->
+    </div>
+ <!-- /.es2_block -->
 </div><!-- /.es2 -->
 <div class="es13_14">
     <div class="container">
@@ -929,8 +459,285 @@ jQuery(document).ready(function(){
 
 
 </div><!-- /.es13_14 -->
-<p>&nbsp;</p>
-<script type="text/javascript">
+<div class="b-sms_bg">
+	<div class="container">
+		<div class="b-sms_phone">
+ <img src="img/b_sms_phone.png" alt="">
+		</div>
+		<div class="b-sms-form">
+			<div class="b-sms__text">
+				 СМС-СКИДКА
+			</div>
+			<div class="b-sms__undertext">
+				 Впишите свой телефон и получите<br>
+				 смс-купон на скидку:
+			</div>
+			<div class="b-sms__form">
+			
+			<!-- ######### СМС-СКИДКА ######### -->
+			<!-- ######### СМС-СКИДКА ######### -->
+			<!-- ######### СМС-СКИДКА ######### -->
+			<form action="php/mail.php" method="POST">
+				<input type="hidden" name="lang" value="СМС-СКИДКА" />
+				<div class="b-sms_input b-sms_input_tel form-group">
+					<input type="text" class="phonemask input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
+				</div>
+				<div class="b-sms_but">
+					<button class="red-button" type="submit">отправить</button>
+				</div>
+			</form>
+			<!-- ######### СМС-СКИДКА ######### -->
+			<!-- ######### СМС-СКИДКА ######### -->
+			<!-- ######### СМС-СКИДКА ######### -->
+			</div>
+		</div>
+	</div>
+	 <!-- /.container -->
+</div>
+<!-- /.b-sms_bg --><div class="es7">
+
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-left">
+                        <img class="media-object" src="img/es7_ico1.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Бесплатный замер</h4>
+                        <div>Замерщик "LEVEL" произведет точный замер и расчет стоимости заказа в удобное для Вас время. Возможно заключение договора на дому.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="media">
+                    <div class="media-left">
+                        <img class="media-object" src="img/es7_ico2.png" alt="">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Рассрочка 0%</h4>
+                        <div>Разместите заказ уже сейчас! Воспользуйтесь беспроцентной рассрочкой сроком до 12&nbsp;месяцев с минимальным первоначальным взносом.</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- /.container -->
+
+</div><div class="b-vid-remonta _white">
+
+
+    <div class="container">
+       <h4>Выбери свой вид ремонта!</h4>
+       <div class="b-vid-remonta__block">
+         <div class="b-vid-remonta__item">
+           <div class="b-vid-remonta__item_pict"><img src="img/vid-remonta/1.jpg"/> </div>
+           <div class="b-vid-remonta__item_ttl"><span>Косметический</span></div>
+           <div class="b-vid-remonta__item_spisok">
+               <ul class="check">
+                   <li>Поклейка обоев</li>
+                   <li>Настил пола</li>
+                   <li>Установка потолков</li>
+                   <div id="morekosmetic" class="nonedisplay">
+					   <p class="sale-work">+ работы со скидкой</p> 
+                           <li>    Демонтаж старых покрытий</li>
+                           <li>    Работы по электрике</li>
+                           <li>    Работы по водоснабжению</li>
+                           <li>    Подбор материалов</li>
+                           <li>    Замена розеток, выключателей</li>
+                           <li>    Укладка ламината, линолеума</li>
+                           <li>    Поклейка обоев</li>
+                           <li>    Установка потолков</li>
+                           <li>    Установка радиаторов</li>
+                           <li>    Дизайн проект</li>
+                           <li>    Уборка</li>
+                   </div>
+
+               </ul>
+               <div class="b-vid-remonta__spisok_all"><button class="b-link-blue" onClick="$('div#morekosmetic').slideToggle('slow');onoffchange(this);">+ работы со скидкой</button></div>
+           </div>
+           <div class="b-vid-remonta__item_price">
+               <div class="b-vid-remonta__price_old">1 200 р./м<sup>2</sup></div>
+               <div class="b-vid-remonta__price_new">от <span>930</span> р./м<sup>2</sup></div>
+           </div>
+           <div class="b-vid-remonta__item_btn">
+               <a href="remont-tseny/index.html" class="red-button-radius">Рассчитать</a>
+           </div>
+       </div>
+           <div class="b-vid-remonta__item">
+               <div class="b-vid-remonta__item_pict"><img src="img/vid-remonta/2.jpg"/> </div>
+               <div class="b-vid-remonta__item_ttl"><span>Капитальный</span></div>
+               <div class="b-vid-remonta__item_spisok">
+                           <ul class="check">
+                           <li>Демонтажные работы</li>
+                           <li>Пол, потолок, стены</li>
+                           <li>Замена электрики</li>
+                       <div id="morekosmetic2" class="nonedisplay">
+<p class="sale-work">+ работы со скидкой</p> 
+                           <li>    Демонтаж старых покрытий</li>
+                           <li>    Работы по электрике</li>
+                           <li>    Работы по водоснабжению</li>
+                           <li>    Подбор материалов</li>
+                           <li>    Замена розеток, выключателей</li>
+                           <li>    Укладка ламината, линолеума</li>
+                           <li>    Поклейка обоев</li>
+                           <li>    Установка потолков</li>
+                           <li>    Установка радиаторов</li>
+                           <li>    Дизайн проект</li>
+                           <li>    Уборка</li>
+                       </div>
+                   </ul>
+                   <div class="b-vid-remonta__spisok_all"><button class="b-link-blue" onClick="$('div#morekosmetic2').slideToggle('slow');onoffchange(this);">+ работы со скидкой</button></div>
+               </div>
+               <div class="b-vid-remonta__item_price">
+                   <div class="b-vid-remonta__price_old">2 300 р./м<sup>2</sup></div>
+                   <div class="b-vid-remonta__price_new">от <span>1 150</span> р./м<sup>2</sup></div>
+               </div>
+               <div class="b-vid-remonta__item_btn">
+                   <a href="remont-tseny/index.html" class="red-button-radius">Рассчитать</a>
+               </div>
+           </div>
+           <div class="b-vid-remonta__item">
+               <div class="b-vid-remonta__item_pict"><img src="img/vid-remonta/3.jpg"/> </div>
+               <div class="b-vid-remonta__item_ttl"><span>В новостройке</span></div>
+               <div class="b-vid-remonta__item_spisok">
+                   <ul class="check">
+                           <li>Возведение перегородок</li>
+                           <li>Пол, потолок, стены</li>
+                           <li>Работы по электрике</li>
+                       <div id="morekosmetic3" class="nonedisplay">
+<p class="sale-work">+ работы со скидкой</p> 
+                           <li>    Выравнивание стен</li>
+                           <li>    Стяжка пола</li>
+                           <li>    Протяжка электрики</li>
+                           <li>    Работы по водоснабжению</li>
+                           <li>    Подбор материалов</li>
+                           <li>    Замена розеток, выключателей</li>
+                           <li>    Укладка ламината, линолеума</li>
+                           <li>    Поклейка обоев</li>
+                           <li>    Установка потолков</li>
+                           <li>    Установка радиаторов</li>
+                           <li>    Дизайн проект</li>
+                           <li>    Уборка</li>
+                       </div>
+                   </ul>
+                   <div class="b-vid-remonta__spisok_all"><button class="b-link-blue" onClick="$('div#morekosmetic3').slideToggle('slow');onoffchange(this);">+ работы со скидкой</button></div>
+               </div>
+               <div class="b-vid-remonta__item_price">
+                   <div class="b-vid-remonta__price_old">2 400 р./м<sup>2</sup></div>
+                   <div class="b-vid-remonta__price_new">от <span>1 950</span> р./м<sup>2</sup></div>
+               </div>
+               <div class="b-vid-remonta__item_btn">
+                   <a href="remont-tseny/index.html" class="red-button-radius">Рассчитать</a>
+               </div>
+           </div>
+           <div class="b-vid-remonta__item">
+               <div class="b-vid-remonta__item_pict"><img src="img/vid-remonta/4.jpg"/> </div>
+               <div class="b-vid-remonta__item_ttl"><span>С перепланировкой</span></div>
+               <div class="b-vid-remonta__item_spisok">
+                   <ul class="check">
+                           <li>Замена основных конструкций</li>
+                           <li>Пол, потолок, стены</li>
+                           <li>Замена электрики</li>
+                       <div id="morekosmetic4" class="nonedisplay">
+<p class="sale-work">+ работы со скидкой</p> 
+                           <li>    Демонтаж старых покрытий</li>
+                           <li>    Проттяжка новой электрики</li>
+                           <li>    Работы по водоснабжению</li>
+                           <li>    Подбор материалов</li>
+                           <li>    Замена розеток, выключателей</li>
+                           <li>    Укладка ламината, линолеума</li>
+                           <li>    Поклейка обоев</li>
+                           <li>    Установка потолков</li>
+                           <li>    Установка радиаторов</li>
+                           <li>    Дизайн проект</li>
+                           <li>    Уборка</li>
+                       </div>
+                   </ul>
+                   <div class="b-vid-remonta__spisok_all"><button class="b-link-blue" onClick="$('div#morekosmetic4').slideToggle('slow');onoffchange(this);">+ работы со скидкой</button></div>
+               </div>
+               <div class="b-vid-remonta__item_price">
+                   <div class="b-vid-remonta__price_old">4 600 р./м<sup>2</sup></div>
+                   <div class="b-vid-remonta__price_new">от <span>2050</span> р./м<sup>2</sup></div>
+               </div>
+               <div class="b-vid-remonta__item_btn">
+                   <a href="remont-tseny/index.html" class="red-button-radius">Рассчитать</a>
+               </div>
+           </div>
+           <div class="b-vid-remonta__item">
+               <div class="b-vid-remonta__item_pict"><img src="img/vid-remonta/5.jpg"/> </div>
+               <div class="b-vid-remonta__item_ttl"><span>Офис</span></div>
+               <div class="b-vid-remonta__item_spisok">
+                   <ul class="check">
+                           <li>Работы по стенам</li>
+                           <li>Работы по полу</li>
+                           <li>Работы по потолкам</li>
+                       <div id="morekosmetic5" class="nonedisplay">
+<p class="sale-work">+ работы со скидкой</p> 
+                           <li>    Демонтаж старых покрытий</li>
+                           <li>    Проттяжка новой электрики</li>
+                           <li>    Работы по водоснабжению</li>
+                           <li>    Подбор материалов</li>
+                           <li>    Замена розеток, выключателей</li>
+                           <li>    Укладка ламината, линолеума</li>
+                           <li>    Поклейка обоев</li>
+                           <li>    Установка потолков</li>
+                           <li>    Установка радиаторов</li>
+                           <li>    Дизайн проект</li>
+                           <li>    Уборка</li>
+                       </div>
+                   </ul>
+                   <div class="b-vid-remonta__spisok_all"><button class="b-link-blue" onClick="$('div#morekosmetic5').slideToggle('slow');onoffchange(this);">+ работы со скидкой</button></div>
+               </div>
+               <div class="b-vid-remonta__item_price">
+                   <div class="b-vid-remonta__price_old">1 200 р./м<sup>2</sup></div>
+                   <div class="b-vid-remonta__price_new">от <span>930</span> р./м<sup>2</sup></div>
+               </div>
+               <div class="b-vid-remonta__item_btn">
+                   <a href="remont-tseny/index.html" class="red-button-radius">Рассчитать</a>
+               </div>
+           </div>
+           <div class="b-vid-remonta__item">
+               <div class="b-vid-remonta__item_pict"><img src="img/vid-remonta/6.jpg"/> </div>
+               <div class="b-vid-remonta__item_ttl"><span>Коттедж</span></div>
+               <div class="b-vid-remonta__item_spisok">
+                   <ul class="check">
+                           <li>Поклейка обоев</li>
+                           <li>Работы по полу</li>
+                           <li>Установка потолков</li>
+                       <div id="morekosmetic6" class="nonedisplay">
+<p class="sale-work">+ работы со скидкой</p> 
+                           <li>    Демонтаж старых покрытий</li>
+                           <li>    Проттяжка новой электрики</li>
+                           <li>    Работы по водоснабжению</li>
+                           <li>    Подбор материалов</li>
+                           <li>    Замена розеток, выключателей</li>
+                           <li>    Укладка ламината, линолеума</li>
+                           <li>    Поклейка обоев</li>
+                           <li>    Установка потолков</li>
+                           <li>    Установка радиаторов</li>
+                           <li>    Дизайн проект</li>
+                           <li>    Уборка</li>
+                       </div>
+                   </ul>
+                   <div class="b-vid-remonta__spisok_all"><button class="b-link-blue" onClick="$('div#morekosmetic6').slideToggle('slow');onoffchange(this);">+ работы со скидкой</button></div>
+               </div>
+               <div class="b-vid-remonta__item_price">
+                   <div class="b-vid-remonta__price_old">1 200 р./м<sup>2</sup></div>
+                   <div class="b-vid-remonta__price_new">от <span>930</span> р./м<sup>2</sup></div>
+               </div>
+               <div class="b-vid-remonta__item_btn">
+                   <a href="remont-tseny/index.html" class="red-button-radius">Рассчитать</a>
+               </div>
+           </div>
+       </div>
+    </div>
+</div><script type="text/javascript">
     stoim1mkv =1250;   //старая стоимость 1 м2
     stoim1mkvnew =930;
     jQuery(document).ready(function(){
@@ -1007,7 +814,7 @@ jQuery(document).ready(function(){
                         </div>
                     </div>
                     <div class="b-form__item">
-                        <a href="index.html"><img src="../img/raschet.png"/></a>
+                        <a href="remont-tseny/index.html"><img src="img/raschet.png"/></a>
                     </div>
                 </div>
             </form>
@@ -1015,73 +822,38 @@ jQuery(document).ready(function(){
         <div class="b-raschet__ttl1">Звоните прямо сейчас и получите самое выгодное предложение!</div>
         <div class="b-raschet__ttl2">Дешевле нет нигде!</div>
     </div>
-</div><div class="es7">
-
-
+</div><div class="b-kosmet-remont">
     <div class="container">
-
-        <div class="row">
-
-            <div class="col-md-6">
-                <div class="media">
-                    <div class="media-left">
-                        <img class="media-object" src="../img/es7_ico1.png" alt="">
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Бесплатный замер</h4>
-                        <div>Замерщик "LEVEL" произведет точный замер и расчет стоимости заказа в удобное для Вас время. Возможно заключение договора на дому.</div>
-                    </div>
-                </div>
+        <div class="garant"><img src="img/100-color.png"/> </div>
+        <h2>косметический <br/> ремонт <span>за&nbsp;5&nbsp;дней?</span><br/> это реально!</h2>
+        <div class="b-kosmet-remont__block">
+            <div class="b-kosmet-remont__block_lft">
+                <div class="b-kosmet-remont__item ico1">Не нужно переезжать к родственникам</div>
+                <div class="b-kosmet-remont__item ico2">Минимум строительного мусора и пыли</div>
             </div>
-
-            <div class="col-md-6">
-                <div class="media">
-                    <div class="media-left">
-                        <img class="media-object" src="../img/es7_ico2.png" alt="">
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Рассрочка 0%</h4>
-                        <div>Разместите заказ уже сейчас! Воспользуйтесь беспроцентной рассрочкой сроком до 12&nbsp;месяцев с минимальным первоначальным взносом.</div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div><!-- /.container -->
-
-</div><div class="b-prezent door">
-  <div class="b-prezent-fon">
-    <div class="container">
-
-            <h4>МЕЖКОМНАТНЫЕ ДВЕРИ <span>В&nbsp;ПОДАРОК!</span> </h4>
-        <div class="b-prezent__block">
-            <div class="b-prezent__item">
-                <div class="b-prezent__ttl">Закажите ремонт сегодня!</div>
-            </div>
-            <div class="b-prezent__item">
-                <a data-toggle="modal" data-target="#kupitDeshevle" class="yellow-button">Заказать по&nbsp;лучшей&nbsp;цене</a>
+            <div class="b-kosmet-remont__block_rght">
+                <div class="b-kosmet-remont__item ico3">Не потревожит  соседей</div>
+                <div class="b-kosmet-remont__item ico4">Доступная цена</div>
             </div>
         </div>
     </div>
-  </div>
 </div><div class="b-way">
     <div class="container">
         <h2>Почему в «LEVEL» <br/>
             всегда дешевле?</h2>
 
         <div class="b-way__item">
-            <div class="b-way__item_pict"><img src="../img/way1.png" alt="Собственное производство"/></div>
+            <div class="b-way__item_pict"><img src="img/way1.png" alt="Собственное производство"/></div>
             <div class="b-way__item_ttl">Собственное <br/>производство </div>
             <div class="b-way__item_info">Компания «LEVEL» имеет свое собственное производство, которое позволяет производить большую часть всех строительных материалов, благодаря чему мы <strong>избегаем лишних наценок</strong>, неизбежных у дилеров.</div>
         </div>
         <div class="b-way__item">
-            <div class="b-way__item_pict"><img src="../img/way2.png" alt="Качественные материалы"/></div>
+            <div class="b-way__item_pict"><img src="img/way2.png" alt="Качественные материалы"/></div>
             <div class="b-way__item_ttl">Качественные  <br/>материалы </div>
             <div class="b-way__item_info">На все выполненные работы и строительные материалы дается <strong>длительная гарантия</strong>, в период которой осуществляется полное гарантийное, а по его окончанию, и послегарантийное обслуживание помещений.</div>
         </div>
         <div class="b-way__item">
-            <div class="b-way__item_pict"><img src="../img/way3.png" alt="Выгодные условия"/></div>
+            <div class="b-way__item_pict"><img src="img/way3.png" alt="Выгодные условия"/></div>
             <div class="b-way__item_ttl">Выгодные <br/> условия </div>
             <div class="b-way__item_info">Компания «LEVEL» имеет <strong>штат высококлассных мастеров</strong>, которые выполняют профессиональный монтаж любой сложности. Цены узнайте прямо сейчас: 
 				<a style="text-decoration:none;color: #1a1918" href="tel:8 (8617) 77-01-01"> <span class="comagic_phone">8 (8617) 77-01-01</span></a>
@@ -1094,7 +866,7 @@ jQuery(document).ready(function(){
           <div class="es3__ttl">Нашли дешевле?</div>
           <div class="es3__ttl_2">Вернём</div>
           <div class="es3__ttl_block">
-              <img src="../img/120.png"/>
+              <img src="img/120.png"/>
               <div class="es3__ttl_3">ОТ РАЗНИЦЫ!</div>
           </div>
           <div class="es3__info">Если Вы нашли цену ниже на аналогичный ремонт в другой компании, то предоставьте нам смету и мы гарантируем еще более низкую цену!</div>
@@ -1109,177 +881,31 @@ jQuery(document).ready(function(){
       </div>
 
     </div>
-</div>
-<div class="es6_bg">
-
-    <div class="es6__text">
-        С РЕМОНТОМ ВЫ ПОЛУЧАЕТЕ
-    </div>
-
+</div><div class="b_windownow_bg">
 
     <div class="container">
 
-        <div class="iosSlider2">
-
-            <div class="slider">
-
-
-                <div class="item">
-                    <img src="../img/kompl/4.jpg" alt="Двери"/>
-                    <div class="blueblock">Двери</div>
-                    <div class="es6_cost">1 200 рублей</div>
-                </div>
-
-
-                <div class="item">
-                    <img src="../img/kompl/5.jpg" alt="Натяжные потолки"/>
-                    <div class="blueblock">Натяжные потолки</div>
-                    <div class="es6_cost">650 рублей</div>
-                </div>
-
-
-                <div class="item">
-                    <img src="../img/kompl/6.jpg" alt="Фотообои"/>
-                    <div class="blueblock">Фотообои</div>
-                    <div class="es6_cost">550 рублей</div>
-                </div>
-
-
-
-            </div>
-
-        </div>
-
-        <div class="next2"></div>
-        <div class="prev2 unselectable"></div>
-
-    </div><!-- /.container -->
-</div><!-- /.es6 --><div class="es8_bg">
-	<div class="container">
-		<div class="es8__text_1">
-			 Я рассчитаю Ваш заказ
-		</div>
-		<div class="es8__text_2">
-			 за <img src="../img/es8_5minut.png" alt="">
-		</div>
-		<div class="es8_form">
-			<div class="es8_form_zag">
-				 Заполните сейчас
-			</div>
-
-<!-- ######### Я рассчитаю Ваш заказ за 5 минут (консультант) ######### -->
-<!-- ######### Я рассчитаю Ваш заказ за 5 минут (консультант) ######### -->
-<!-- ######### Я рассчитаю Ваш заказ за 5 минут (консультант) ######### -->		
-<form action="../php/mail3.php" method="POST">
-<input type="hidden" name="lang" value="Я рассчитаю Ваш заказ за 5 минут (консультант" /> 
-	<div class="es8_inp_name form-group">
-		<input type="text" placeholder="Ваше имя" id="form_text_6" name="name" value="" size="0" />
-	</div>
-
-	<div class="es8_inp_email form-group">
-		<input type="text" placeholder="E-mail" name="email" value="" size="0" />
-	</div>
-
-	<div class="es8_inp_tel form-group">
-		<input type="text" class="phonemask" placeholder="Телефон" data-validation="required" id="form_text_7" name="phone" value="" size="0" />
-	</div>
-
-	<div class="es8_but">
-		<button type="submit" class="red-button">рассчитать</button>
-	</div>
-</form>	
-<!-- ######### Я рассчитаю Ваш заказ за 5 минут (консультант) ######### -->
-<!-- ######### Я рассчитаю Ваш заказ за 5 минут (консультант) ######### -->
-<!-- ######### Я рассчитаю Ваш заказ за 5 минут (консультант) ######### -->	
-
-			</div>
-	</div>
-</div>
-<!-- /.es8 --><p>&nbsp;</p>
-<div class="es9">
-
-    <div class="container">
-        <h2>
-            Цены в лучших компаниях 2015&nbsp;года
-        </h2>
-
-        <img src="../img/es9_bg.png" alt="" width="100%">
-
-    </div>
-
-</div><!-- /.es9 --><div class="b_windownow_bg">
-
-    <div class="container">
-
-        <div class="b_windownow_man"><img src="../img/b_windownow_man.png" alt=""></div>
+        <div class="b_windownow_man"><img src="img/b_windownow_man.png" alt=""></div>
 
         <h4>Ремонт СЕЙЧАС — ДЕНЬГИ&nbsp;ПОТОМ</h4>
 
-        <div class="b_windownow_proc"><img src="../img/b_windownow_proc.png" alt=""></div>
+        <div class="b_windownow_proc"><img src="img/b_windownow_proc.png" alt=""></div>
 
         <div class="b_windownow_text">Рассрочка<br>без предоплаты
             <div class="b_windownow__btn">
-            <a href="../remont-kvartir-rassrochka/index.html" class="yellow-button">Узнать подробности</a>
+            <a href="remont-kvartir-rassrochka/index.html" class="yellow-button">Узнать подробности</a>
             </div>
         </div>
 
     </div><!-- /.container -->
 
-</div><p>&nbsp;</p>
-<p>&nbsp;</p>
-<div class="es10_bg">
-    <div class="container">
-        <h3>Сделаем хороший ремонт всего за 5 дней!</h3>
-        <div class="es13_14__desc">Благодаря честным и умелым мастерам компания "LEVEL" выполнит ремонт Вашей квартиры, дома или офиса всего за 5 рабочих  дней!
-            Быстрее сделать ремонт просто нельзя технически!!!
-            Мы делаем ремонты уже более 12 лет! Уже 12 700 довольных клиентов!</div>
-    </div>
-</div><!-- /.es10_bg --><div class="b-sms_bg">
-	<div class="container">
-		<div class="b-sms_phone">
- <img src="../img/b_sms_phone.png" alt="">
-		</div>
-		<div class="b-sms-form">
-			<div class="b-sms__text">
-				 СМС-СКИДКА
-			</div>
-			<div class="b-sms__undertext">
-				 Впишите свой телефон и получите<br>
-				 смс-купон на скидку:
-			</div>
-			<div class="b-sms__form">
-			
-			
-			
-			<!-- ######### СМС-СКИДКА ######### -->
-			<!-- ######### СМС-СКИДКА ######### -->
-			<!-- ######### СМС-СКИДКА ######### -->
-			<form action="../php/mail.php" method="POST">
-				<input type="hidden" name="lang" value="СМС-СКИДКА" />
-				<div class="b-sms_input b-sms_input_tel form-group">
-					<input type="text" class="phonemask input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
-				</div>
-				<div class="b-sms_but">
-					<button type="submit" class="red-button">отправить</button>
-				</div>
-			</form>
-			<!-- ######### СМС-СКИДКА ######### -->
-			<!-- ######### СМС-СКИДКА ######### -->
-			<!-- ######### СМС-СКИДКА ######### -->	
-
-
- </div>
-		</div>
-	</div>
-	 <!-- /.container -->
-</div>
-<!-- /.b-sms_bg --><div class="b-middle-menu">
+</div><div class="b-middle-menu">
     <div class="container">
         <div class="b-middle-menu__block">
            <div class="b-middle-menu__items">
-            <div class="b-middle-menu__item mdl1"><a href="../remont-kvartir-pod-klyuch/index.html" class="b-link"><span>Ремонт типовых квартир</span></a></div>
-            <div class="b-middle-menu__item mdl2"><a href="../remont-kvartir-tseny/index.html" class="b-link"><span>Ремонт квартир</span></a></div>
-            <div class="b-middle-menu__item mdl3"><a href="../remont-materialy/index.html" class="b-link"><span>Материалы для ремонта</span></a></div>
+            <div class="b-middle-menu__item mdl1"><a href="remont-kvartir-pod-klyuch/index.html" class="b-link"><span>Ремонт типовых квартир</span></a></div>
+            <div class="b-middle-menu__item mdl2"><a href="remont-kvartir-tseny/index.html" class="b-link"><span>Ремонт квартир</span></a></div>
+            <div class="b-middle-menu__item mdl3"><a href="remont-materialy/index.html" class="b-link"><span>Материалы для ремонта</span></a></div>
            </div>
         </div>
     </div>
@@ -1294,7 +920,7 @@ jQuery(document).ready(function(){
 
             <div class="es12_item">
                 <div class="es12_ico">
-                    <div class="es12_ico__img"><img src="../img/es12_ico1.png" alt="" /></div>
+                    <div class="es12_ico__img"><img src="img/es12_ico1.png" alt="" /></div>
                     <div class="es12_ico__lenta">
                         <div>экономия<br>
                             <span>1 250 р.</span></div>
@@ -1304,7 +930,7 @@ jQuery(document).ready(function(){
             </div>
             <div class="es12_item _top">
                 <div class="es12_ico">
-                    <div class="es12_ico__img"><img src="../img/es12_ico4.png" alt="" /></div>
+                    <div class="es12_ico__img"><img src="img/es12_ico4.png" alt="" /></div>
                     <div class="es12_ico__lenta">
                         <div>экономия<br>
                             <span>2 100 р.</span></div>
@@ -1314,7 +940,7 @@ jQuery(document).ready(function(){
             </div>
             <div class="es12_item">
                 <div class="es12_ico">
-                    <div class="es12_ico__img"><img src="../img/es12_ico3.png" alt="" /></div>
+                    <div class="es12_ico__img"><img src="img/es12_ico3.png" alt="" /></div>
                     <div class="es12_ico__lenta">
                         <div>экономия<br>
                             <span>900 р.</span></div>
@@ -1324,7 +950,7 @@ jQuery(document).ready(function(){
             </div>
             <div class="es12_item">
                 <div class="es12_ico">
-                    <div class="es12_ico__img"><img src="../img/es12_ico2.png" alt="" /></div>
+                    <div class="es12_ico__img"><img src="img/es12_ico2.png" alt="" /></div>
                     <div class="es12_ico__lenta">
                         <div>экономия<br>
                             <span>1 700 р.</span></div>
@@ -1343,7 +969,8 @@ jQuery(document).ready(function(){
 	<div class="es13_bg__text2">
 		 ВНИМАНИЕ! ОСТАЛОСЬ&nbsp;ВСЕГО
 	</div>
-	  <script src = "../js/jquery.countdown.js"></script><link href="../js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css"><link href="../js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
+	  <script src = "../js/jquery.countdown.js"></script><link href="../js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css"><link href="../js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css"><link href="../js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css"><link href="../js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css"><link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css"><link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
+	  <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
     <script>
         $(function(){
             var note = $('#note'),
@@ -1365,14 +992,10 @@ jQuery(document).ready(function(){
 	<div id="countdown_es13">
 	</div>
 	<div class="container">
-	
-	
-	
-	
 		<!-- ######### Успей купить до подорожания! ######### -->
 		<!-- ######### Успей купить до подорожания! ######### -->
 		<!-- ######### Успей купить до подорожания! ######### -->
-		<form action="../php/mail.php" method="POST">
+		<form action="php/mail.php" method="POST">
 			<input type="hidden" name="lang" value="Успей купить до подорожания!" />
 			<div class="es13_block"> 
 			<div class="es13_item es13_input form-group">
@@ -1386,46 +1009,17 @@ jQuery(document).ready(function(){
 		<!-- ######### Успей купить до подорожания! ######### -->
 		<!-- ######### Успей купить до подорожания! ######### -->
 		<!-- ######### Успей купить до подорожания! ######### -->
- 
- 
- 
- </div>
+	</div>
 </div>
 <!-- /.es13_bg --><div class="es13_14">
     <div class="container">
-        <h3>Закажите ремонт сейчас и получите скидку &nbsp;63%!</h3>
-                <div class="es13_14__desc">Участвуйте в акции – просто отправьте заявку прямо сейчас
-                    и получите максимальную скидку на весь заказ «под ключ».
-                    Внимание! Срок действия акции ограничен только до <span id="akcia2"></span>
-	
-	<script>
-		//Работа с ползунком на туч устройствах
-		//$('#slider').draggable();
-		//$('#sliderhor').draggable();
-		//$('#sliderver').draggable();
-	var months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября',	'ноября', 'декабря'];		
-	var month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];		
-	var now = new Date();
-	var month = now.getMonth();
-	var day = now.getDate();
-	
-	if (day < 15){			
-		var start = 1;
-		var end = 15;				
-	}	
-	else{
-		var start = 15;
-		var end = month_days[month];		
-	}			
-	$('#akcia2').html(''+end+' '+months[month]+'!');	
-</script>
-	
+        <h3>Дарим 3 500 рублей на первый&nbsp;заказ! </h3>
+                <div class="es13_14__desc">Позвонив до 19-00 Вы получаете дополнительную скидку от руководителя в сумме 3500 рублей при первом заказе.
 </div>
-     </div>
+      </div>
 
 
-</div><!-- /.es13_14 -->
-<div class="es14_bg">
+</div><!-- /.es13_14 --><div class="es14_bg">
 	<h2>
 		 ОТЗЫВЫ НАШИХ ЗАКАЗЧИКОВ
 	</h2>
@@ -1440,7 +1034,7 @@ jQuery(document).ready(function(){
         <!--    <div class="item">-->
     
     <div class="item" id="bx_3485106786_58">
-        <div class="es14_img"><img src="../upload/iblock/1cc/%d1%88%d0%bc%d1%8b%d0%ba%d0%be%d0%b2%d0%b0.jpg" alt="Ольга Шмыкова" /></div>
+        <div class="es14_img"><img src="upload/iblock/1cc/%d1%88%d0%bc%d1%8b%d0%ba%d0%be%d0%b2%d0%b0.jpg" alt="Ольга Шмыкова" /></div>
         <div class="es14_name">
             <div class="es14_imya">Ольга Шмыкова</div>
             <div class="es14_city">г. Новороссийск</div>							</div>
@@ -1461,7 +1055,7 @@ jQuery(document).ready(function(){
         <!--    <div class="item">-->
     
     <div class="item" id="bx_3485106786_58">
-        <div class="es14_img"><img src="../upload/iblock/da4/%d0%bc%d0%b0%d0%ba%d1%81%20%d0%bd%d0%be%d0%b22.jpg" alt="Георгий Бузилов" /></div>
+        <div class="es14_img"><img src="upload/iblock/da4/%d0%bc%d0%b0%d0%ba%d1%81%20%d0%bd%d0%be%d0%b22.jpg" alt="Георгий Бузилов" /></div>
         <div class="es14_name">
             <div class="es14_imya">Георгий Бузилов</div>
             <div class="es14_city">г. Новороссийск</div>							</div>
@@ -1481,7 +1075,7 @@ jQuery(document).ready(function(){
         <!--    <div class="item">-->
     
     <div class="item" id="bx_3485106786_58">
-        <div class="es14_img"><img src="../upload/iblock/089/2dd539f1231bf877519bbdb34ad736bb.jpg" alt="Елена Шиндина" /></div>
+        <div class="es14_img"><img src="upload/iblock/089/2dd539f1231bf877519bbdb34ad736bb.jpg" alt="Елена Шиндина" /></div>
         <div class="es14_name">
             <div class="es14_imya">Елена Шиндина</div>
             <div class="es14_city">г. Новороссийск</div>							</div>
@@ -1502,7 +1096,7 @@ jQuery(document).ready(function(){
         <!--    <div class="item">-->
     
     <div class="item" id="bx_3485106786_58">
-        <div class="es14_img"><img src="../upload/iblock/b9e/8962c90589855ab49a4f122e4d003a6f.jpg" alt="Оксана Семина" /></div>
+        <div class="es14_img"><img src="upload/iblock/b9e/8962c90589855ab49a4f122e4d003a6f.jpg" alt="Оксана Семина" /></div>
         <div class="es14_name">
             <div class="es14_imya">Оксана Семина</div>
             <div class="es14_city">г. Новороссийск</div>							</div>
@@ -1524,7 +1118,7 @@ jQuery(document).ready(function(){
         <!--    <div class="item">-->
     
     <div class="item" id="bx_3485106786_58">
-        <div class="es14_img"><img src="../upload/iblock/d9b/%d1%82%d0%b5%d1%82%d1%8f%20%d0%bd%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d0%b4%d0%b0%d1%8f.jpg" alt="Анастасия Л." /></div>
+        <div class="es14_img"><img src="upload/iblock/d9b/%d1%82%d0%b5%d1%82%d1%8f%20%d0%bd%d0%b5%d0%bc%d0%be%d0%bb%d0%be%d0%b4%d0%b0%d1%8f.jpg" alt="Анастасия Л." /></div>
         <div class="es14_name">
             <div class="es14_imya">Анастасия Л.</div>
             <div class="es14_city">г. Новороссийск</div>							</div>
@@ -1557,12 +1151,18 @@ jQuery(document).ready(function(){
 <div class="b-line"></div>
 <h2 class="title-map">Новороссийск: "LEVEL" всегда рядом</h2>
 
-
-
-<div class="map-wrapper">
+    <div class="map-wrapper">
 		<div id="BX_YMAP_officemap" class="bx-yandex-map" style="height: 600px; width: 100%;">
-			<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script> ymapload(); </script>		</div>    
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script><script> ymapload(); </script>	
+		</div>    
 	</div>
+
+
+
+
+
+
+
 
 
 <div class="es16_bg">
@@ -1571,16 +1171,19 @@ jQuery(document).ready(function(){
 	</h2>
 	<div class="thanky">
 <div class="zoom-gallery" id="zoom-instance-1" style="margin: 0px auto; width: 900px; height: 397px;">
- <img width="55" alt="preloader" src="../img/preloader.gif" height="18" class="preloader">
+ <img width="55" alt="preloader" src="img/preloader.gif" height="18" class="preloader">
             <ul>
-    
-    <li title="../upload/iblock/9bb/1.jpg">
+   
+   
+       <li title="upload/iblock/9bb/1.jpg">
         <ul class="align-left">
             <li class="20x308" style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">Ремонт комнаты				стоимостью <span>17 700 р.</span><br/>
 				<div class="b-time">Выполнен за <span>5 дней</span>!</div></li>
         </ul>
     </li>
-    <li title="../upload/iblock/59d/1.jpg">
+    
+
+    <li title="upload/iblock/59d/1.jpg">
         <ul class="align-left">
             <li class="20x308" style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">Ремонт офиса				стоимостью <span>35 500 р.</span><br/>
 				<div class="b-time">Выполнен за <span>14 дней</span>!</div></li>
@@ -1591,7 +1194,7 @@ jQuery(document).ready(function(){
 
     
 
-    <li title="../upload/iblock/cac/1.jpg">
+    <li title="upload/iblock/cac/1.jpg">
         <ul class="align-left">
             <li class="20x308" style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">Ремонт ванной комнаты				стоимостью <span>19 900 р.</span><br/>
 				<div class="b-time">Выполнен за <span>9 дней</span>!</div></li>
@@ -1599,7 +1202,7 @@ jQuery(document).ready(function(){
     </li>
     
 
-    <li title="../upload/iblock/84f/1.jpg">
+    <li title="upload/iblock/84f/1.jpg">
         <ul class="align-left">
             <li class="20x308" style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">Ремонт гостинной				стоимостью <span>14 000 р.</span><br/>
 				<div class="b-time">Выполнен за <span>10 дней</span>!</div></li>
@@ -1607,7 +1210,7 @@ jQuery(document).ready(function(){
     </li>
     
 
-    <li title="../upload/iblock/bf8/1.jpg">
+    <li title="upload/iblock/bf8/1.jpg">
         <ul class="align-left">
             <li class="20x308" style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">Ремонт кухни				стоимостью <span>27 800 р.</span><br/>
 				<div class="b-time">Выполнен за <span>12 дней</span>!</div></li>
@@ -1615,7 +1218,7 @@ jQuery(document).ready(function(){
     </li>
     
 
-    <li title="../upload/iblock/d4c/1.jpg">
+    <li title="upload/iblock/d4c/1.jpg">
         <ul class="align-left">
             <li class="20x308" style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">Ремонт коттеджа				стоимостью <span>49 000 р.</span><br/>
 				<div class="b-time">Выполнен за <span>21 день</span>!</div></li>
@@ -1629,24 +1232,14 @@ jQuery(document).ready(function(){
 		<a id="thanky-left-button" href="#"></a> <a id="thanky-right-button" href="#"></a>
 	</div>
 	<div class="onmobile">
- <img src="../upload/iblock/d4c/1.jpg" alt="">
+ <img src="upload/iblock/d4c/1.jpg" alt="">
 		<div class="onmobile-info-text">
 			 Ремонт коттеджа стоимостью:&nbsp;<span>27&nbsp;300&nbsp;р.</span>
 		</div>
 	</div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<!-- /.es16_bg --><div class="es17_bg">
+<!-- /.es16_bg -->
+<div class="es17_bg">
 	<div class="container">
 		<div class="es17_girl">
 		</div>
@@ -1662,25 +1255,20 @@ jQuery(document).ready(function(){
  </a>
 		<div class="es17_blockbg">
 			 Оставьте свой номер телефона и мы перезвоним Вам через 5&nbsp;минут
-			 
-			 
-			 
 			<!-- ######### Бесплатная консультация ######### -->
 			<!-- ######### Бесплатная консультация ######### -->
 			<!-- ######### Бесплатная консультация ######### -->
-			<form action="../php/mail.php" method="POST">
+			<form action="php/mail.php" method="POST">
 				<input type="hidden" name="lang" value="Бесплатная консультация" /> 
 				<div class="es17_input form-group">
-					<input type="text" placeholder="Телефон" class="phonemask" data-validation="required" id="form_text_10" name="phone" value="" size="0" />
+					<input type="text" placeholder="Телефон1" class="phonemask" data-validation="required" id="form_text_10" name="phone" value="" size="0" />
 				</div>
-			<button class="red-button" type="submit">Заказать звонок</button>	
+			<button type="submit" class="red-button">Заказать звонок</button>
 			</form>
 			<!-- ######### Бесплатная консультация ######### -->
 			<!-- ######### Бесплатная консультация ######### -->
 			<!-- ######### Бесплатная консультация ######### -->
-
-
- </div>
+		</div>
 	</div>
 </div>
 <!-- /.es17_bg -->
@@ -1688,13 +1276,13 @@ jQuery(document).ready(function(){
 <div class="es18_bg">
     <div class="container">
 
-        <div class="es18_logo"><img src="../img/es18_logo.png" alt=""></div>
+        <div class="es18_logo"><img src="img/es18_logo.png" alt=""></div>
 
         <div class="es18_link">
 
-            <a class="btn btn-link es18_ico1" href="../remont-kvartir-tseny/index.html">Ремонт квартир</a>
-            <a class="btn btn-link es18_ico2" href="../remont-kottedzhey-tseny/index.html">Ремонт коттеджей</a>
-            <a class="btn btn-link es18_ico3" href="../remont-ofisov-tseny/index.html">Ремонт офисов</a>
+            <a class="btn btn-link es18_ico1" href="remont-kvartir-tseny/index.html">Ремонт квартир</a>
+            <a class="btn btn-link es18_ico2" href="remont-kottedzhey-tseny/index.html">Ремонт коттеджей</a>
+            <a class="btn btn-link es18_ico3" href="remont-ofisov-tseny/index.html">Ремонт офисов</a>
 
         </div>
 
@@ -1737,7 +1325,7 @@ lleevv2015@yandex.ru
 		<div class="modal-content">
 			<div class="modal-header">
 				<div class="close" data-dismiss="modal" aria-label="Close">
- <img src="../img/crest.png" alt="">
+ <img src="img/crest.png" alt="">
 				</div>
 			</div>
 			<div class="modal-body">
@@ -1750,7 +1338,7 @@ lleevv2015@yandex.ru
 					</div>
 				</div>
 				<div class="modal_zag">
- <img src="../img/pazdr.png" alt="">
+ <img src="img/pazdr.png" alt="">
 				</div>
 				<div class="madal_t1">
 					 Вы стали 100 посетителем сайта!
@@ -1763,13 +1351,10 @@ lleevv2015@yandex.ru
 					 Для получения подарка заполните форму
 				</div>
 				<div class="modal_form_happy">
-				
-				
-				
 				<!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
 				<!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
 				<!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
-					<form action="../php/mail2.php" method="POST">
+					<form action="php/mail2.php" method="POST">
 						<input type="hidden" name="lang" value="Вы стали 100 посетителем сайта! (Подарок)" /> 				 
 							<div class="modal_input_name form-group">
 								<input type="text" placeholder="Ваше имя" id="form_text_21" name="name" value="" size="0" />
@@ -1778,15 +1363,13 @@ lleevv2015@yandex.ru
 								<input type="text" placeholder="Телефон" class="phonemask" data-validation="required" id="form_text_21" name="phone" value="" size="0" />
 							</div>
 							<div class="happy_but">
-								<button class="red-button" type="submit">Хочу подарок</button>
+								<button type="submit" class="red-button">Хочу подарок</button>
 							</div>
 					</form>
 				<!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
 				<!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
-				<!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->		
-
-
- </div>
+				<!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -1796,7 +1379,7 @@ lleevv2015@yandex.ru
 		<div class="modal-content">
 			<div class="modal-header">
 				<div class="close" data-dismiss="modal" aria-label="Close">
- <img src="../img/crest.png" alt="">
+ <img src="img/crest.png" alt="">
 				</div>
 			</div>
 			<div class="modal-body">
@@ -1811,28 +1394,22 @@ lleevv2015@yandex.ru
 					 Вам список подарков на выбор!
 				</div>
 				<div class="modal_form_gift">
-
-
-
 					<!-- ######### Не уходите без подарка ######### -->
 					<!-- ######### Не уходите без подарка ######### -->
 					<!-- ######### Не уходите без подарка ######### -->
-					<form action="../php/mail.php" method="POST">
+					<form action="php/mail.php" method="POST">
 						<input type="hidden" name="lang" value="Не уходите без подарка" />				 
 						<div class="modal_input_ema">
 							<input type="text" placeholder="Телефон" class="phonemask" data-validation="required" id="form_text_23" name="phone" value="" size="0" />
 						</div>
 						<div class="gift_but">
-							<button class="red-button" type="submit">Получить подарок</button>
+							<button class="red-button" type="submit">Получить подарок<</button>
 						</div>
 					</form>
 					<!-- ######### Не уходите без подарка ######### -->
 					<!-- ######### Не уходите без подарка ######### -->
-					<!-- ######### Не уходите без подарка ######### -->					
-
-
-
- </div>
+					<!-- ######### Не уходите без подарка ######### -->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -1841,7 +1418,7 @@ lleevv2015@yandex.ru
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../img/crest.png" alt=""></span></button>
+ <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/crest.png" alt=""></span></button>
 			</div>
 			<div class="modal-body">
 				<div class="modal_zag">
@@ -1868,26 +1445,20 @@ lleevv2015@yandex.ru
 					</div>
 				</div>
 				<div class="butzamer">
-				
-				
-				
 					<!-- ######### ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР ######### -->
 					<!-- ######### ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР ######### -->
 					<!-- ######### ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР ######### -->
-					<form action="../php/mail.php" method="POST">
+					<form action="php/mail.php" method="POST">
 						<input type="hidden" name="lang" value="ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР" />
 						<div class="butzamer_inp form-group">
 							<input type="text" placeholder="Телефон" class="phonemask" data-validation="required" id="form_text_25" name="phone" value="" size="0" />
 						</div>
-						<button class="red-button _zamer" type="submit">Записаться на&nbsp;замер</button>
+						<button type="submit" class="red-button _zamer">Записаться на&nbsp;замер</button>
 					</form>
 					<!-- ######### ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР ######### -->
 					<!-- ######### ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР ######### -->
-					<!-- ######### ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР ######### -->	
-
-
-
- </div>
+					<!-- ######### ЗАПИСЬ НА БЕСПЛАТНЫЙ ЗАМЕР ######### -->
+				</div>
 			</div>
 		</div>
 	</div>
@@ -1899,14 +1470,14 @@ lleevv2015@yandex.ru
 	</div>
 </div>
 <div class="toptop animated boxHidded fadeOut">
- <img src="../img/but_top.png" alt="">
+ <img src="img/but_top.png" alt="">
 </div>
 
  <br><div class="modal fade" id="kupitDeshevle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../img/modal_close.png" alt=""></span></button>
+ <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/modal_close.png" alt=""></span></button>
 			</div>
 			<div class="modal-body">
 				<div class="modal_zag">
@@ -1919,14 +1490,11 @@ lleevv2015@yandex.ru
  <br>
  <span class="modal_red">ОБЯЗАТЕЛЬНО!<br>
 						 Зафиксируйте свою скидку!</span> <br>
- <br>
-					
-
-
+ <br>					
 						<!-- ######### Хотите купить дешевле? ######### -->
 						<!-- ######### Хотите купить дешевле? ######### -->
 						<!-- ######### Хотите купить дешевле? ######### -->
-						<form action="../php/mail2.php" method="POST">
+						<form action="php/mail2.php" method="POST">
 							<input type="hidden" name="lang" value="Хотите купить дешевле?" />							 
 							<div class="modal_input_name form-group">
 								<input type="text" placeholder="Ваше имя" id="form_text_1" name="name" value="" size="0" />
@@ -1936,16 +1504,13 @@ lleevv2015@yandex.ru
 							</div>
 							<br />
 							<div class="modal_hochu_but">
-								<button class="red-button" type="submit">Хочу дешевле</button>
+								<button type="submit" class="red-button">Хочу дешевле </button>
 							</div>
 						</form>		
 						<!-- ######### Хотите купить дешевле? ######### -->
 						<!-- ######### Хотите купить дешевле? ######### -->
-						<!-- ######### Хотите купить дешевле? ######### -->		
-
-
-
-		</div>
+						<!-- ######### Хотите купить дешевле? ######### -->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -1955,7 +1520,7 @@ lleevv2015@yandex.ru
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../img/modal_close.png" alt=""></span></button>
+ <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/modal_close.png" alt=""></span></button>
 			</div>
 			<div class="modal-body">
 				<div class="modal_zag">
@@ -1969,13 +1534,10 @@ lleevv2015@yandex.ru
  <span class="modal_red">ОБЯЗАТЕЛЬНО!<br>
 						 Зафиксируйте свою скидку!</span> <br>
  <br>
- 
- 
- 
 						 <!-- ######### Хотите купить дешевле? С фиксацией скидки ######### -->
 						 <!-- ######### Хотите купить дешевле? С фиксацией скидки ######### -->
 						 <!-- ######### Хотите купить дешевле? С фиксацией скидки ######### -->
-						 <form action="../php/mail2.php" method="POST">
+						 <form action="php/mail2.php" method="POST">
 							<input type="hidden" name="lang" value="Хотите купить дешевле? С фиксацией скидки" /> 								 
 							<div class="modal_input_name form-group">
 								<input type="text" placeholder="Ваше имя" name="name" value="" size="0" />
@@ -1984,15 +1546,13 @@ lleevv2015@yandex.ru
 								<input type="text" placeholder="Телефон" class="phonemask" data-validation="required" name="phone" value="" size="0" />
 							</div>
 							<div class="modal_hochu_but">
-								<button class="red-button" type="submit">Хочу дешевле</button>
+								<button type="submit" class="red-button">Хочу дешевле</button>
 							</div>
 						</form>
 						<!-- ######### Хотите купить дешевле? С фиксацией скидки ######### -->
 						<!-- ######### Хотите купить дешевле? С фиксацией скидки ######### -->
-						<!-- ######### Хотите купить дешевле? С фиксацией скидки ######### -->		
-
-
- </div>
+						<!-- ######### Хотите купить дешевле? С фиксацией скидки ######### -->
+						</div>
 				</div>
 			</div>
 		</div>
@@ -2002,7 +1562,7 @@ lleevv2015@yandex.ru
 	<div class="modal-dialog modal-sm">
 		<div class="modal-content">
 			<div class="modal-header">
- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../img/modal_close.png" alt=""></span></button>
+ <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/modal_close.png" alt=""></span></button>
 			</div>
 			<div class="modal_zag">
 				 Спасибо!
@@ -2022,7 +1582,7 @@ lleevv2015@yandex.ru
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../img/modal_close.png" alt=""></span></button>
+ <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/modal_close.png" alt=""></span></button>
 			</div>
 			<div class="modal-body">
 				<div class="modal_zag">
@@ -2188,7 +1748,7 @@ lleevv2015@yandex.ru
 	</div>
 </div>
 </noindex>
-<!-- modal -->	<link href="../css/animate.css" rel="stylesheet">
+<!-- modal -->	<link href="css/animate.css" rel="stylesheet">
 <!-- ProdesCode -->
 <!--
 <link href="/css/style.css" rel="stylesheet">
@@ -2203,27 +1763,50 @@ lleevv2015@yandex.ru
 <![endif]-->
 
 
-<script src="../js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
 
-<script src="../js/bootstrap.min.js"></script>
-<script src = "../js/jquery.easing-1.3.js"></script>
-<script src = "../js/bootstrap-hover-dropdown.min.js"></script>
-<script src = "../js/jquery.iosslider.js"></script>
-<link rel="stylesheet" href="../css/zoom-showcase.css" type="text/css" />
-<script src="../js/zoom-showcase.js" type="text/javascript"></script>
-<script src="../js/jquery.maskedinput.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="../js/jquery.jcarousel.min_.js"></script>
-<script type="text/javascript" src="../js/jquery.cookie.min.js"></script>
-<script type="text/javascript" src="../js/waypoints.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src = "js/jquery.easing-1.3.js"></script>
+
+<script>
+		//Работа с ползунком на туч устройствах
+		//$('#slider').draggable();
+		//$('#sliderhor').draggable();
+		//$('#sliderver').draggable();
+	var months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября',	'ноября', 'декабря'];		
+	var month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];		
+	var now = new Date();
+	var month = now.getMonth();
+	var day = now.getDate();
+	
+	if (day < 15){			
+		var start = 1;
+		var end = 15;				
+	}	
+	else{
+		var start = 15;
+		var end = month_days[month];		
+	}			
+	$('#akcia').html('C '+start+' по '+end+' '+months[month]+'!');	
+</script>
+
+<script src = "js/bootstrap-hover-dropdown.min.js"></script>
+<script src = "js/jquery.iosslider.js"></script>
+<link rel="stylesheet" href="css/zoom-showcase.css" type="text/css" />
+<script src="js/zoom-showcase.js" type="text/javascript"></script>
+<script src="js/jquery.maskedinput.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.min_.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="js/waypoints.min.js"></script>
 <!-- ProdesCode -->
-<script src="../js/prodes0fd9.js?up=6_1"></script>
+<script src="js/prodes0fd9.js?up=6" charset="utf-8"></script>
 
 <script type="text/javascript">
     var comagicYesOrNo = "yes";
 </script>
-<script src="../js/for_comagic.js"></script>
+<script src="js/for_comagic.js"></script>
 
-<script src="../js/otherscripts.js"></script>
+<script src="js/otherscripts.js"></script>
 <script type="text/javascript">
 	$('.b-vid-remonta__spisok_all .b-link-blue').each(function() {
 		$(this).data('text',$(this).text());
@@ -2239,9 +1822,9 @@ lleevv2015@yandex.ru
 		return false;
 	}
 </script>
-
 <!-- Pixel -->
 <script type="text/javascript" src="js/pixel.js"></script>
 <!-- /Pixel -->
 </body>
+
 </html>
