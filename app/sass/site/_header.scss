@@ -1,3 +1,11 @@
+.before-after-none::after,
+.before-after-none::before,
+.top_block::after,
+.top_block::before{
+    display: none;
+}
+
 .top_block{
     display:flex;
+    justify-content: space-between;
 }
