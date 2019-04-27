@@ -1,3 +1,7 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
 .scrollbar2{
     opacity: 1 !important;
     background-color: #FFC93C !important;
@@ -16,3 +20,29 @@
    width: 915px !important;
    
 }
+
+.es2 {
+    p{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        
+        color: #000000;
+     }
+    
+    
+    .custom_h2{
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;/* identical to box height */
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: #000000;
+    }
+}  
