@@ -267,7 +267,7 @@ button {
   color: #030303;
   font-size: 36px;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: right;
   margin-top: 10px; }
 
@@ -275,7 +275,7 @@ button {
 .top_block__vamperez {
   margin-top: -5px;
   color: #030303;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 27px;
   text-align: right;
   cursor: pointer;
@@ -2551,7 +2551,7 @@ span.red-button {
   width: 136px;
   height: 80px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   background: url(../img/es12_lenta.png) no-repeat center center;
   line-height: 1.1; }
@@ -2692,7 +2692,7 @@ span.red-button {
   border: 1px solid #ffdd00;
   font-size: 16px;
   font-weight: bold;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 /* line 21, ../../sass/blocks/b-pay/_b-pay.sass */
 .payform input.paytext {
@@ -2703,7 +2703,7 @@ span.red-button {
   width: 100%;
   height: 34px;
   padding: 0 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   margin-bottom: 15px;
   margin-top: 5px;
@@ -2724,7 +2724,7 @@ span.red-button {
     border: 1px solid #ffdd00;
     font-size: 16px;
     font-weight: bold;
-    font-family: "Roboto", sans-serif; } }
+    font-family: "Montserrat", sans-serif; } }
 /* line 1, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta {
   background: url("../img/b_market_filtr_bg.png");
@@ -4177,7 +4177,7 @@ span.red-button {
     width: 200px;
     margin-left: 62px;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 22px;
     border: 0px;
     background: none; }
@@ -4413,7 +4413,7 @@ span.red-button {
   margin-bottom: 50px;
   height: 210px;
   background: url("../img/tip-fon.jpg") left center no-repeat;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -4516,7 +4516,7 @@ span.red-button {
   margin-top: 7px;
   width: 100%;
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #fde500; }
   /* line 90, ../../sass/blocks/b-tipov/_b-tipov.sass */
   .b-tipov_size span {
@@ -4526,7 +4526,7 @@ span.red-button {
 /* line 94, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__priceblock {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 40px; }
 
 /* line 98, ../../sass/blocks/b-tipov/_b-tipov.sass */
@@ -4601,7 +4601,7 @@ span.red-button {
   /* line 152, ../../sass/blocks/b-tipov/_b-tipov.sass */
   .b-tipov__others_block .b-link {
     font-size: 25px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #000000;
     text-decoration: none;
     margin-right: 20px;
@@ -5141,7 +5141,7 @@ span.red-button {
   box-shadow: 0 5px 5px rgba(25, 63, 87, 0.24);
   border: 1px solid #acacac;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   height: 145px;
   width: 440px;
   -moz-box-sizing: border-box;
@@ -5181,7 +5181,7 @@ span.red-button {
 /* line 81, ../../sass/blocks/b-ustanovka/_b-ustanovka.sass */
 .b-ustanovka__price_ttl {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   text-align: center; }
 
@@ -5196,7 +5196,7 @@ span.red-button {
 .b-ustanovka__price {
   line-height: 1.2;
   text-align: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: table-cell;
   height: 90px;
   vertical-align: bottom; }

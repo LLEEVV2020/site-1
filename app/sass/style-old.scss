@@ -16,76 +16,80 @@ a:hover { text-decoration: none
     -khtml-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
+    display: flex;
+    align-items: flex-start;
 }
 
 .es2 .es2_block .es2_but {
-    background: url(../img/es2_but.png) no-repeat center center;
-    width: 288px;
-    height: 66px;
-    margin: 0px auto -70px auto;
-    cursor: pointer
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;/* identical to box height */
+
+    color: #FFFFFF;
+    cursor: pointer;
+    background: linear-gradient(180deg, #1A7E9B 0%, #015A76 100%);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 158px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50px;
+    bottom: -20px;
+    position: absolute;
 }
 
 .es2 .es2_block .es2_oknatseny {
-    width: 338px;
-    padding-bottom: 40px;
-    background: #fdfdfd;
-    border: 1px solid #d7d0aa;
-    border-radius: 5px;
-    box-shadow: 1px 3px 5px -1px rgba(0,0,0,0.27);
-    float: left
+    width: 264px;
+    background: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+    position: relative;
+    z-index: 2;
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny__zag {
-    font-size: 27px;
-    width: 340px;
-    text-align: center;
-    font-family: 'ALSSchlangesans-bold';
-    text-transform: uppercase;
-    background: #fce001;
-    background: -webkit-linear-gradient(bottom, #fde800, #fbd502);
-    background: linear-gradient(to top, #fde800, #fbd502);
-    height: 61px;
-    line-height: 64px;
-    border-radius: 4px;
-    margin-top: -16px;
-    margin-left: -2px;
-    box-shadow: 1px 6px 19px -1px rgba(0,0,0,0.37);
+    
+    height: 60px;
+    margin-top: -10px;
     position: relative;
-    z-index: 10
+    z-index: 10;
+    background: #ffc93c;
+    background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena {
-    height: 80px;
+    height: 50px;
     background: #f3f3f3;
     position: relative;
     z-index: 5;
-    margin-top: -5px
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_left {
-    float: left;
-    width: 190px;
-    height: 80px;
-    line-height: 26px;
+    
+    line-height: 1.24;
+    font-size: 14px;
     font-weight: 300;
-    color: #737373;
-    font-size: 20px;
-    padding-left: 15px;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 17px;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right {
-    float: right;
-    width: 145px;
-    height: 80px;
-    line-height: 80px;
+    
+    
     text-align: center;
-    font-size: 43px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_tsena .es2_oknatseny_right span {
@@ -93,19 +97,26 @@ a:hover { text-decoration: none
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_row {
-    height: 57px;
-    border-top: 1px solid #ebeae2
+    height: 50px;
+    border: 1px solid #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.es2 .es2_block .es2_oknatseny .es2_oknatseny_row:last-child{
+    padding-bottom: 18px;
+    height: 68px;
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left {
-    float: left;
-    width: 150px;
-    height: 57px;
-    font-weight: 300;
-    color: #737373;
-    font-size: 20px;
-    padding-left: 15px;
-    font-family: 'Roboto', sans-serif
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table {
@@ -113,104 +124,104 @@ a:hover { text-decoration: none
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table td {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1;
-    font-weight: 300
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;
 }
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right {
-    float: right;
-    width: 170px;
-    height: 57px;
-    line-height: 57px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400
+    
+    font-family: "Montserrat", sans-serif;
+    
 }
 
 
 .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right.es2_red {
-    font-size: 36px;
-    font-weight: bold
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    text-align: right;
+    white-space: nowrap;
+    color: #DD0053;
 }
 
-.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right span {
-    font-size: 28px;
-
-}
-
-.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right img {
-    margin-top: -10px
-}
-
-.es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_right_stars {
-    width: 200px !important;
-    margin-left: -30px
-}
 
 .es2 .es2_block .es2_okna {
     width: 240px;
-    background: #f4f4f4;
     float: left;
-    margin-top: 8px
 }
 
 .es2 .es2_block .es2_okna .es2_okna__zag {
-    font-size: 20px;
-    color: #fff;
-    width: 240px;
+    
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    background: #01d2e9;
-    height: 43px;
-    line-height: 36px;
-    margin-top: 0px;
-    position: relative;
-    z-index: 5;
-    border-right: 1px solid #02b1c5
+    font-family: "Montserrat", sans-serif;
+    background: linear-gradient(180deg, #1C819E 0%, #015A76 100%);
+    background-color: #1C819E;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .es2 .es2_block .es2_okna .es2_okna_tsena {
-    height: 76px;
-    background: #f3f3f3;
+    height: 50px;
     position: relative;
     z-index: 5;
-    margin-top: -5px;
-    border-right: 1px solid #c5eaee;
-    border-bottom: 1px solid #c5eaee
+    border-right: 1px solid #E8E8E8;;
+    border-bottom: 1px solid #E8E8E8;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right {
-    float: right;
-    width: 240px;
-    height: 76px;
-    line-height: 76px;
+    
     text-align: center;
-    font-size: 43px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;/* identical to box height */
+
+
+    color: #000000;
 }
 
-.es2 .es2_block .es2_okna .es2_okna_tsena .es2_okna_right span {
-    font-size: 30px
-}
+
 
 .es2 .es2_block .es2_okna .es2_okna_row {
-    height: 57px;
-    border-right: 1px solid #c5eaee;
-    border-bottom: 1px solid #c5eaee
+    height: 50px;
+    border-right: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.es2 .es2_block .es2_okna .es2_okna_row:last-child{
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
+
 .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right {
-    float: right;
-    width: 240px;
-    height: 50px;
-    line-height: 60px;
     text-align: center;
-    font-size: 36px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
 
 .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right.es2_red {
@@ -218,9 +229,7 @@ a:hover { text-decoration: none
     font-weight: bold
 }
 
-.es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right span {
-    font-size: 30px
-}
+
 
 .es2 .es2_block .es2_okna .es2_okna_row .es2_okna_row_right img {
     margin-top: -10px
@@ -228,11 +237,11 @@ a:hover { text-decoration: none
 
 .es2 .es2_block .es2_bgtransper {
     position: absolute;
-    width: 180px;
+    width: 105px;
     height: 355px;
     background: url(../img/es2_bgtransper.png) repeat-y;
     right: 0;
-    z-index: 10
+    z-index: 10;
 }
 
 .es2 .es2_block .iosslider_2 {
@@ -241,7 +250,7 @@ a:hover { text-decoration: none
     left: 0;
     overflow: hidden;
     width: 805px;
-    height: 425px
+    height: 350px !important;
 }
 
 .es2 .es2_block .iosslider_2 .slider {

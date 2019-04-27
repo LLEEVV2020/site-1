@@ -8,4 +8,18 @@
 .top_block{
     display:flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 470px) {
+    .top_block{
+        flex-direction: column;
+    }
+    .top_block__item{
+        margin-top: 25px;
+        & > * {
+            text-align: center;
+        }
+    }
+
 }
