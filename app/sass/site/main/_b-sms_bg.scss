@@ -2,6 +2,10 @@
     .b-sms-form{
         
         max-width: 57%;
+        @media only screen and (max-width: 1200px) {
+            max-width: 58%;
+        }
+
         @media only screen and (max-width: 992px) {
             max-width: 100%;
         }
