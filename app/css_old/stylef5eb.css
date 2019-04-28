@@ -150,11 +150,27 @@ button {
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.28);
   padding: 15px 35px;
   text-transform: uppercase;
-  cursor: pointer; }
+  cursor: pointer; 
+
+  
+  background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;/* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+}
   /* line 110, ../../sass/_common.sass */
   .red-button:hover {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none; 
+  }
 
 /* line 115, ../../sass/_common.sass */
 .yellow-button {
@@ -1049,12 +1065,12 @@ textarea.ERROR:-ms-input-placeholder {
 /* line 353, ../../sass/blocks/all/_all.sass */
 .inpfile:hover {
   cursor: pointer;
-  color: #red; }
+  color: red; }
 
 /* line 356, ../../sass/blocks/all/_all.sass */
 .sale-work {
   color: #25bbec;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-align: center;
   margin-top: 15px; }
@@ -1333,7 +1349,7 @@ span.red-button {
   .es1_price__count span {
     margin-left: 10px;
     color: #030303;
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic;
     font-weight: bold;
     text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
@@ -2176,14 +2192,14 @@ span.red-button {
 /* line 9, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl {
   font-size: 60px;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
 
 /* line 12, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl_2 {
   display: inline-block;
   vertical-align: top;
   color: #000;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   font-size: 50px;
   text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); }
 
@@ -2194,7 +2210,7 @@ span.red-button {
 /* line 21, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl_3 {
   font-size: 50px;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
 
 /* line 24, ../../sass/blocks/es3/_es3.sass */
 .es3__info {
@@ -2213,7 +2229,7 @@ span.red-button {
   vertical-align: top;
   text-align: right;
   width: 235px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   text-transform: none;
   margin-right: 30px; }
@@ -2226,7 +2242,7 @@ span.red-button {
   position: relative;
   font-size: 40px;
   font-weight: bold;
-  font-family: Roboto, sans-serif; }
+  font-family: "Montserrat", sans-serif; }
   /* line 49, ../../sass/blocks/es3/_es3.sass */
   .es3__phone_number:before {
     content: "";
@@ -2384,7 +2400,7 @@ span.red-button {
     padding-top: 10px; }
   /* line 55, ../../sass/blocks/es4/_es4.sass */
   .es4__form_item._phone {
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 36px;
     position: relative;
@@ -2836,7 +2852,7 @@ span.red-button {
       position: relative;
       padding-left: 30px;
       font-size: 18px;
-      font-family: Roboto, sans-serif;
+      font-family: "Montserrat", sans-serif;
       margin-bottom: 8px; }
       /* line 92, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
       .b-vid-remonta__item_spisok .check li:before {
@@ -2853,7 +2869,7 @@ span.red-button {
   /* line 103, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__spisok_all .b-link-blue {
     color: #25bbec;
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     display: inline-block;
     text-decoration: none;
@@ -2862,7 +2878,7 @@ span.red-button {
 /* line 110, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item_price {
   text-align: center;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   padding-top: 20px;
   padding-bottom: 45px;
   line-height: 1.2; }
@@ -2908,7 +2924,7 @@ span.red-button {
     -moz-border-radius: 30px;
     -webkit-border-radius: 30px;
     border-radius: 30px;
-    font-family: ALSSchlangesans-Black;
+    font-family: "Montserrat", sans-serif;
     font-size: 26px;
     -moz-background-clip: padding;
     -o-background-clip: padding-box;
@@ -3011,7 +3027,7 @@ span.red-button {
 /* line 10, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__form {
   font-size: 24px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 20px; }
   /* line 14, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-raschet__form .b-form__block {
@@ -3105,7 +3121,7 @@ span.red-button {
 /* line 81, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__ttl1 {
   font-size: 24px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 25px;
   line-height: 1.2; }
@@ -3113,7 +3129,7 @@ span.red-button {
 /* line 87, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__ttl2 {
   font-size: 36px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   text-align: center; }
 
 @media only screen and (max-width: 1200px) {
@@ -3372,7 +3388,7 @@ span.red-button {
   margin-top: 15px;
   text-transform: uppercase;
   font-size: 30px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   line-height: 34px; }
 
@@ -3461,7 +3477,7 @@ span.red-button {
   /* line 20, ../../sass/blocks/b-middle-menu/_b-middle-menu.sass */
   .b-middle-menu__item .b-link {
     font-size: 30px;
-    font-family: ALSSchlangesans-Black;
+    font-family: "Montserrat", sans-serif;
     color: #000;
     text-transform: uppercase;
     text-decoration: underline;
@@ -3626,7 +3642,7 @@ span.red-button {
 
 /* line 51, ../../sass/blocks/b-prezent/_b-prezent.sass */
 .b-prezent__ttl {
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   padding-left: 100px;
   position: relative;
@@ -3775,7 +3791,7 @@ span.red-button {
   display: table-cell;
   vertical-align: middle;
   font-size: 28px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase; }
   /* line 22, ../../sass/blocks/bf-slider/_bf-slider.sass */
   .b-beforeAfter__info_item:first-child {
@@ -3938,7 +3954,7 @@ span.red-button {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
   /* line 14, ../../sass/blocks/b-15-days/_b-15-days.sass */
   .b-15-days__ttl span {
     color: #ff0000; }
@@ -3996,7 +4012,7 @@ span.red-button {
   /* line 56, ../../sass/blocks/b-15-days/_b-15-days.sass */
   .b-15-days__item_ttl span {
     color: #FFFFFF;
-    font-family: ALSSchlangesans-Black;
+    font-family: "Montserrat", sans-serif;
     font-size: 26px;
     text-transform: uppercase;
     position: relative;
@@ -4134,7 +4150,7 @@ span.red-button {
 /* line 14, ../../sass/blocks/b-project/_b-project.sass */
 .b-project__ttl {
   font-size: 26px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2; }
 
 /* line 18, ../../sass/blocks/b-project/_b-project.sass */
@@ -4148,7 +4164,7 @@ span.red-button {
 .b-project__item {
   display: table-cell;
   font-size: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2; }
   /* line 28, ../../sass/blocks/b-project/_b-project.sass */
   .b-project__item img {
@@ -4827,12 +4843,12 @@ span.red-button {
 .b-tipov__flat_info-ttl {
   font-size: 40px;
   text-transform: uppercase;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
 
 /* line 303, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__flat_info-tt2 {
   font-size: 26px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   margin-top: -6px; }
 
 /* line 307, ../../sass/blocks/b-tipov/_b-tipov.sass */
@@ -4849,13 +4865,13 @@ span.red-button {
 
 /* line 315, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__flat_item-ttl {
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px; }
 
 /* line 318, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__flat_item-S {
   font-size: 32px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   padding-left: 60px;
   position: relative; }
@@ -5393,7 +5409,7 @@ span.red-button {
 /* line 1, ../../sass/blocks/b-calc/_b-calc.sass */
 .calc_tub {
   color: #03b2de;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-weight: bold;
   text-transform: uppercase;
@@ -5442,7 +5458,7 @@ span.red-button {
 .calc_rassr .b-link {
   color: #03c1d7;
   font-size: 30px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-decoration: underline; }
   /* line 40, ../../sass/blocks/b-calc/_b-calc.sass */

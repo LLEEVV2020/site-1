@@ -1,0 +1,35 @@
+.b-sms_bg{
+    //background-color: aquamarine;
+    .flex-container{
+        display: flex;
+        //justify-content: center;
+       // align-items: center;
+    }
+    .flex-container::before,
+    .flex-container::after{
+        display: none;
+    }
+    .input-phone::-moz-placeholder,
+    .input-phone:-ms-input-placeholder,
+    .input-phone::-webkit-input-placeholder,
+    .input-phone::placeholder,
+    input{
+        color: aqua !important;
+    }
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 10px;
+        color: #000000;
+        a{
+            text-decoration-line: underline;
+            color: #000000;
+        }
+    }
+    
+
+}
+
+

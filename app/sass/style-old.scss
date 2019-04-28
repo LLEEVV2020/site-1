@@ -38,7 +38,8 @@ a:hover { text-decoration: none
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 65px;
+    left: 50%;
+    transform: translate(-50%, 0);
     bottom: -20px;
     position: absolute;
 }
@@ -294,7 +295,7 @@ border-radius: 5px;
     }
 
     .es2 .es2_block .es2_oknatseny .es2_oknatseny_row .es2_oknatseny_row_left table td {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1;
         font-weight: 300
     }
@@ -339,12 +340,7 @@ border-radius: 5px;
         position: relative
     }
 
-    .es2 .es2_block .es2_but {
-        background: url(../img/es2_but.png) no-repeat center center;
-        width: 288px;
-        height: 66px;
-        margin: 20px auto -70px auto
-    }
+  
 
     .es2 .es2_block .es2_oknatseny {
         width: 300px;
@@ -421,7 +417,7 @@ border-radius: 5px;
 }
 
 .b_windownow_bg .b_windownow_text {
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 39px;
     line-height: 1.2;
     text-transform: uppercase;
@@ -503,7 +499,7 @@ border-radius: 5px;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     padding-top: 74px;
     line-height: 1;
     margin-bottom: 15px;
@@ -515,7 +511,7 @@ border-radius: 5px;
     color: #252525;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     line-height: 1;
     margin-bottom: 20px
 }
@@ -570,7 +566,7 @@ border-radius: 5px;
 }
 
 .es13_bg .es13_input input {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 22px;
     margin: 15px 0px 0px 50px;
@@ -591,14 +587,14 @@ border-radius: 5px;
 .es13_14 .es13_14__zag {
     color: #0d0d0d;
     font-size: 40px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     margin-bottom: 20px
 }
 
 .es13_14__desc {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     line-height: 1.3
 }
@@ -657,7 +653,7 @@ border-radius: 5px;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 44px;
         line-height: 1;
         margin-bottom: 15px;
@@ -699,7 +695,7 @@ border-radius: 5px;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 44px;
         line-height: 1;
         margin-bottom: 15px;
@@ -708,7 +704,7 @@ border-radius: 5px;
     .es13_14 .es13_14__zag {
         color: #0d0d0d;
         font-size: 36px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         margin-bottom: 20px;
         line-height: 1
@@ -716,7 +712,7 @@ border-radius: 5px;
 
     .es13_14 .es13_14__desc {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
         line-height: 1.3
     }
@@ -786,7 +782,7 @@ border-radius: 5px;
     }
 
     .es13_bg .es13_input input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 22px;
         width: 270px;
@@ -803,7 +799,7 @@ border-radius: 5px;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 44px;
         line-height: 1;
         margin-bottom: 15px;
@@ -814,7 +810,7 @@ border-radius: 5px;
     font-size: 30px;
     color: #0e0e0e;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 20px
 }
 
@@ -838,7 +834,7 @@ border-radius: 5px;
         font-size: 26px;
         color: #0e0e0e;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         margin-bottom: 15px
     }
 
@@ -865,7 +861,7 @@ border-radius: 5px;
         font-size: 20px;
         color: #0e0e0e;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         margin-bottom: 15px
     }
 
@@ -889,7 +885,7 @@ border-radius: 5px;
 
 .es8_bg .es8__text_1 {
     font-size: 49px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #0d0d0d;
     margin-left: 100px;
     margin-top: 30px;
@@ -899,7 +895,7 @@ border-radius: 5px;
 
 .es8_bg .es8__text_2 {
     font-size: 49px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #0d0d0d;
     margin-left: 340px;
     margin-top: 95px;
@@ -920,7 +916,7 @@ border-radius: 5px;
 .es8_bg .es8_form .es8_form_zag {
     font-size: 34px;
     color: #0d0d0d;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 35px
@@ -936,7 +932,7 @@ border-radius: 5px;
 .es8_bg .es8_form .es8_inp_name input {
     margin: 8px 0px 0px 45px;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     height: 35px;
     width: 290px;
@@ -953,7 +949,7 @@ border-radius: 5px;
 .es8_bg .es8_form .es8_inp_email input {
     margin: 8px 0px 0px 45px;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     height: 35px;
     width: 290px;
@@ -970,7 +966,7 @@ border-radius: 5px;
 .es8_bg .es8_form .es8_inp_tel input {
     margin: 8px 0px 0px 45px;
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     height: 35px;
     width: 290px;
@@ -984,7 +980,7 @@ border-radius: 5px;
 @media only screen and (max-width: 1200px) {
     .es8_bg .es8__text_1 {
         font-size: 46px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         margin-left: 70px;
         margin-top: 30px;
@@ -994,7 +990,7 @@ border-radius: 5px;
 
     .es8_bg .es8__text_2 {
         font-size: 46px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         right: 410px;
         margin-top: 100px;
@@ -1015,7 +1011,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_form_zag {
         font-size: 34px;
         color: #0d0d0d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
         margin-top: 40px;
         margin-bottom: 35px
@@ -1031,7 +1027,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_name input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1048,7 +1044,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_email input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1065,7 +1061,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_tel input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1086,7 +1082,7 @@ border-radius: 5px;
 
     .es8_bg .es8__text_1 {
         font-size: 36px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         margin-left: 0px;
         margin-top: 40px;
@@ -1097,7 +1093,7 @@ border-radius: 5px;
 
     .es8_bg .es8__text_2 {
         font-size: 36px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         margin-left: 00px;
         margin-top: 0px;
@@ -1122,7 +1118,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_form_zag {
         font-size: 34px;
         color: #0d0d0d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
         margin-top: 10px;
         padding-top: 30px;
@@ -1139,7 +1135,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_name input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1156,7 +1152,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_email input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1173,7 +1169,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_tel input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1194,7 +1190,7 @@ border-radius: 5px;
 
     .es8_bg .es8__text_1 {
         font-size: 36px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         margin-left: 0px;
         margin-top: 40px;
@@ -1205,7 +1201,7 @@ border-radius: 5px;
 
     .es8_bg .es8__text_2 {
         font-size: 36px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         margin-left: 00px;
         margin-top: 0px;
@@ -1229,7 +1225,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_form_zag {
         font-size: 34px;
         color: #0d0d0d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
         margin-top: 0px;
         padding-top: 20px;
@@ -1246,7 +1242,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_name input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1263,7 +1259,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_email input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1280,7 +1276,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_tel input {
         margin: 8px 0px 0px 45px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 290px;
@@ -1301,7 +1297,7 @@ border-radius: 5px;
 
     .es8_bg .es8__text_1 {
         font-size: 26px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         margin-left: 0px;
         margin-top: 40px;
@@ -1312,7 +1308,7 @@ border-radius: 5px;
 
     .es8_bg .es8__text_2 {
         font-size: 26px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #0d0d0d;
         margin-left: 00px;
         margin-top: 0px;
@@ -1340,7 +1336,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_form_zag {
         font-size: 28px;
         color: #0d0d0d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         text-align: center;
         margin-top: 0px;
         padding-top: 20px;
@@ -1359,7 +1355,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_name input {
         margin: 8px 0px 0px 10px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 250px;
@@ -1378,7 +1374,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_email input {
         margin: 8px 0px 0px 10px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 250px;
@@ -1397,7 +1393,7 @@ border-radius: 5px;
     .es8_bg .es8_form .es8_inp_tel input {
         margin: 8px 0px 0px 10px;
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 35px;
         width: 250px;
@@ -1442,34 +1438,35 @@ border-radius: 5px;
 .es10__text_cont {
     font-size: 30px;
     color: #000;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .es10__zag_cont {
     font-size: 40px;
     color: #000;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .es10__zag_red {
     color: #ff0000
 }
 .b-sms_bg {
-    height: 316px;
-    background: url(../img/b_sms_bg.jpg) no-repeat center bottom;
-    margin: 0px auto
+    height: 250px;
+    margin: 0px auto;
 }
 
 .b-sms_bg .b-sms__text {
-    font-size: 55px;
-    color: #0d0d0d;
     text-align: left;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
-    padding-top: 80px;
-    line-height: 1;
-    margin-bottom: 10px
+    font-family: "Montserrat", sans-serif;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
 
 .b-sms_bg .b-sms__undertext {
@@ -1477,56 +1474,60 @@ border-radius: 5px;
     color: #0d0d0d;
     text-align: left;
     margin-bottom: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.3;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;/* identical to box height */
+
+    color: #000000;
 }
 
 .b-sms_bg .b-sms_input {
-    width: 349px;
-    height: 55px;
+    width: 264px;
+    height: 42px;
     display: inline-block;
-    margin-right: 14px;
+    margin-right: 30px;
     padding-top: 14px;
-    text-align: left
+    text-align: left;
 }
 
 .b-sms_bg .b-sms_input input {
     width: 200px;
-    margin-left: 62px;
+    margin-left: 40px;
 
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
     border: 0px;
-    background: none
+    background: none;
+    font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #D0D0D0;
 }
 
 .b-sms_bg .b-sms_input_tel {
-    background: url(../img/b_sms_input.png) no-repeat center center;
-    vertical-align: top
+    background: url(../img/b_sms_input.png) no-repeat ;
+    
 }
 
 .b-sms_bg .b-sms_but {
-    width: 160px;
-    vertical-align: top;
-    display: inline-block
+    width: 166px;
+height: 40px;
+    display: inline-block;
 }
 
 .b-sms_bg .b-sms_phone {
-    text-align: center; display: inline-block;
-    width: 530px;
-    vertical-align: top;
+    
+    transform: translateY(-40px);
 }
 .b-sms_bg .b-sms_phone img {
-width: 100%;
+    max-width: 100%;
+    display: block;
 }
 
-.b-sms-form {
-    display: inline-block;
-    vertical-align: top;
-    float: right;
-    margin-right: 5%;
-}
 
 @media only screen and (max-width: 1200px) {
     .b-sms_bg .b-sms_phone {
@@ -1555,7 +1556,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 30px;
         line-height: 1;
         margin-bottom: 10px
@@ -1567,7 +1568,7 @@ width: 100%;
         text-align: center;
         margin-bottom: 30px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .b-sms_bg .row {
@@ -1585,7 +1586,7 @@ width: 100%;
         width: 175px;
         margin-left: 62px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         border: 0px;
         background: none
@@ -1609,7 +1610,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 30px;
         line-height: 1;
         margin-bottom: 10px
@@ -1620,7 +1621,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         margin-bottom: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding: 0 10px
     }
 
@@ -1637,7 +1638,7 @@ width: 100%;
         width: 145px;
         margin-left: 62px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         border: 0px;
         background: none
@@ -1680,7 +1681,7 @@ width: 100%;
 .es14_bg .es14_zag {
     font-size: 49px;
     color: #171616;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     padding: 30px 20px 150px;
     line-height: 1
@@ -1745,7 +1746,7 @@ width: 100%;
 .es14_bg .iosSlider4 .slider .item .es14_name .es14_imya {
     font-size: 30px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.1;
     font-weight: 500
 }
@@ -1754,7 +1755,7 @@ width: 100%;
     text-align: center;
     font-size: 25px;
     color: #323131;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300
 }
 
@@ -1782,7 +1783,7 @@ width: 100%;
 
 .es14_bg .iosSlider4 .slider .item .es14_otz_zag {
     color: #464646;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.1;
     font-weight: 500;
     font-size: 28px;
@@ -1791,7 +1792,7 @@ width: 100%;
 
 .es14_bg .iosSlider4 .slider .item .es14_otz_text {
     color: #7d7d7d;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     font-weight: 300;
     font-size: 26px
@@ -1906,7 +1907,7 @@ width: 100%;
     .es14_bg .es14_zag {
         font-size: 42px;
         color: #171616;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         padding: 30px 20px 30px;
         line-height: 1
@@ -1959,7 +1960,7 @@ width: 100%;
     .es14_bg .iosSlider4 .slider .item .es14_name .es14_imya {
         font-size: 30px;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.1;
         font-weight: 500
     }
@@ -1968,7 +1969,7 @@ width: 100%;
         text-align: center;
         font-size: 25px;
         color: #323131;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300
     }
 
@@ -1996,7 +1997,7 @@ width: 100%;
 
     .es14_bg .iosSlider4 .slider .item .es14_otz_zag {
         color: #464646;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.1;
         font-weight: 500;
         font-size: 22px;
@@ -2005,7 +2006,7 @@ width: 100%;
 
     .es14_bg .iosSlider4 .slider .item .es14_otz_text {
         color: #7d7d7d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.2;
         font-weight: 300;
         font-size: 18px
@@ -2069,7 +2070,7 @@ width: 100%;
     .es14_bg .es14_zag {
         font-size: 42px;
         color: #171616;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         padding: 30px 20px 30px;
         line-height: 1
@@ -2123,7 +2124,7 @@ width: 100%;
     .es14_bg .iosSlider4 .slider .item .es14_name .es14_imya {
         font-size: 24px;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.1;
         font-weight: 500
     }
@@ -2132,7 +2133,7 @@ width: 100%;
         text-align: center;
         font-size: 18px;
         color: #323131;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300
     }
 
@@ -2146,7 +2147,7 @@ width: 100%;
 
     .es14_bg .iosSlider4 .slider .item .es14_otz_zag {
         color: #464646;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.1;
         font-weight: 500;
         font-size: 20px;
@@ -2155,7 +2156,7 @@ width: 100%;
 
     .es14_bg .iosSlider4 .slider .item .es14_otz_text {
         color: #7d7d7d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         line-height: 1.2;
         font-weight: 300;
         font-size: 16px
@@ -2240,7 +2241,7 @@ width: 100%;
     width: 900px;
     text-align: center;
     left: 0 !important;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-top: 50px
 }
@@ -2266,7 +2267,7 @@ width: 100%;
         width: 900px;
         text-align: center;
         left: 0 !important;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         margin-top: 50px
     }
@@ -2333,7 +2334,7 @@ width: 100%;
         position: relative;
         font-size: 18px !important;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         margin-top: 30px;
         padding: 0 20px
@@ -2397,7 +2398,7 @@ width: 100%;
 .es17_bg .es17__bcons {
     font-size: 40px;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     margin-top: 132px;
     margin-left: 180px;
@@ -2411,7 +2412,7 @@ width: 100%;
 .es17_bg .es17__rasp {
     font-size: 27px;
     color: #05d1e7;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin-top: 0px;
     margin-left: 180px;
@@ -2425,7 +2426,7 @@ width: 100%;
 .es17_bg .es17__tel {
     font-size: 50px;
     color: #030303;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-weight: 300;
     margin-top: 32px;
     margin-left: 180px;
@@ -2441,7 +2442,7 @@ width: 100%;
     display: inline-block;
     font-size: 18px;
     color: #1c1c1d;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding: 18px 30px;
     line-height: 1.4
@@ -2456,7 +2457,7 @@ width: 100%;
 
 .es17_bg .es17_input input {
     margin: 11px 0px 0px 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 22px;
     width: 280px;
@@ -2485,7 +2486,7 @@ width: 100%;
     .es17_bg .es17__bcons {
         font-size: 40px;
         color: #fff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         margin-top: 132px;
         margin-left: 80px;
@@ -2499,7 +2500,7 @@ width: 100%;
     .es17_bg .es17__rasp {
         font-size: 27px;
         color: #05d1e7;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         margin-top: 0px;
         margin-left: 80px;
@@ -2513,7 +2514,7 @@ width: 100%;
     .es17_bg .es17__tel {
         font-size: 50px;
         color: #030303;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-weight: 300;
         margin-top: 32px;
         margin-left: 80px;
@@ -2529,7 +2530,7 @@ width: 100%;
         display: inline-block;
         font-size: 18px;
         color: #1c1c1d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         padding: 18px 30px;
         line-height: 1.4
@@ -2544,7 +2545,7 @@ width: 100%;
 
     .es17_bg .es17_input input {
         margin: 11px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 22px;
         width: 280px;
@@ -2574,7 +2575,7 @@ width: 100%;
     .es17_bg .es17__bcons {
         font-size: 40px;
         color: #fff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         margin-top: 132px;
         margin-left: 80px;
@@ -2588,7 +2589,7 @@ width: 100%;
     .es17_bg .es17__rasp {
         font-size: 27px;
         color: #05d1e7;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         margin-top: 0px;
         margin-left: 80px;
@@ -2602,7 +2603,7 @@ width: 100%;
     .es17_bg .es17__tel {
         font-size: 50px;
         color: #030303;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-weight: 300;
         margin-top: 32px;
         margin-left: 80px;
@@ -2618,7 +2619,7 @@ width: 100%;
         display: inline-block;
         font-size: 18px;
         color: #1c1c1d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         padding: 18px 30px;
         line-height: 1.4
@@ -2633,7 +2634,7 @@ width: 100%;
 
     .es17_bg .es17_input input {
         margin: 11px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 22px;
         width: 280px;
@@ -2664,7 +2665,7 @@ width: 100%;
     .es17_bg .es17__bcons {
         font-size: 38px;
         color: #fff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         margin: 100px auto 0 auto;
         background: #4f504f;
@@ -2679,7 +2680,7 @@ width: 100%;
     .es17_bg .es17__rasp {
         font-size: 22px;
         color: #05d1e7;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         margin: 0 auto;
         background: #4f504f;
@@ -2694,7 +2695,7 @@ width: 100%;
     .es17_bg .es17__tel {
         font-size: 40px;
         color: #030303;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-weight: 300;
         margin-top: 32px;
         margin-left: 0px;
@@ -2711,7 +2712,7 @@ width: 100%;
         display: block;
         font-size: 18px;
         color: #1c1c1d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         padding: 18px 30px;
         line-height: 1.4
@@ -2726,7 +2727,7 @@ width: 100%;
 
     .es17_bg .es17_input input {
         margin: 11px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 22px;
         width: 280px;
@@ -2757,7 +2758,7 @@ width: 100%;
     .es17_bg .es17__bcons {
         font-size: 32px;
         color: #fff;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         margin: 100px auto 0 auto;
         background: #4f504f;
@@ -2772,7 +2773,7 @@ width: 100%;
     .es17_bg .es17__rasp {
         font-size: 22px;
         color: #05d1e7;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         margin: 0 auto;
         background: #4f504f;
@@ -2787,7 +2788,7 @@ width: 100%;
     .es17_bg .es17__tel {
         font-size: 34px;
         color: #030303;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-weight: 300;
         margin-top: 32px;
         margin-left: 0px;
@@ -2805,7 +2806,7 @@ width: 100%;
         display: block;
         font-size: 16px;
         color: #1c1c1d;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         padding: 18px 15px;
         line-height: 1.4;
@@ -2822,7 +2823,7 @@ width: 100%;
 
     .es17_bg .es17_input input {
         margin: 11px 0px 0px 50px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 22px;
         width: 200px;
@@ -2987,7 +2988,7 @@ width: 100%;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     padding-top: 64px;
     line-height: 1;
     margin-bottom: 30px;
@@ -3032,13 +3033,13 @@ width: 100%;
     display: inline-block;
     color: #040404;
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .es6_bg .iosSlider2 .slider .item div.es6_cost {
     font-size: 35px;
     color: #fff;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     line-height: 50px;
     height: 50px;
     text-align: center
@@ -3106,7 +3107,7 @@ width: 100%;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 64px;
         line-height: 1;
         margin-bottom: 30px;
@@ -3158,7 +3159,7 @@ width: 100%;
     .es6_bg .iosSlider2 .slider .item div.es6_cost {
         font-size: 33px;
         color: #fff;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 50px;
         height: 50px;
         text-align: center
@@ -3224,7 +3225,7 @@ width: 100%;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 64px;
         line-height: 1;
         margin-bottom: 40px;
@@ -3272,7 +3273,7 @@ width: 100%;
     .es6_bg .iosSlider2 .slider .item div.es6_cost {
         font-size: 23px;
         color: #fff;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 40px;
         height: 40px;
         text-align: center
@@ -3339,7 +3340,7 @@ width: 100%;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 64px;
         line-height: 1;
         margin-bottom: 30px;
@@ -3443,7 +3444,7 @@ width: 100%;
         color: #fff;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 64px;
         line-height: 1;
         margin-bottom: 40px;
@@ -3548,7 +3549,7 @@ width: 100%;
     color: #0d0d0d;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     padding-top: 45px;
     line-height: 1;
     margin-bottom: 40px
@@ -3635,7 +3636,7 @@ width: 100%;
 
 .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_ravno {
     font-size: 44px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     width: 35px;
     display: inline-block
 }
@@ -3643,7 +3644,7 @@ width: 100%;
 .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_old_cost {
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 175px;
     display: inline-block;
     text-decoration: line-through;
@@ -3657,7 +3658,7 @@ width: 100%;
 .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_new_cost {
     font-size: 44px;
     font-weight: bold;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     display: inline-block
 }
 
@@ -3679,7 +3680,7 @@ width: 100%;
     font-size: 20px;
     color: #000;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     box-shadow: -1px 3px 10px -3px #666;
     margin-bottom: 30px
 }
@@ -3848,7 +3849,7 @@ width: 100%;
 .calc_potolok_calc .calc_potolok_calc_left .calc_potolok_calc_photo_small_nebo .calc_potolok_calc_photo_small_nebo_zag {
     text-transform: uppercase;
     font-size: 20px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     display: block
 }
 
@@ -3964,7 +3965,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 45px;
         line-height: 1;
         margin-bottom: 40px
@@ -4051,7 +4052,7 @@ width: 100%;
 
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_ravno {
         font-size: 44px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         width: 35px;
         display: inline-block
     }
@@ -4059,7 +4060,7 @@ width: 100%;
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_old_cost {
         font-size: 36px;
         font-weight: bold;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         width: 175px;
         display: inline-block;
         text-decoration: line-through;
@@ -4073,7 +4074,7 @@ width: 100%;
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_new_cost {
         font-size: 44px;
         font-weight: bold;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: inline-block
     }
 
@@ -4097,7 +4098,7 @@ width: 100%;
         font-size: 20px;
         color: #000;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         box-shadow: -1px 3px 10px -3px #666;
         margin-bottom: 30px
     }
@@ -4270,7 +4271,7 @@ width: 100%;
     .calc_potolok_calc .calc_potolok_calc_left .calc_potolok_calc_photo_small_nebo .calc_potolok_calc_photo_small_nebo_zag {
         text-transform: uppercase;
         font-size: 20px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: block
     }
 
@@ -4388,7 +4389,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 45px;
         line-height: 1;
         margin-bottom: 40px
@@ -4475,7 +4476,7 @@ width: 100%;
 
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_ravno {
         font-size: 44px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         width: 35px;
         display: inline-block
     }
@@ -4483,7 +4484,7 @@ width: 100%;
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_old_cost {
         font-size: 36px;
         font-weight: bold;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         width: 175px;
         display: inline-block;
         text-decoration: line-through;
@@ -4497,7 +4498,7 @@ width: 100%;
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_new_cost {
         font-size: 44px;
         font-weight: bold;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: inline-block
     }
 
@@ -4521,7 +4522,7 @@ width: 100%;
         font-size: 20px;
         color: #000;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         box-shadow: -1px 3px 10px -3px #666;
         margin-bottom: 30px
     }
@@ -4608,7 +4609,7 @@ width: 100%;
     .calc_potolok_calc .calc_potolok_calc_left .calc_potolok_calc_photo_small_nebo .calc_potolok_calc_photo_small_nebo_zag {
         text-transform: uppercase;
         font-size: 20px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: block
     }
 
@@ -4725,7 +4726,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 45px;
         line-height: 1;
         margin-bottom: 40px
@@ -4780,7 +4781,7 @@ width: 100%;
 
         text-align: center;
         font-size: 44px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
 
     }
 
@@ -4810,7 +4811,7 @@ width: 100%;
 
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_ravno {
         font-size: 44px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         width: 35px;
         display: none
     }
@@ -4818,7 +4819,7 @@ width: 100%;
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_old_cost {
         font-size: 36px;
         font-weight: bold;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         width: 175px;
         display: inline-block;
         text-decoration: line-through;
@@ -4832,7 +4833,7 @@ width: 100%;
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_new_cost {
         font-size: 44px;
         font-weight: bold;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: inline-block
     }
 
@@ -4856,7 +4857,7 @@ width: 100%;
         font-size: 20px;
         color: #000;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         box-shadow: -1px 3px 10px -3px #666;
         margin-bottom: 30px
     }
@@ -4943,7 +4944,7 @@ width: 100%;
     .calc_potolok_calc .calc_potolok_calc_left .calc_potolok_calc_photo_small_nebo .calc_potolok_calc_photo_small_nebo_zag {
         text-transform: uppercase;
         font-size: 20px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: block
     }
 
@@ -5030,7 +5031,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         padding-top: 45px;
         line-height: 1;
         margin-bottom: 40px
@@ -5086,7 +5087,7 @@ width: 100%;
         margin-top: -20px;
         text-align: center;
         font-size: 44px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         margin-bottom: 10px;
     }
 
@@ -5116,7 +5117,7 @@ width: 100%;
 
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_ravno {
         font-size: 44px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         width: 35px;
         display: none
     }
@@ -5132,7 +5133,7 @@ width: 100%;
     .calc_potolok_bg .calc_potolok_rasch_bg .calc_potolok_rasch_row .calc_potolok_rasch_new_cost {
         font-size: 44px;
         font-weight: bold;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: inline-block
     }
 
@@ -5156,7 +5157,7 @@ width: 100%;
         font-size: 20px;
         color: #000;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         box-shadow: -1px 3px 10px -3px #666;
         margin-bottom: 30px
     }
@@ -5243,7 +5244,7 @@ width: 100%;
     .calc_potolok_calc .calc_potolok_calc_left .calc_potolok_calc_photo_small_nebo .calc_potolok_calc_photo_small_nebo_zag {
         text-transform: uppercase;
         font-size: 20px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         display: block
     }
 
@@ -5330,7 +5331,7 @@ width: 100%;
     font-size: 40px;
     color: #0d0d0d;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 0px 20px 0 20px
 }
 
@@ -5362,7 +5363,7 @@ width: 100%;
     margin: 0 auto;
     font-size: 24px;
     color: #fff;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     background: #01d2e9;
     padding: 5px
@@ -5386,7 +5387,7 @@ width: 100%;
     margin: 0 auto;
     font-size: 24px;
     color: #fff;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     background: #01d2e9;
     padding: 5px
@@ -5410,7 +5411,7 @@ width: 100%;
     margin: 0 auto;
     font-size: 24px;
     color: #fff;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     background: #01d2e9;
     padding: 5px
@@ -5442,7 +5443,7 @@ width: 100%;
 
 .es5 .container .es3_bage .es3_vashek {
     font-size: 15px;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .es5 .container .es3_bage .es3_econom {
@@ -5475,7 +5476,7 @@ width: 100%;
         font-size: 26px;
         color: #0d0d0d;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding: 20px 20px 0 20px;
         line-height: 1
     }
@@ -5509,7 +5510,7 @@ width: 100%;
         margin: 0 auto;
         font-size: 24px;
         color: #fff;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         background: #01d2e9;
         padding: 5px
@@ -5534,7 +5535,7 @@ width: 100%;
         margin: 0 auto;
         font-size: 24px;
         color: #fff;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         background: #01d2e9;
         padding: 5px
@@ -5559,7 +5560,7 @@ width: 100%;
         margin: 0 auto;
         font-size: 24px;
         color: #fff;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         background: #01d2e9;
         padding: 5px
@@ -5591,7 +5592,7 @@ width: 100%;
 
     .es5 .container .es3_bage .es3_vashek {
         font-size: 15px;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es5 .container .es3_bage .es3_econom {
@@ -5626,7 +5627,7 @@ width: 100%;
     color: #0d0d0d;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     line-height: 1;
     margin-bottom: 15px
 }
@@ -5636,7 +5637,7 @@ width: 100%;
     color: #0d0d0d;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     line-height: 1.2;
     margin-bottom: 15px
 }
@@ -5646,7 +5647,7 @@ width: 100%;
     color: #0d0d0d;
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .b-aktsii .b-aktsii__center {
@@ -5689,7 +5690,7 @@ width: 100%;
 
 .b-aktsii .b-aktsii__icotext .b-aktsii__icotext__zag {
     font-size: 55px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     line-height: 1.1;
     margin-bottom: 25px
@@ -5701,7 +5702,7 @@ width: 100%;
 
 .b-aktsii .b-aktsii__icotext .b-aktsii__icotext__text {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.3
 }
@@ -5716,7 +5717,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1;
         margin-bottom: 15px
     }
@@ -5726,7 +5727,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1.2;
         margin-bottom: 15px
     }
@@ -5779,7 +5780,7 @@ width: 100%;
 
     .b-aktsii .b-aktsii__icotext .b-aktsii__icotext__zag {
         font-size: 55px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-transform: uppercase;
         line-height: 1.1;
         margin-bottom: 25px
@@ -5791,7 +5792,7 @@ width: 100%;
 
     .b-aktsii .b-aktsii__icotext .b-aktsii__icotext__text {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         line-height: 1.3
     }
@@ -5807,7 +5808,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1;
         margin-bottom: 15px
     }
@@ -5817,7 +5818,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1.2;
         margin-bottom: 15px
     }
@@ -5876,7 +5877,7 @@ width: 100%;
 
     .b-aktsii .b-aktsii__icotext .b-aktsii__icotext__zag {
         font-size: 45px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-transform: uppercase;
         line-height: 1.1;
         margin-bottom: 25px;
@@ -5889,7 +5890,7 @@ width: 100%;
 
     .b-aktsii .b-aktsii__icotext .b-aktsii__icotext__text {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         line-height: 1.3
     }
@@ -5904,7 +5905,7 @@ width: 100%;
     color: #0d0d0d;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     line-height: 1;
     margin-bottom: 15px
 }
@@ -5939,7 +5940,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1;
         margin-bottom: 15px
     }
@@ -5977,7 +5978,7 @@ width: 100%;
 
 .b-calc__zag {
     text-align: center;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 49px;
     text-transform: uppercase;
     line-height: 1.2;
@@ -5999,7 +6000,7 @@ width: 100%;
     list-style: none;
     display: inline;
     line-height: 52px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     color: #01d2e9;
@@ -6130,7 +6131,7 @@ width: 100%;
 
 .b-calc__right .underdostavka {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     padding-left: 10px;
     color: #0d0d0d;
@@ -6154,13 +6155,13 @@ width: 100%;
     width: 380px;
     height: 193px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: url(../img/calc/basechek.png) no-repeat center center;
     padding-top: 17px
 }
 
 .b-calc__right .basechek .basechek__zag {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 8px;
     margin-left: 30px
 }
@@ -6187,7 +6188,7 @@ width: 100%;
 .b-calc__right .basetsena .costonsale {
     padding-top: 16px;
     font-size: 29px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -6201,7 +6202,7 @@ width: 100%;
     color: #f72727;
     font-size: 98px;
     text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.1em rgba(0, 0, 0, 0.8);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-style: italic;
     line-height: 1
@@ -6215,7 +6216,7 @@ width: 100%;
 
 .b-calc__right .basetsena .only15days {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold
 }
 
@@ -6466,7 +6467,7 @@ width: 100%;
 }
 
 .b-calc__left .block_econom .block_econom_text span {
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
 
 }
@@ -6478,7 +6479,7 @@ width: 100%;
     background: url(../img/b_market_filtr_bg.png);
     border-radius: 5px;
     font-size: 30px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     color: #fff
 }
 
@@ -6511,7 +6512,7 @@ width: 100%;
 
     .b-calc__zag {
         text-align: center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 49px;
         text-transform: uppercase;
         line-height: 1.2;
@@ -6533,7 +6534,7 @@ width: 100%;
         list-style: none;
         display: inline;
         line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 30px;
         text-transform: uppercase;
         color: #01d2e9;
@@ -6635,13 +6636,13 @@ width: 100%;
         width: 380px;
         height: 193px;
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         background: url(../img/calc/basechek.png) no-repeat center center;
         padding-top: 17px
     }
 
     .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 8px;
         margin-left: 30px
     }
@@ -6676,7 +6677,7 @@ width: 100%;
         color: #f72727;
         font-size: 98px;
         text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.1em rgba(0, 0, 0, 0.8);
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-style: italic;
         line-height: 1
@@ -6689,7 +6690,7 @@ width: 100%;
 
     .b-calc__right .basetsena .only15days {
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold
     }
 
@@ -6929,7 +6930,7 @@ width: 100%;
     { margin-bottom: 5px}
     .b-calc__zag {
         text-align: center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 49px;
         text-transform: uppercase;
         line-height: 1.2;
@@ -6953,7 +6954,7 @@ width: 100%;
         list-style: none;
         display: inline;
         line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 30px;
         text-transform: uppercase;
         color: #01d2e9;
@@ -7058,13 +7059,13 @@ width: 100%;
         width: 380px;
         height: 193px;
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         background: url(../img/calc/basechek.png) no-repeat center center;
         padding-top: 17px
     }
 
     .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 8px;
         margin-left: 30px
     }
@@ -7099,7 +7100,7 @@ width: 100%;
         color: #f72727;
         font-size: 98px;
         text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.1em rgba(0, 0, 0, 0.8);
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-style: italic;
         line-height: 1
@@ -7112,7 +7113,7 @@ width: 100%;
 
     .b-calc__right .basetsena .only15days {
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold
     }
 
@@ -7329,7 +7330,7 @@ width: 100%;
 
     .b-calc__zag {
         text-align: center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 40px;
         text-transform: uppercase;
         line-height: 1.2;
@@ -7353,7 +7354,7 @@ width: 100%;
         list-style: none;
         display: inline;
         line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 30px;
         text-transform: uppercase;
         color: #01d2e9;
@@ -7453,13 +7454,13 @@ width: 100%;
         width: 380px;
         height: 193px;
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         background: url(../img/calc/basechek.png) no-repeat center center;
         padding-top: 17px
     }
 
     .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 8px;
         margin-left: 30px
     }
@@ -7494,7 +7495,7 @@ width: 100%;
         color: #f72727;
         font-size: 98px;
         text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.1em rgba(0, 0, 0, 0.8);
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-style: italic;
         line-height: 1
@@ -7507,7 +7508,7 @@ width: 100%;
 
     .b-calc__right .basetsena .only15days {
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold
     }
 
@@ -7725,7 +7726,7 @@ width: 100%;
 
     .b-calc__zag {
         text-align: center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 36px;
         text-transform: uppercase;
         line-height: 1.2;
@@ -7749,7 +7750,7 @@ width: 100%;
         list-style: none;
         display: inline;
         line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 20px;
         text-transform: uppercase;
         color: #01d2e9;
@@ -7874,7 +7875,7 @@ width: 100%;
         margin: 0 auto;
         height: auto;
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         background: none;
         padding-top: 17px;
         padding-bottom: 10px;
@@ -7883,7 +7884,7 @@ width: 100%;
     }
 
     .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 8px;
         margin-left: 30px
     }
@@ -7901,7 +7902,7 @@ width: 100%;
 
     .b-calc__right .basetsena .costonsale {
         font-size: 18px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         text-transform: uppercase
     }
@@ -7915,7 +7916,7 @@ width: 100%;
         color: #f72727;
         font-size: 60px;
         text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.02em 0.03em 0.1em rgba(0, 0, 0, 0.8);
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-style: italic;
         line-height: 1
@@ -7929,7 +7930,7 @@ width: 100%;
 
     .b-calc__right .basetsena .only15days {
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold
     }
 
@@ -8151,7 +8152,7 @@ width: 100%;
     background: url(../img/es19_bg.png) center center no-repeat;
     margin-top: -2px;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: -20px;
 
 }
@@ -8185,7 +8186,7 @@ width: 100%;
 
 .es19_bg .es19__copyr {
     color: #1b1c1c;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 92px;
     display:inline-block;
@@ -8221,7 +8222,7 @@ width: 100%;
 
 .es19_bg .es19_soc .btn-link-text {
     color: #1b1c1c;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     cursor: text
 }
@@ -8260,7 +8261,7 @@ width: 100%;
 
     .es19_bg .es19__copyr {
         color: #1b1c1c;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         line-height: 92px;
 
@@ -8283,7 +8284,7 @@ width: 100%;
 
     .es19_bg .es19_soc .btn-link-text {
         color: #1b1c1c;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         cursor: text
     }
@@ -8305,7 +8306,7 @@ width: 100%;
         line-height: 92px;
         width: 120px;
         color: #1b1c1c;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         float: left
     }
@@ -8333,7 +8334,7 @@ width: 100%;
 
     .es19_bg .es19__copyr {
         color: #1b1c1c;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         line-height: 40px;
         margin-top: 15px;
@@ -8363,7 +8364,7 @@ width: 100%;
 
     .es19_bg .es19_soc .btn-link-text {
         color: #1b1c1c;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         cursor: text
     }
@@ -8397,7 +8398,7 @@ width: 100%;
     font-size: 49px;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     line-height: 1
 }
 
@@ -8501,7 +8502,7 @@ width: 100%;
     top: 0;
     left: 0;
     font-size: 28px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-style: italic;
     text-align: center;
@@ -8521,7 +8522,7 @@ width: 100%;
     width: 68px;
     text-align: center;
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: normal
 }
 
@@ -8565,7 +8566,7 @@ width: 100%;
     font-size: 49px;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     line-height: 1
 }
 
@@ -8595,7 +8596,7 @@ width: 100%;
 }
 
 #gift .modal_input_ema input {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 300;
     font-style: italic;
@@ -8655,7 +8656,7 @@ width: 100%;
 }
 
 .modal_input_name input {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 300;
     font-style: italic;
@@ -8674,7 +8675,7 @@ width: 100%;
 }
 
 .modal_input_tel input {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     font-weight: 300;
     font-style: italic;
@@ -8716,7 +8717,7 @@ width: 100%;
     }
 
     .modal_input_name input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 300;
         font-style: italic;
@@ -8735,7 +8736,7 @@ width: 100%;
     }
 
     .modal_input_tel input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 300;
         font-style: italic;
@@ -8824,7 +8825,7 @@ width: 100%;
     }
 
     #happy .modal_input_name input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 300;
         font-style: italic;
@@ -8844,7 +8845,7 @@ width: 100%;
     }
 
     #happy .modal_input_tel input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 300;
         font-style: italic;
@@ -8903,7 +8904,7 @@ width: 100%;
         font-size: 29px;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1
     }
 
@@ -8940,7 +8941,7 @@ width: 100%;
     }
 
     #gift .modal_input_ema input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         font-weight: 300;
         font-style: italic;
@@ -8974,7 +8975,7 @@ width: 100%;
         top: 0;
         left: 0;
         font-size: 28px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: normal;
         font-style: italic;
         text-align: center;
@@ -8994,7 +8995,7 @@ width: 100%;
         width: 68px;
         text-align: center;
         font-size: 10px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: normal
     }
 
@@ -9009,7 +9010,7 @@ width: 100%;
         font-size: 32px;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1
     }
 
@@ -9028,7 +9029,7 @@ width: 100%;
     }
 
     .modal_input_name input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 300;
         font-style: italic;
@@ -9048,7 +9049,7 @@ width: 100%;
     }
 
     .modal_input_tel input {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         font-weight: 300;
         font-style: italic;
@@ -9126,7 +9127,7 @@ width: 100%;
 
 #want_zamer .modal-dialog .yesterdaytodaytomorrow .t1 {
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     padding-left: 0px
 }
@@ -9160,7 +9161,7 @@ width: 100%;
     width: 550px;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     color: #010101;
     text-transform: uppercase;
@@ -9173,7 +9174,7 @@ width: 100%;
 
 #want_zamer .modal-dialog .yesterdaytodaytomorrow .t2 .t2_1 span,#want_zamer .modal-dialog .yesterdaytodaytomorrow .t2 .t2_3 span {
     color: #01d2e9;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     border-bottom: 3px solid #01d2e9;
     padding: 18px 10px 0px 10px;
@@ -9188,7 +9189,7 @@ width: 100%;
 #want_zamer .modal-dialog .yesterdaytodaytomorrow .t2 .t2_2 span {
     color: #fff;
     background: #fe0000;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 80px;
     padding: 0px 25px;
     margin-bottom: 7px;
@@ -9219,7 +9220,7 @@ width: 100%;
 #want_zamer .modal-dialog .butzamer .butzamer_inp input {
     margin: 8px 0px 0px 47px;
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     height: 32px;
     width: 220px;
@@ -9251,7 +9252,7 @@ width: 100%;
 
     #want_zamer .modal-dialog .yesterdaytodaytomorrow .t1 {
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 10px;
         padding-left: 0px
     }
@@ -9285,7 +9286,7 @@ width: 100%;
         width: 90%;
         margin: 0 auto;
         text-align: center;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         color: #010101;
         text-transform: uppercase;
@@ -9298,7 +9299,7 @@ width: 100%;
 
     #want_zamer .modal-dialog .yesterdaytodaytomorrow .t2 .t2_1 span,#want_zamer .modal-dialog .yesterdaytodaytomorrow .t2 .t2_3 span {
         color: #01d2e9;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 60px;
         border-bottom: 3px solid #01d2e9;
         padding: 18px 10px 0px 10px;
@@ -9313,7 +9314,7 @@ width: 100%;
     #want_zamer .modal-dialog .yesterdaytodaytomorrow .t2 .t2_2 span {
         color: #fff;
         background: #fe0000;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 80px;
         padding: 0px 25px;
         margin-bottom: 7px;
@@ -9346,7 +9347,7 @@ width: 100%;
     #want_zamer .modal-dialog .butzamer .butzamer_inp input {
         margin: 8px 0px 0px 47px;
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         height: 32px;
         width: 220px;
@@ -9374,7 +9375,7 @@ width: 100%;
 }
 
 .windows_free .windows_free_text .windows_free_zag {
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 93px;
     line-height: 1;
     text-transform: uppercase;
@@ -9382,7 +9383,7 @@ width: 100%;
 }
 
 .windows_free .windows_free_text .windows_free_t {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     line-height: 1.3;
     margin-bottom: 40px
@@ -9412,7 +9413,7 @@ width: 100%;
     }
 
     .windows_free .windows_free_text .windows_free_zag {
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 70px;
         line-height: 1;
         text-transform: uppercase;
@@ -9420,7 +9421,7 @@ width: 100%;
     }
 
     .windows_free .windows_free_text .windows_free_t {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 30px;
         line-height: 1.3;
         margin-bottom: 40px
@@ -9451,7 +9452,7 @@ width: 100%;
     }
 
     .windows_free .windows_free_text .windows_free_zag {
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 45px;
         line-height: 1;
         text-transform: uppercase;
@@ -9459,7 +9460,7 @@ width: 100%;
     }
 
     .windows_free .windows_free_text .windows_free_t {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 30px;
         line-height: 1.3;
         margin-bottom: 40px
@@ -9510,7 +9511,7 @@ width: 100%;
     color: #0d0d0d;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     padding-top: 80px;
     line-height: 1;
     margin-bottom: 10px
@@ -9543,7 +9544,7 @@ width: 100%;
     margin-left: 62px;
     height: 30px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     border: 0px;
     background: none
@@ -9611,7 +9612,7 @@ width: 100%;
     text-align: center;
     font-weight: 300;
     color: #070707;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin: 20px auto;
     width: 82%;
@@ -9632,7 +9633,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1;
         margin-bottom: 10px;
         padding-top: 40px;
@@ -9664,7 +9665,7 @@ width: 100%;
         margin-left: 62px;
         height: 30px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         border: 0px;
         background: none
@@ -9698,7 +9699,7 @@ width: 100%;
         text-align: center;
         font-weight: 300;
         color: #070707;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
     }
 }
@@ -9713,7 +9714,7 @@ width: 100%;
         color: #0d0d0d;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         line-height: 1;
         margin-bottom: 10px
     }
@@ -9742,7 +9743,7 @@ width: 100%;
         margin-left: 62px;
         height: 30px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
         border: 0px;
         background: none
@@ -9775,7 +9776,7 @@ width: 100%;
         text-align: center;
         font-weight: 300;
         color: #070707;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
         width: 95%;
     }
@@ -9810,7 +9811,7 @@ width: 100%;
 
 
 .b-contact .b-contact_underzag {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     text-align: center;
     margin-bottom: 30px
@@ -9830,19 +9831,19 @@ width: 100%;
 
 .b-contact .b-contact__block_zag {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #030303
 }
 
 .b-contact .b-contact__block_zag2 {
     font-size: 30px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase
 }
 
 .b-contact .b-contact__block_underzag {
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #666666
 }
 
@@ -9858,7 +9859,7 @@ width: 100%;
 
 .b-contact .b-contact__block_underzag2 {
     font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #000000;
     line-height: 1.2
 }
@@ -9925,7 +9926,7 @@ width: 100%;
     border: 0px;
     background: none;
     color: #666;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 26px
 }
@@ -9951,7 +9952,7 @@ width: 100%;
     text-align: center;
     color: #ff0000;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px
 }
 
@@ -9959,14 +9960,14 @@ width: 100%;
     text-align: center;
     color: #000;
     font-size: 25px;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .b_contact_zhdu_bg .b_contact_zhdu_t3 {
     text-align: center;
     color: #000;
     font-size: 25px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     margin-bottom: 30px
 }
@@ -9991,7 +9992,7 @@ width: 100%;
     background: none;
     border: 0px;
     color: #666;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 24px
 }
@@ -10006,7 +10007,7 @@ width: 100%;
     text-align: center;
     color: #ff0000;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px
 }
 
@@ -10018,7 +10019,7 @@ width: 100%;
 
 .b_contact_ceo_bg .b_contact_ceo_bg_zag {
     text-align: center;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 50px;
     text-transform: uppercase;
     padding-top: 30px
@@ -10040,7 +10041,7 @@ width: 100%;
     width: 400px;
     height: 45px;
     padding-left: 48px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 22px;
@@ -10060,7 +10061,7 @@ width: 100%;
     width: 400px;
     height: 45px;
     padding-left: 48px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 22px;
@@ -10080,7 +10081,7 @@ width: 100%;
     width: 775px;
     height: 115px;
     padding-left: 15px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 22px;
@@ -10106,7 +10107,7 @@ width: 100%;
     }
 
     .b-contact .b-contact_underzag {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         text-align: center;
         margin-bottom: 30px
@@ -10127,18 +10128,18 @@ width: 100%;
     .b-contact .b-contact__block_zag {
         font-size: 26px;
         line-height: 1.2;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .b-contact .b-contact__block_zag2 {
         font-size: 26px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-transform: uppercase
     }
 
     .b-contact .b-contact__block_underzag {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #666666
     }
 
@@ -10154,7 +10155,7 @@ width: 100%;
 
     .b-contact .b-contact__block_underzag2 {
         font-size: 22px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #000000;
         line-height: 1.2
     }
@@ -10195,14 +10196,14 @@ width: 100%;
     .es10__text_cont {
         font-size: 30px;
         color: #000;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es10__zag_cont {
         font-size: 40px;
         color: #000;
         font-weight: bold;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es10__zag_red {
@@ -10236,7 +10237,7 @@ width: 100%;
         border: 0px;
         background: none;
         color: #666;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 26px
     }
@@ -10263,7 +10264,7 @@ width: 100%;
         text-align: center;
         color: #ff0000;
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 30px
     }
 
@@ -10271,14 +10272,14 @@ width: 100%;
         text-align: center;
         color: #000;
         font-size: 25px;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .b_contact_zhdu_bg .b_contact_zhdu_t3 {
         text-align: center;
         color: #000;
         font-size: 25px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         margin-bottom: 30px
     }
@@ -10303,7 +10304,7 @@ width: 100%;
         background: none;
         border: 0px;
         color: #666;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 24px
     }
@@ -10317,7 +10318,7 @@ width: 100%;
 
     .b_contact_ceo_bg .b_contact_ceo_bg_zag {
         text-align: center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 50px;
         text-transform: uppercase;
         padding-top: 30px
@@ -10339,7 +10340,7 @@ width: 100%;
         width: 400px;
         height: 45px;
         padding-left: 48px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-style: italic;
         font-size: 22px;
@@ -10359,7 +10360,7 @@ width: 100%;
         width: 400px;
         height: 45px;
         padding-left: 48px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-style: italic;
         font-size: 22px;
@@ -10379,7 +10380,7 @@ width: 100%;
         width: 400px;
         height: 115px;
         padding-left: 15px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-style: italic;
         font-size: 22px;
@@ -10406,7 +10407,7 @@ width: 100%;
     }
 
     .b-contact .b-contact_underzag {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 24px;
         text-align: center;
         margin-bottom: 30px
@@ -10427,18 +10428,18 @@ width: 100%;
     .b-contact .b-contact__block_zag {
         font-size: 26px;
         line-height: 1.2;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .b-contact .b-contact__block_zag2 {
         font-size: 26px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-transform: uppercase
     }
 
     .b-contact .b-contact__block_underzag {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #666666
     }
 
@@ -10454,7 +10455,7 @@ width: 100%;
 
     .b-contact .b-contact__block_underzag2 {
         font-size: 16px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #000000;
         line-height: 1.2
     }
@@ -10495,14 +10496,14 @@ width: 100%;
     .es10__text_cont {
         font-size: 30px;
         color: #000;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es10__zag_cont {
         font-size: 40px;
         color: #000;
         font-weight: bold;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es10__zag_red {
@@ -10535,7 +10536,7 @@ width: 100%;
         border: 0px;
         background: none;
         color: #666;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 2.6em
     }
@@ -10562,7 +10563,7 @@ width: 100%;
         text-align: center;
         color: #ff0000;
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 30px
     }
 
@@ -10570,14 +10571,14 @@ width: 100%;
         text-align: center;
         color: #000;
         font-size: 25px;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .b_contact_zhdu_bg .b_contact_zhdu_t3 {
         text-align: center;
         color: #000;
         font-size: 25px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         margin-bottom: 30px
     }
@@ -10602,7 +10603,7 @@ width: 100%;
         background: none;
         border: 0px;
         color: #666;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 24px
     }
@@ -10616,7 +10617,7 @@ width: 100%;
 
     .b_contact_ceo_bg .b_contact_ceo_bg_zag {
         text-align: center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 30px;
         text-transform: uppercase;
         padding-top: 30px
@@ -10638,7 +10639,7 @@ width: 100%;
         width: 248px;
         height: 45px;
         padding-left: 48px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-style: italic;
         font-size: 22px;
@@ -10658,7 +10659,7 @@ width: 100%;
         width: 248px;
         height: 45px;
         padding-left: 48px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-style: italic;
         font-size: 22px;
@@ -10678,7 +10679,7 @@ width: 100%;
         width: 248px;
         height: 115px;
         padding-left: 15px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-style: italic;
         font-size: 22px;
@@ -10813,7 +10814,7 @@ width: 100%;
 
 .es1_otzivy_zag {
     text-align: center;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     font-size: 49px;
     text-transform: uppercase;
     line-height: 1.2;
@@ -10859,7 +10860,7 @@ width: 100%;
 
 .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     line-height: 1.2
 }
@@ -10875,7 +10876,7 @@ width: 100%;
 .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
     font-size: 18px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     text-align: justify
 }
@@ -10886,7 +10887,7 @@ width: 100%;
     font-size: 18px;
     color: #333;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-left: 30px
 }
 
@@ -10900,7 +10901,7 @@ width: 100%;
     font-size: 18px;
     color: #333;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: -5px
 }
 
@@ -10943,7 +10944,7 @@ width: 100%;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 50px;
     margin-top: 10px;
     border: 0px;
@@ -10963,7 +10964,7 @@ width: 100%;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 50px;
     margin-top: 10px;
     border: 0px;
@@ -10983,7 +10984,7 @@ width: 100%;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 20px;
     margin-top: 20px;
     border: 0px;
@@ -10997,7 +10998,7 @@ width: 100%;
     font-size: 18px;
     color: #333;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star span {
@@ -11013,7 +11014,7 @@ width: 100%;
     font-size: 18px;
     color: #333;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: -5px
 }
 
@@ -11041,7 +11042,7 @@ width: 100%;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 8px;
     margin-top: 6px;
     border: 0px;
@@ -11051,7 +11052,7 @@ width: 100%;
 @media only screen and (max-width: 1200px) {
     .es1_otzivy_zag {
         text-align:center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 49px;
         text-transform: uppercase;
         line-height: 1.2;
@@ -11097,7 +11098,7 @@ width: 100%;
 
     .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 10px;
         line-height: 1.2
     }
@@ -11113,7 +11114,7 @@ width: 100%;
     .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
         font-size: 18px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #333;
         text-align: justify
     }
@@ -11124,7 +11125,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding-left: 30px
     }
 
@@ -11138,7 +11139,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 5px;
         padding-left: 30px
     }
@@ -11186,7 +11187,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 50px;
         margin-top: 10px;
         border: 0px;
@@ -11207,7 +11208,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 50px;
         margin-top: 10px;
         border: 0px;
@@ -11229,7 +11230,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 20px;
         margin-top: 20px;
         border: 0px;
@@ -11243,7 +11244,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star span {
@@ -11259,7 +11260,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: -5px
     }
 
@@ -11287,7 +11288,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 8px;
         margin-top: 6px;
         border: 0px;
@@ -11298,7 +11299,7 @@ width: 100%;
 @media only screen and (max-width: 992px) {
     .es1_otzivy_zag {
         text-align:center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 49px;
         text-transform: uppercase;
         line-height: 1.2;
@@ -11341,7 +11342,7 @@ width: 100%;
 
     .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
         font-size: 30px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 10px;
         line-height: 1.2
     }
@@ -11357,7 +11358,7 @@ width: 100%;
     .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
         font-size: 18px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #333;
         text-align: justify
     }
@@ -11368,7 +11369,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding-left: 30px
     }
 
@@ -11382,7 +11383,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 5px;
         padding-left: 30px
     }
@@ -11430,7 +11431,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 50px;
         margin-top: 10px;
         border: 0px;
@@ -11451,7 +11452,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 50px;
         margin-top: 10px;
         border: 0px;
@@ -11473,7 +11474,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 20px;
         margin-top: 20px;
         border: 0px;
@@ -11488,7 +11489,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star span {
@@ -11505,7 +11506,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 15px
     }
 
@@ -11534,7 +11535,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 8px;
         margin-top: 6px;
         border: 0px;
@@ -11545,7 +11546,7 @@ width: 100%;
 @media only screen and (max-width: 768px) {
     .es1_otzivy_zag {
         text-align:center;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         font-size: 36px;
         text-transform: uppercase;
         line-height: 1.2;
@@ -11592,7 +11593,7 @@ width: 100%;
 
     .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 10px;
         line-height: 1.2
     }
@@ -11608,7 +11609,7 @@ width: 100%;
     .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
         font-size: 16px;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: #333;
         text-align: justify
     }
@@ -11620,7 +11621,7 @@ width: 100%;
         line-height: 1.6;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         padding-left: 0px;
         text-align: center;
         margin-bottom: 20px
@@ -11638,7 +11639,7 @@ width: 100%;
         line-height: 1.6;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 5px;
         padding-left: 30px
     }
@@ -11687,7 +11688,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 50px;
         margin-top: 10px;
         border: 0px;
@@ -11708,7 +11709,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 50px;
         margin-top: 10px;
         border: 0px;
@@ -11730,7 +11731,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 20px;
         margin-top: 20px;
         border: 0px;
@@ -11745,7 +11746,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif
+        font-family: 'Montserrat', sans-serif;
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star span {
@@ -11762,7 +11763,7 @@ width: 100%;
         font-size: 18px;
         color: #333;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 15px
     }
 
@@ -11791,7 +11792,7 @@ width: 100%;
         font-size: 18px;
         font-style: italic;
         font-weight: 300;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-left: 8px;
         margin-top: 6px;
         border: 0px;
@@ -11813,7 +11814,7 @@ width: 100%;
 .es1_rassr_bg .es1_rassr__left_col .es1_rassr__okna {
     font-size: 100px;
     color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
@@ -11825,7 +11826,7 @@ width: 100%;
 .es1_rassr_bg .es1_rassr__left_col .es1_rassr__vrassr {
     font-size: 57px;
     color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
@@ -11837,7 +11838,7 @@ width: 100%;
 .es1_rassr_bg .es1_rassr__left_col .es1_rassr__bezpereplaty {
     font-size: 47px;
     color: #fa2323;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: bold;
     text-transform: uppercase;
@@ -11858,7 +11859,7 @@ width: 100%;
 }
 
 .es1_rassr_bg .es1_rassr__left_col .es1_rassr__icotext {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 18px
@@ -11878,7 +11879,7 @@ width: 100%;
 
 .es1_rassr_bg .es1_rassr__bankleft {
     font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     line-height: 1.4
 }
@@ -11896,13 +11897,13 @@ width: 100%;
 .b-rassr .b-rassr__zag {
     text-align: center;
     font-size: 49px;
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     margin-bottom: 50px
 }
 
 .b-rassr .b-rassr__text {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     text-align: center
 }
@@ -11916,7 +11917,7 @@ width: 100%;
 }
 
 .b-rassr .b-rassr__b1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
@@ -11926,7 +11927,7 @@ width: 100%;
 }
 
 .b-rassr .b-rassr__b2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: 300
 }
@@ -11945,7 +11946,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__okna {
         font-size: 100px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -11957,7 +11958,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__vrassr {
         font-size: 57px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -11969,7 +11970,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__bezpereplaty {
         font-size: 47px;
         color: #fa2323;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -11990,7 +11991,7 @@ width: 100%;
     }
 
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__icotext {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-size: 28px;
         margin-bottom: 12px
@@ -12012,7 +12013,7 @@ width: 100%;
 
     .es1_rassr_bg .es1_rassr__bankleft {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         line-height: 1.4
     }
@@ -12043,7 +12044,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__okna {
         font-size: 100px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12055,7 +12056,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__vrassr {
         font-size: 57px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12067,7 +12068,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__bezpereplaty {
         font-size: 47px;
         color: #fa2323;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12088,7 +12089,7 @@ width: 100%;
     }
 
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__icotext {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-size: 28px;
         margin-bottom: 12px
@@ -12110,7 +12111,7 @@ width: 100%;
 
     .es1_rassr_bg .es1_rassr__bankleft {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         line-height: 1.4
     }
@@ -12145,7 +12146,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__okna {
         font-size: 100px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12157,7 +12158,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__vrassr {
         font-size: 57px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12169,7 +12170,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__bezpereplaty {
         font-size: 47px;
         color: #fa2323;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12183,7 +12184,7 @@ width: 100%;
     }
 
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__icotext {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-size: 28px;
         margin-bottom: 12px
@@ -12199,7 +12200,7 @@ width: 100%;
 
     .es1_rassr_bg .es1_rassr__bankleft {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         line-height: 1.4
     }
@@ -12230,7 +12231,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__okna {
         font-size: 60px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12242,7 +12243,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__vrassr {
         font-size: 37px;
         color: #000;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12254,7 +12255,7 @@ width: 100%;
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__bezpereplaty {
         font-size: 37px;
         color: #fa2323;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-style: italic;
         font-weight: bold;
         text-transform: uppercase;
@@ -12268,7 +12269,7 @@ width: 100%;
     }
 
     .es1_rassr_bg .es1_rassr__left_col .es1_rassr__icotext {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: bold;
         font-size: 20px;
         margin-bottom: 12px;
@@ -12287,7 +12288,7 @@ width: 100%;
 
     .es1_rassr_bg .es1_rassr__bankleft {
         font-size: 20px;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         line-height: 1.4
     }
@@ -12305,7 +12306,7 @@ width: 100%;
     .b-rassr .b-rassr__zag {
         text-align: center;
         font-size: 39px;
-        font-family: 'ALSSchlangesans-Black';
+        font-family: "Montserrat", sans-serif;
         text-transform: uppercase;
         margin-bottom: 50px
     }

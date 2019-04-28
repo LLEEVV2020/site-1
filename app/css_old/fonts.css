@@ -2,7 +2,7 @@
 
 
 .roboto {
-    font-family: 'Roboto', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 
 @font-face {
-    font-family: 'ALSSchlangesans-Black';
+    font-family: "Montserrat", sans-serif;
     src: url("../fonts/ALSSchlangesans-Black.eot");
     src: url("../fonts/ALSSchlangesans-Blackd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/ALSSchlangesans-Black.woff2") format("woff2"),url("../fonts/ALSSchlangesans-Black.woff") format("woff"),url("../fonts/ALSSchlangesans-Black.ttf") format("truetype");
     font-weight: normal;

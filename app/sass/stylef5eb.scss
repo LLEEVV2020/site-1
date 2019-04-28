@@ -153,7 +153,22 @@ button {
   text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.28);
   padding: 15px 35px;
   text-transform: uppercase;
-  cursor: pointer; }
+  cursor: pointer; 
+
+  background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;/* identical to box height */
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
   /* line 110, ../../sass/_common.sass */
   .red-button:hover {
     color: #fff;
@@ -970,7 +985,7 @@ textarea.ERROR:-ms-input-placeholder {
       width: 75%; } }
 /* line 309, ../../sass/blocks/all/_all.sass */
 .b-sms_but .red-button, .calc_potolok_rasch_bg .red-button {
-  padding: 11px 35px; }
+  padding: 9px 23px 8px }
 
 /* line 312, ../../sass/blocks/all/_all.sass */
 .b-rassr__text span {
@@ -1028,7 +1043,7 @@ textarea.ERROR:-ms-input-placeholder {
 /* line 356, ../../sass/blocks/all/_all.sass */
 .sale-work {
   color: #25bbec;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-align: center;
   margin-top: 15px; }
@@ -1292,7 +1307,7 @@ span.red-button {
   .es1_price__count span {
     margin-left: 10px;
     color: #030303;
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic;
     font-weight: bold;
     text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6);
@@ -2166,14 +2181,14 @@ span.red-button {
 /* line 9, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl {
   font-size: 60px;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
 
 /* line 12, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl_2 {
   display: inline-block;
   vertical-align: top;
   color: #000;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   font-size: 50px;
   text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); }
 
@@ -2184,7 +2199,7 @@ span.red-button {
 /* line 21, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl_3 {
   font-size: 50px;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
 
 /* line 24, ../../sass/blocks/es3/_es3.sass */
 .es3__info {
@@ -2203,7 +2218,7 @@ span.red-button {
   vertical-align: top;
   text-align: right;
   width: 235px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   text-transform: none;
   margin-right: 30px; }
@@ -2216,7 +2231,7 @@ span.red-button {
   position: relative;
   font-size: 40px;
   font-weight: bold;
-  font-family: Roboto, sans-serif; }
+  font-family: "Montserrat", sans-serif; }
   /* line 49, ../../sass/blocks/es3/_es3.sass */
   .es3__phone_number:before {
     content: "";
@@ -2374,7 +2389,7 @@ span.red-button {
     padding-top: 10px; }
   /* line 55, ../../sass/blocks/es4/_es4.sass */
   .es4__form_item._phone {
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 36px;
     position: relative;
@@ -2717,8 +2732,10 @@ span.red-button {
     font-family: "Montserrat", sans-serif; } }
 /* line 1, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta {
-  background: url("../img/b_market_filtr_bg.png");
-  position: relative; }
+  background-image: url("../img/b_market_filtr_bg.png");
+  background-color: #015B77;
+  position: relative; 
+  padding-bottom: 45px;}
   /* line 4, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta._grey:before {
     content: "";
@@ -2729,52 +2746,44 @@ span.red-button {
     height: 12px;
     width: 100%;
     background: url("../img/top-grey.png") repeat-x top; }
-  /* line 13, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
-  .b-vid-remonta._white:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 12px;
-    width: 100%;
-    background: url("../img/top.png") repeat-x top; }
+  
+    
 
 /* line 24, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__block {
   text-align: center;
-  margin-bottom: 65px;
-  margin-top: 60px; }
+  margin-bottom: 0;
+  margin-top: 40px; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 /* line 29, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item {
-  width: 340px;
+  width: 254px;
   display: inline-block;
   vertical-align: top;
-  -moz-border-radius: 9px;
-  -webkit-border-radius: 9px;
-  border-radius: 9px;
   -moz-background-clip: padding;
   -o-background-clip: padding-box;
   -webkit-background-clip: padding;
   background-clip: padding-box;
   background-color: #fff;
-  -moz-box-shadow: 0 21px 23px rgba(0, 0, 0, 0.22);
-  -webkit-box-shadow: 0 21px 23px rgba(0, 0, 0, 0.22);
-  box-shadow: 0 21px 23px rgba(0, 0, 0, 0.22);
-  padding: 7px;
+  padding: 3px;
   position: relative;
   margin-bottom: 60px;
-  margin-left: 20px;
-  margin-right: 20px; }
+  margin-left: 1px;
+  margin-right: 1px; 
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
 
 /* line 43, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item_pict {
   width: 100%;
-  height: 220px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px; }
+  height: 164px;
+  border-radius: 3px 3px 0px 0px;
+ }
   /* line 47, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__item_pict img {
     width: 100%;
@@ -2785,32 +2794,45 @@ span.red-button {
 
 /* line 51, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item_ttl {
-  height: 99px;
+  height: 58px;
   position: relative;
-  text-align: center;
-  line-height: 67px; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
   /* line 56, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__item_ttl span {
-    font-family: "ALSSchlangesans-Black";
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+color: #000000;
     text-transform: uppercase;
-    font-size: 30px;
     z-index: 2;
-    position: relative; }
+    position: relative;
+  
+    overflow: hidden; }
   /* line 63, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__item_ttl:after {
     content: "";
     position: absolute;
-    top: -13px;
-    left: -16px;
-    width: 368px;
-    height: 99px;
-    background: url("../img/vid-remonta_ttl.png") left no-repeat;
-    z-index: 1; }
+    z-index: 1; 
+    top: 0px;
+    left: -8px;
+    width: 264px;
+    height: 58px;
+    background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
 
 /* line 75, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item_spisok {
   border-bottom: 1px solid #d2d2d2;
-  padding: 5px 25px 30px 17px;
+  padding: 22px 15px 1px 17px;
   text-align: left; }
   /* line 80, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__item_spisok .check {
@@ -2824,10 +2846,18 @@ span.red-button {
     .b-vid-remonta__item_spisok .check li {
       list-style-type: none;
       position: relative;
+      font-family: "Montserrat", sans-serif;
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+
+      color: #000000;
       padding-left: 30px;
-      font-size: 18px;
-      font-family: Roboto, sans-serif;
-      margin-bottom: 8px; }
+      padding-top: 3px;
+      margin-bottom: 14px;
+    }
       /* line 92, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
       .b-vid-remonta__item_spisok .check li:before {
         content: "";
@@ -2843,7 +2873,7 @@ span.red-button {
   /* line 103, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__spisok_all .b-link-blue {
     color: #25bbec;
-    font-family: Roboto, sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     display: inline-block;
     text-decoration: none;
@@ -2852,73 +2882,93 @@ span.red-button {
 /* line 110, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item_price {
   text-align: center;
-  font-family: ALSSchlangesans-Black;
-  padding-top: 20px;
-  padding-bottom: 45px;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 12px;
+  padding-bottom: 30px;
   line-height: 1.2; }
 
 /* line 116, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__price_old {
   position: relative;
-  font-size: 38px;
-  color: #ff0000;
-  display: inline-block; }
+  display: inline-block;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+font-family: "Montserrat", sans-serif;
+color: #000000;
+ }
   /* line 121, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__price_old:before {
     content: "";
     display: block;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
-    height: 100%;
     width: 100%;
-    background: url("../img/old-price.png") no-repeat center;
-    background-size: contain;
-    z-index: 2; }
+    z-index: 2; 
+    border-bottom: 2px solid #DD0053;
+    transform: translate(0%, -50%) rotate(-166.55deg);
+    height: 1px;
+  }
 
 /* line 132, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__price_new {
-  font-size: 48px; }
+  font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;/* identical to box height */
+margin-top: 8px;
+font-family: "Montserrat", sans-serif;
+color: #000000;
+
+}
   /* line 134, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__price_new span {
     font-size: 56px; }
 
 /* line 137, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item_btn {
-  padding: 25px 15px;
-  background-color: #ffffff;
   -moz-border-radius: 40px;
   -webkit-border-radius: 40px;
   border-radius: 40px;
   position: absolute;
-  bottom: -35px;
-  left: 40px; }
+  bottom: -20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 20px;
+  width: 158px;
+  height: 40px;
+  cursor: pointer;
+  
+  background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-vid-remonta__item_btn:hover{
+  background: linear-gradient(180deg, #b70146 0%, #5a0022 100%);
+}
+
   /* line 144, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__item_btn .red-button-radius {
-    -moz-border-radius: 30px;
-    -webkit-border-radius: 30px;
-    border-radius: 30px;
-    font-family: ALSSchlangesans-Black;
-    font-size: 26px;
-    -moz-background-clip: padding;
-    -o-background-clip: padding-box;
-    -webkit-background-clip: padding;
-    background-clip: padding-box;
-    background-color: #f00;
-    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9Ii0wLjAxNjgzIiB5MT0iMC40ODE5NTIiIHgyPSIxLjAxNjgzIiB5Mj0iMC41MTgwNDgiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4yMSIvPjxzdG9wIG9mZnNldD0iNTUuMiUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background-size: 100%;
-    background-image: -moz-linear-gradient(358deg, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 55.2%, rgba(0, 0, 0, 0) 100%);
-    background-image: -webkit-linear-gradient(358deg, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 55.2%, rgba(0, 0, 0, 0) 100%);
-    background-image: linear-gradient(92deg, rgba(0, 0, 0, 0.21) 0%, rgba(0, 0, 0, 0) 55.2%, rgba(0, 0, 0, 0) 100%);
-    padding: 14px 35px;
+    
     text-transform: uppercase;
-    cursor: pointer;
-    text-align: center;
-    color: #ffffff; }
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;/* identical to box height */
+    
+    color: #FFFFFF;
+  }
     /* line 156, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
     .b-vid-remonta__item_btn .red-button-radius:hover {
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none; 
+        
+    }
 
 /* line 161, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .nonedisplay {
@@ -3001,7 +3051,7 @@ span.red-button {
 /* line 10, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__form {
   font-size: 24px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-top: 20px; }
   /* line 14, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-raschet__form .b-form__block {
@@ -3095,7 +3145,7 @@ span.red-button {
 /* line 81, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__ttl1 {
   font-size: 24px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   margin-top: 25px;
   line-height: 1.2; }
@@ -3103,7 +3153,7 @@ span.red-button {
 /* line 87, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__ttl2 {
   font-size: 36px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   text-align: center; }
 
 @media only screen and (max-width: 1200px) {
@@ -3362,7 +3412,7 @@ span.red-button {
   margin-top: 15px;
   text-transform: uppercase;
   font-size: 30px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   line-height: 34px; }
 
@@ -3451,7 +3501,7 @@ span.red-button {
   /* line 20, ../../sass/blocks/b-middle-menu/_b-middle-menu.sass */
   .b-middle-menu__item .b-link {
     font-size: 30px;
-    font-family: ALSSchlangesans-Black;
+    font-family: "Montserrat", sans-serif;
     color: #000;
     text-transform: uppercase;
     text-decoration: underline;
@@ -3616,7 +3666,7 @@ span.red-button {
 
 /* line 51, ../../sass/blocks/b-prezent/_b-prezent.sass */
 .b-prezent__ttl {
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   padding-left: 100px;
   position: relative;
@@ -3765,7 +3815,7 @@ span.red-button {
   display: table-cell;
   vertical-align: middle;
   font-size: 28px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase; }
   /* line 22, ../../sass/blocks/bf-slider/_bf-slider.sass */
   .b-beforeAfter__info_item:first-child {
@@ -3928,7 +3978,7 @@ span.red-button {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
   /* line 14, ../../sass/blocks/b-15-days/_b-15-days.sass */
   .b-15-days__ttl span {
     color: #ff0000; }
@@ -3986,7 +4036,7 @@ span.red-button {
   /* line 56, ../../sass/blocks/b-15-days/_b-15-days.sass */
   .b-15-days__item_ttl span {
     color: #FFFFFF;
-    font-family: ALSSchlangesans-Black;
+    font-family: "Montserrat", sans-serif;
     font-size: 26px;
     text-transform: uppercase;
     position: relative;
@@ -4124,7 +4174,7 @@ span.red-button {
 /* line 14, ../../sass/blocks/b-project/_b-project.sass */
 .b-project__ttl {
   font-size: 26px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2; }
 
 /* line 18, ../../sass/blocks/b-project/_b-project.sass */
@@ -4138,7 +4188,7 @@ span.red-button {
 .b-project__item {
   display: table-cell;
   font-size: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2; }
   /* line 28, ../../sass/blocks/b-project/_b-project.sass */
   .b-project__item img {
@@ -4817,12 +4867,12 @@ span.red-button {
 .b-tipov__flat_info-ttl {
   font-size: 40px;
   text-transform: uppercase;
-  font-family: ALSSchlangesans-Black; }
+  font-family: "Montserrat", sans-serif; }
 
 /* line 303, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__flat_info-tt2 {
   font-size: 26px;
-  font-family: ALSSchlangesans-Black;
+  font-family: "Montserrat", sans-serif;
   margin-top: -6px; }
 
 /* line 307, ../../sass/blocks/b-tipov/_b-tipov.sass */
@@ -4839,13 +4889,13 @@ span.red-button {
 
 /* line 315, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__flat_item-ttl {
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px; }
 
 /* line 318, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__flat_item-S {
   font-size: 32px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   padding-left: 60px;
   position: relative; }
@@ -5383,7 +5433,7 @@ span.red-button {
 /* line 1, ../../sass/blocks/b-calc/_b-calc.sass */
 .calc_tub {
   color: #03b2de;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: italic;
   font-weight: bold;
   text-transform: uppercase;
@@ -5432,7 +5482,7 @@ span.red-button {
 .calc_rassr .b-link {
   color: #03c1d7;
   font-size: 30px;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-decoration: underline; }
   /* line 40, ../../sass/blocks/b-calc/_b-calc.sass */
@@ -5694,9 +5744,9 @@ span.red-button {
 
 /* line 84, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-check, .b-vid-remonta__item_spisok .check li:before {
-  background-position: 0 -82px;
-  height: 19px;
-  width: 19px; }
+  background-position: 0 -70px;
+  height: 20px;
+  width: 20px; }
 
 /* line 84, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-lbl1, .es1__menu_item.lbl1:before {
