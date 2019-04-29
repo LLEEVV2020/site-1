@@ -2478,7 +2478,11 @@ span.red-button {
 /* line 1, ../../sass/blocks/es7/_es7.sass */
 .es7 {
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  background-image: url(../img/b_market_filtr_bg.png);
+  background-color: #FBC035;
+
+}
   /* line 4, ../../sass/blocks/es7/_es7.sass */
   .es7 h4 {
     padding-top: 0px;

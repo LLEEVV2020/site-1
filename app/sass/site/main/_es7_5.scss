@@ -1,0 +1,16 @@
+.es7  {
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (min-width: 1200px) {
+            
+        }
+
+    }
+    .flex-container::before,
+    .flex-container::after{
+        display: none;
+    }
+
+}  

@@ -818,9 +818,6 @@ border-radius: 5px;
     line-height: 1.2
 }
 
-.es7 .media-left,.es7 .media>.pull-left {
-    padding-right: 20px
-}
 
 @media only screen and (max-width: 1200px) {
 
@@ -842,9 +839,7 @@ border-radius: 5px;
         line-height: 1.2
     }
 
-    .es7 .media-left,.es7 .media>.pull-left {
-        padding-right: 20px
-    }
+    
 }
 @media only screen and (max-width: 992px) {
   .es7 .col-md-6:first-child { margin-bottom: 30px;
@@ -1451,7 +1446,7 @@ border-radius: 5px;
     color: #ff0000
 }
 .b-sms_bg {
-    margin: 0px auto -40px;
+    margin: 0px auto -42px;
 }
 
 .b-sms_bg .b-sms__text {
