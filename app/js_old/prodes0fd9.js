@@ -327,9 +327,9 @@ $(document).ready(function() {
 			
 			
 			var zoomShowcaseSettings = {
-				imageWidth: 511,
-				imageHeight: 335,
-				bannerWidth: 900,
+				imageWidth: 380,
+				imageHeight: 210,
+				bannerWidth: 570,
 				animationSpeed: 750,
 				easing: "easeOutQuint",
 				sideOpacity: 0.5,

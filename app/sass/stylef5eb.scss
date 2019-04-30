@@ -56,7 +56,7 @@ body {
 h2 {
   font-size: 49px;
   color: #171616;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-align: center; }
 
@@ -70,7 +70,7 @@ h1 {
 /* line 41, ../../sass/_common.sass */
 h3 {
   font-size: 40px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   line-height: 1.1;
   margin-bottom: 20px; }
@@ -81,7 +81,7 @@ h4 {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding-top: 74px;
   line-height: 1;
   margin-bottom: 15px;
@@ -450,7 +450,7 @@ button {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.475); }
   /* line 58, ../../sass/blocks/top_menu/_top_menu.sass */
   .top_menu .dropdown-menu li > a {
-    font-family: "ALSSchlangesans-black";
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1em;
     display: block;
     padding: 3px 10px;
@@ -521,7 +521,7 @@ button {
   /* line 122, ../../sass/blocks/top_menu/_top_menu.sass */
   .top_menu.navbar-default .navbar-brand {
     color: #030303;
-    font-family: "ALSSchlangesans-Black";
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     margin-top: 3px; }
 
@@ -1332,7 +1332,7 @@ span.red-button {
   text-align: center;
   font-size: 46px;
   color: #fff;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   padding: 15px 0px;
   cursor: pointer;
@@ -2165,29 +2165,43 @@ span.red-button {
 
 /* line 1, ../../sass/blocks/es3/_es3.sass */
 .es3 {
-  min-height: 494px;
-  background: url("../img/es3_container.png") top center no-repeat, url("../img/fon_es3.png") top center no-repeat; }
+   background-color: #EDEDED;
+  .container{
+    background: url("../img/es3_container.png") top right no-repeat;
+    background-position-y: 30px;
+    background-position-x: 90%;
+  }
+}
 
 /* line 5, ../../sass/blocks/es3/_es3.sass */
 .es3__block {
-  margin-left: 475px;
-  text-transform: uppercase;
-  margin-top: 55px; }
+  margin-top: 40px;
+ }
 
 /* line 9, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl {
-  font-size: 60px;
-  font-family: "Montserrat", sans-serif; }
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif; 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;/* identical to box height */
+  margin-bottom: 35px;
+  color: #E21F69;
+}
 
 /* line 12, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl_2 {
-  display: inline-block;
-  vertical-align: top;
-  color: #000;
+  
   font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff, 0.03em 0.04em 0.08em rgba(0, 0, 0, 0.6); }
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;/* identical to box height */
+  
 
+  color: #000000;
+}
 /* line 19, ../../sass/blocks/es3/_es3.sass */
 .es3__ttl_block {
   display: inline-block; }
@@ -2199,10 +2213,14 @@ span.red-button {
 
 /* line 24, ../../sass/blocks/es3/_es3.sass */
 .es3__info {
-  font-size: 20px;
-  font-family: Raleway, sans-serif;
-  text-transform: none;
-  line-height: 1.2; }
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 500px;
+  color: #000000; 
+  margin-bottom: 54px;
+}
 
 /* line 29, ../../sass/blocks/es3/_es3.sass */
 .es3__phone_block {
@@ -2210,24 +2228,26 @@ span.red-button {
 
 /* line 31, ../../sass/blocks/es3/_es3.sass */
 .es3__phone_ttx {
-  display: inline-block;
-  vertical-align: top;
-  text-align: right;
-  width: 235px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  text-transform: none;
-  margin-right: 30px; }
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;/* identical to box height */
+  margin-bottom: 8px;
+  color: #000000;
+
+}
 
 /* line 40, ../../sass/blocks/es3/_es3.sass */
 .es3__phone_number {
-  display: inline-block;
-  vertical-align: top;
-  padding-left: 60px;
-  position: relative;
-  font-size: 40px;
+  font-style: normal;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif; }
+  font-size: 36px;
+  line-height: 44px;/* identical to box height */
+  font-family: Montserrat;
+  color: #000000;
+  margin-bottom: 50px;
+
+}
   /* line 49, ../../sass/blocks/es3/_es3.sass */
   .es3__phone_number:before {
     content: "";
@@ -2239,113 +2259,19 @@ span.red-button {
 @media only screen and (max-width: 1200px) {
   /* line 58, ../../sass/blocks/es3/_es3.sass */
   .es3 {
-    background: url("../img/fon_es3.png") top center no-repeat;
-    background-size: cover; }
+
+    .container{
+      background: none;
+    }
+   }
     /* line 61, ../../sass/blocks/es3/_es3.sass */
     .es3 .es3__block {
       text-align: center;
       width: 100%;
       margin-left: 0; } }
-@media only screen and (max-width: 992px) {
-  /* line 67, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl {
-    font-size: 46px; }
 
-  /* line 69, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl_2, .es3__ttl_3 {
-    font-size: 36px; }
 
-  /* line 71, ../../sass/blocks/es3/_es3.sass */
-  .es3__info {
-    width: 70%;
-    margin: 20px auto; }
 
-  /* line 75, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl_block img {
-    width: 250px; } }
-@media only screen and (max-width: 767px) {
-  /* line 80, ../../sass/blocks/es3/_es3.sass */
-  .es3 {
-    min-height: auto; }
-
-  /* line 82, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl {
-    font-size: 36px; }
-
-  /* line 84, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl_2, .es3__ttl_3 {
-    font-size: 26px; }
-
-  /* line 88, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl_block img {
-    width: 200px; }
-
-  /* line 90, ../../sass/blocks/es3/_es3.sass */
-  .es3__phone_block {
-    text-align: center; }
-
-  /* line 92, ../../sass/blocks/es3/_es3.sass */
-  .es3__phone_ttx {
-    display: block;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px; }
-
-  /* line 97, ../../sass/blocks/es3/_es3.sass */
-  .es3__phone_number {
-    font-size: 30px;
-    padding-left: 0; }
-    /* line 100, ../../sass/blocks/es3/_es3.sass */
-    .es3__phone_number:before {
-      display: none; }
-
-  /* line 102, ../../sass/blocks/es3/_es3.sass */
-  .es3__block {
-    margin: 45px auto; } }
-@media only screen and (max-width: 480px) {
-  /* line 105, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl {
-    font-size: 29px;
-    margin-bottom: 15px; }
-
-  /* line 108, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl_2, .es3__ttl_3 {
-    font-size: 18px; }
-
-  /* line 110, ../../sass/blocks/es3/_es3.sass */
-  .es3__info {
-    width: 90%;
-    font-size: 18px; }
-
-  /* line 113, ../../sass/blocks/es3/_es3.sass */
-  .es3__ttl_block img {
-    width: 130px; }
-
-  /* line 115, ../../sass/blocks/es3/_es3.sass */
-  .es3__phone_ttx {
-    font-size: 18px; } }
-/* line 3, ../../sass/blocks/es4/_es4.sass */
-.b_windownow_bg h4 {
-  margin-left: 235px;
-  margin-bottom: 45px; }
-
-/* line 6, ../../sass/blocks/es4/_es4.sass */
-.b_windownow__btn {
-  margin-top: 25px; }
-
-@media only screen and (max-width: 992px) {
-  /* line 9, ../../sass/blocks/es4/_es4.sass */
-  .b_windownow_bg {
-    height: auto;
-    background-size: cover;
-    padding-bottom: 50px; }
-    /* line 13, ../../sass/blocks/es4/_es4.sass */
-    .b_windownow_bg h4 {
-      margin-left: 0px; } }
-@media only screen and (max-width: 767px) {
-  /* line 19, ../../sass/blocks/es4/_es4.sass */
-  .b_windownow_bg h4 {
-    margin-bottom: 25px; } }
 /* line 23, ../../sass/blocks/es4/_es4.sass */
 .es4_bg {
   position: relative;
@@ -2480,7 +2406,7 @@ span.red-button {
   padding-top: 50px;
   padding-bottom: 50px;
   background-image: url(../img/b_market_filtr_bg.png);
-  background-color: #FBC035;
+  background-color: #F7C858;
 
 }
   /* line 4, ../../sass/blocks/es7/_es7.sass */
@@ -2517,15 +2443,7 @@ span.red-button {
   .es10_bg .container .es10__text {
     font-size: 20px;
     line-height: 27px; } }
-/* line 1, ../../sass/blocks/es12/_es12.sass */
-.es12_bg {
-  height: 424px;
-  background: url("../img/es12_bg.png") no-repeat center center;
-  margin: 0px auto; }
-  /* line 5, ../../sass/blocks/es12/_es12.sass */
-  .es12_bg h2 {
-    padding-top: 45px;
-    margin-bottom: 60px; }
+ 
 
 /* line 9, ../../sass/blocks/es12/_es12.sass */
 .es12__block {
@@ -2540,35 +2458,37 @@ span.red-button {
 
 /* line 18, ../../sass/blocks/es12/_es12.sass */
 .es12_ico {
-  height: 120px;
-  margin: 0 auto;
-  width: 236px; }
+  
+  margin: 0 auto 17px;
+ }
 
-/* line 24, ../../sass/blocks/es12/_es12.sass */
-.es12_ico__img {
-  width: 100px;
-  float: left;
-  text-align: center; }
+
 
 /* line 30, ../../sass/blocks/es12/_es12.sass */
 .es12_ico__lenta {
-  float: left;
-  width: 136px;
-  height: 80px;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  background: url(../img/es12_lenta.png) no-repeat center center;
-  line-height: 1.1; }
-
-/* line 42, ../../sass/blocks/es12/_es12.sass */
-.es12_ico__lenta div {
-  -webkit-transform: rotate(-6deg);
-  -ms-transform: rotate(-6deg);
-  transform: rotate(-6deg);
+  background: linear-gradient(180deg, #1B809D 0%, #015A76 100%);
+  border-radius: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 10px;
   text-align: center;
-  margin-top: 18px;
-  margin-left: 7px; }
+  display: inline-block;
+  padding: 3px 10px;
+  color: #FFFFFF;
+  margin-top: -17px;
+  span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    display: block;
+    color: #FFFFFF;
+    margin-top: 2px;
+  }
+ }
+
 
 /* line 50, ../../sass/blocks/es12/_es12.sass */
 .es12_ico__lenta div span {
@@ -2578,40 +2498,34 @@ span.red-button {
 
 /* line 56, ../../sass/blocks/es12/_es12.sass */
 .es12_ico_name {
-  font-size: 27px;
+ 
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
-  line-height: 1.3;
-  margin: 0 auto 50px auto;
-  width: 236px; }
+  font-family: "Montserrat", sans-serif;
+  
+  margin: 0 auto ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  
+  color: #000000;
+ }
 
 @media only screen and (max-width: 992px) {
   /* line 67, ../../sass/blocks/es12/_es12.sass */
   .es12_item {
-    width: 40%; }
-
-  /* line 69, ../../sass/blocks/es12/_es12.sass */
-  .es12_bg {
-    height: 680px;
-    background: url(../img/es12_bg_.png) center center;
-    margin: 0px auto; } }
+    width: 40%; 
+  margin-bottom: 35px;}
+}
 @media only screen and (max-width: 767px) {
   /* line 75, ../../sass/blocks/es12/_es12.sass */
   .es12_item {
-    width: 100%; }
-
-  /* line 77, ../../sass/blocks/es12/_es12.sass */
-  .es12_bg {
-    height: 1040px; }
-
-  /* line 79, ../../sass/blocks/es12/_es12.sass */
-  .es12_ico_name {
-    font-size: 24px;
-    margin: 0px auto 35px auto; } }
-/* line 1, ../../sass/blocks/es13_bg/_es13_bg.sass */
-.es13_item {
-  display: inline-block;
-  vertical-align: top; }
+    width: 100%;
+    margin-bottom: 35px;
+  }
+ }
+ 
 
 /* line 4, ../../sass/blocks/es13_bg/_es13_bg.sass */
 .es13_block {
@@ -2661,21 +2575,16 @@ span.red-button {
   .es13_14__desc {
     width: 100%; } }
 /* line 2, ../../sass/blocks/es14_bg/_es14_bg.sass */
-.es14_bg h2 {
-  padding: 30px 20px 150px !important; }
+
 
 @media only screen and (max-width: 767px) {
-  /* line 8, ../../sass/blocks/es14_bg/_es14_bg.sass */
-  .es14_bg h2 {
-    padding: 30px 20px 30px !important; }
+ 
   /* line 10, ../../sass/blocks/es14_bg/_es14_bg.sass */
   .es14_bg .container {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box; } }
-/* line 2, ../../sass/blocks/es16/_es16.sass */
-.es16_bg h2 {
-  padding: 80px 20px 30px; }
+
 
 /* line 2, ../../sass/blocks/b-pay/_b-pay.sass */
 .b-pay {
@@ -2990,16 +2899,11 @@ color: #000000;
 
 /* line 1, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet {
-  background: url("../img/fon-b-raschet.png") no-repeat;
-  min-height: 365px;
-  background-size: cover;
+  padding-bottom: 30px;
   padding-top: 35px;
-  margin-top: -15px;
   z-index: 2;
   position: relative;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+ }
 
 /* line 10, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__form {
@@ -3012,10 +2916,10 @@ color: #000000;
     table-layout: auto; }
   /* line 17, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-raschet__form .b-form__item {
-    height: 93px;
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 10px; }
+    
+    padding-left: 5px;
+    padding-right: 5px;
+  }
     /* line 22, ../../sass/blocks/b-raschet/_b-raschet.sass */
     .b-raschet__form .b-form__item .b-form__field {
       position: relative; }
@@ -3031,43 +2935,43 @@ color: #000000;
         content: "";
         display: block;
         position: absolute;
-        right: 24px;
+        right: 12px;
         top: 12px; }
       /* line 38, ../../sass/blocks/b-raschet/_b-raschet.sass */
       .b-raschet__form .b-form__item .b-form__field input {
-        border: 4px solid #fefdfd;
-        -moz-border-radius: 32px;
-        -webkit-border-radius: 32px;
-        border-radius: 32px;
-        -moz-background-clip: padding;
-        -o-background-clip: padding-box;
-        -webkit-background-clip: padding;
-        background-clip: padding-box;
-        background-color: #fff;
-        -moz-box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.13);
-        -webkit-box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.13);
-        box-shadow: inset 3px 4px 5px rgba(0, 0, 0, 0.13);
-        height: 64px;
-        font-size: 50px;
-        width: 240px;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        padding-left: 65px;
-        padding-right: 80px;
-        text-align: center; }
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        font-family: "Montserrat", sans-serif;
+        height: 40px;
+        height: 40px;
+        width: 80px;
+        padding-right: 26px;
+        text-align: right;
+        background: #FFFFFF;
+        border: 1px solid #D0D0D0;
+        border-radius: 5px;
+       }
 
 /* line 51, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-form_lbl {
-  text-align: right;
-  padding-right: 20px;
-  line-height: 1.2; }
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;/* identical to box height */
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+ }
 
 /* line 55, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-form_ravno {
-  font-size: 33px;
-  padding-left: 10px;
-  padding-right: 10px; }
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;/* identical to box height */
+
+color: #FFFFFF; }
 
 /* line 59, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-form_oldprice {
@@ -3087,21 +2991,21 @@ color: #000000;
     width: 120%;
     background-color: #ff0000; }
 
-/* line 75, ../../sass/blocks/b-raschet/_b-raschet.sass */
-.b-form_newprice {
-  font-size: 50px;
-  font-weight: bold;
-  white-space: nowrap;
-  padding-right: 30px;
-  padding-left: 30px; }
+
 
 /* line 81, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__ttl1 {
-  font-size: 24px;
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  margin-top: 25px;
-  line-height: 1.2; }
+  margin-top: 40px;
+  
+ }
 
 /* line 87, ../../sass/blocks/b-raschet/_b-raschet.sass */
 .b-raschet__ttl2 {
@@ -3110,10 +3014,7 @@ color: #000000;
   text-align: center; }
 
 @media only screen and (max-width: 1200px) {
-  /* line 93, ../../sass/blocks/b-raschet/_b-raschet.sass */
-  .b-raschet {
-    padding-bottom: 30px; }
-
+  
   /* line 96, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-raschet__form .b-form__block {
     display: block;
@@ -3121,16 +3022,10 @@ color: #000000;
     margin: auto; }
   /* line 100, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-raschet__form .b-form__item {
-    display: inline-block;
-    height: auto; }
-    /* line 103, ../../sass/blocks/b-raschet/_b-raschet.sass */
-    .b-raschet__form .b-form__item:first-child {
-      display: block;
-      margin-bottom: 15px; }
-    /* line 106, ../../sass/blocks/b-raschet/_b-raschet.sass */
-    .b-raschet__form .b-form__item:last-child {
-      margin-top: 15px;
-      display: block; }
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+   
 
   /* line 109, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-form_lbl {
@@ -3153,9 +3048,6 @@ color: #000000;
   .b-form_ravno {
     display: none; }
 
-  /* line 122, ../../sass/blocks/b-raschet/_b-raschet.sass */
-  .b-form_newprice {
-    margin-top: 10px; }
 
   /* line 124, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-raschet__form .b-form__item:nth-child(3) {
@@ -3172,76 +3064,15 @@ color: #000000;
   /* line 130, ../../sass/blocks/b-raschet/_b-raschet.sass */
   .b-raschet__ttl2 {
     font-size: 30px; } }
-/* line 1, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-.b-kosmet-remont {
-  background-color: #eae6de;
-  height: 565px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin-bottom: 60px; }
-  /* line 6, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont h2 {
-    text-align: left;
-    padding-top: 50px;
-    line-height: 64px; }
-    /* line 10, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-    .b-kosmet-remont h2 span {
-      font-size: inherit;
-      color: #ff0000;
-      text-shadow: none;
-      font-family: "ALSSchlangesans-Black"; }
-  /* line 15, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont._line {
-    position: relative; }
-    /* line 17, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-    .b-kosmet-remont._line:before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: -8px;
-      left: 0;
-      height: 8px;
-      width: 100%;
-      background: url("../img/line2.png") center bottom no-repeat; }
-  /* line 26, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont .container {
-    height: 100%;
-    background: url("../img/b-kosmet-remont.png") right top no-repeat;
-    position: relative; }
-  /* line 30, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont .garant {
-    position: absolute;
-    top: 67px;
-    left: 530px; }
 
-/* line 34, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-.b-kosmet-remont__block {
-  margin-top: 25px; }
 
-/* line 36, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-.b-kosmet-remont__block_lft {
-  display: inline-block;
-  vertical-align: top; }
-
-/* line 39, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-.b-kosmet-remont__block_rght {
-  display: inline-block;
-  vertical-align: top; }
 
 /* line 42, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
 .b-kosmet-remont__item {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   padding-left: 90px;
-  height: 68px;
-  width: 380px;
-  font-size: 24px;
-  line-height: 28px;
-  padding-top: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  text-align: left; }
+  min-height: 68px;
+}
   /* line 52, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
   .b-kosmet-remont__item.ico1 {
     background: url("../img/ico1.png") left center no-repeat; }
@@ -3258,9 +3089,7 @@ color: #000000;
     background: url("../img/ico4.png") left center no-repeat; }
 
 @media only screen and (max-width: 1200px) {
-  /* line 64, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont {
-    height: 510px; }
+  
     /* line 66, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
     .b-kosmet-remont .container {
       background: none; }
@@ -3283,21 +3112,9 @@ color: #000000;
     /* line 80, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
     .b-kosmet-remont .container {
       height: auto; }
-    /* line 82, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-    .b-kosmet-remont .garant {
-      display: none; }
-    /* line 84, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-    .b-kosmet-remont h2 {
-      padding-top: 30px; }
+    
 
-  /* line 87, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont__item.ico3 {
-    width: 370px;
-    padding-top: 20px; }
-  /* line 90, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont__item.ico4 {
-    width: 370px;
-    padding-top: 20px; } }
+   }
 @media only screen and (max-width: 480px) {
   /* line 96, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
   .b-kosmet-remont {
@@ -3306,14 +3123,6 @@ color: #000000;
     .b-kosmet-remont h2 {
       line-height: 38px; }
 
-  /* line 101, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont__item.ico3 {
-    width: 370px;
-    padding-top: 20px; }
-  /* line 104, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
-  .b-kosmet-remont__item.ico4 {
-    width: 370px;
-    padding-top: 20px; }
 
   /* line 107, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
   .b-kosmet-remont__item {
@@ -3362,17 +3171,33 @@ color: #000000;
 
 /* line 19, ../../sass/blocks/b-way/_b-way.sass */
 .b-way__item_ttl {
-  margin-top: 15px;
+  margin-top: 35px;
+  margin-bottom: 13px;
   text-transform: uppercase;
-  font-size: 30px;
+
   font-family: "Montserrat", sans-serif;
+
+  line-height: 34px; 
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;/* identical to box height */
   text-align: center;
-  line-height: 34px; }
+  
+  color: #000000;
+}
 
 /* line 26, ../../sass/blocks/b-way/_b-way.sass */
 .b-way__item_info {
-  margin-top: 20px;
-  font-size: 20px; }
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  color: #000000;
+}
   /* line 29, ../../sass/blocks/b-way/_b-way.sass */
   .b-way__item_info strong {
     color: #ff0000; }
@@ -3389,15 +3214,7 @@ color: #000000;
     /* line 37, ../../sass/blocks/b-way/_b-way.sass */
     .b-way__item_pict img {
       height: 100%; }
-
-  /* line 39, ../../sass/blocks/b-way/_b-way.sass */
-  .b-way__item_ttl {
-    font-size: 26px;
-    line-height: 30px; }
-
-  /* line 42, ../../sass/blocks/b-way/_b-way.sass */
-  .b-way__item_info {
-    line-height: 25px; } }
+ }
 @media only screen and (max-width: 992px) {
   /* line 45, ../../sass/blocks/b-way/_b-way.sass */
   .b-way__item {
@@ -4324,7 +4141,7 @@ color: #000000;
 .b-footer-menu_slogan {
   font-size: 22px;
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: #ffffff;
   padding-left: 30px;
@@ -4550,7 +4367,7 @@ color: #000000;
   vertical-align: top;
   font-size: 50px;
   color: #fc1010;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   margin-right: 20px;
   margin-left: 20px; }
   /* line 124, ../../sass/blocks/b-tipov/_b-tipov.sass */
@@ -4585,7 +4402,7 @@ color: #000000;
     margin: 0;
     text-align: center;
     font-size: 36px;
-    font-family: "ALSSchlangesans-Black"; }
+    font-family: "Montserrat", sans-serif; }
 
 /* line 149, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__others_block {
@@ -4773,7 +4590,7 @@ color: #000000;
   background-color: #fde700;
   color: #000000;
   font-size: 18px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding: 8px 20px 7px 65px;
   position: relative;
   margin-top: 15px;
@@ -5010,7 +4827,7 @@ color: #000000;
 .katalog__price_newprice {
   display: inline-block;
   /*padding-left: 13px */
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   font-size: 50px; }
   /* line 60, ../../sass/blocks/katalog/_katalog.sass */
   .katalog__price_newprice span {
@@ -5078,7 +4895,7 @@ color: #000000;
 .b-ustanovka_ttl {
   line-height: 1;
   font-size: 40px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   color: #ff0000;
   text-align: center; }
 
@@ -5230,7 +5047,7 @@ color: #000000;
   .b-ustanovka__price._new {
     padding-left: 30px;
     font-size: 28px;
-    font-family: "ALSSchlangesans-Black";
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase; }
     /* line 131, ../../sass/blocks/b-ustanovka/_b-ustanovka.sass */
     .b-ustanovka__price._new .new-price {
@@ -5548,7 +5365,7 @@ color: #000000;
   box-sizing: bordet-box;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding: 5px 60px 5px 15px; }
   /* line 27, ../../sass/blocks/gk-menu/_gk-menu.sass */
   .gk-menu__block:hover {
@@ -5582,7 +5399,7 @@ color: #000000;
   -webkit-box-sizing: bordet-box;
   box-sizing: bordet-box;
   font-size: 18px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding: 7px 60px 5px 28px;
   position: relative;
   line-height: 1;
@@ -5668,8 +5485,13 @@ color: #000000;
 /* lib for sprites */
 /* line 208, icon/*.png */
 .icon-sprite, .icon-S, .b-tipov__flat_item-S:before, .icon-after, .b-15-days__item._after .b-15-days__item_ttl span:after, .icon-before, .b-15-days__item._before .b-15-days__item_ttl span:after, .icon-birka, .red-button._garantiya:before, .icon-check, .b-vid-remonta__item_spisok .check li:before, .icon-lbl1, .es1__menu_item.lbl1:before, .icon-lbl2, .es1__menu_item.lbl2:before, .icon-lbl3, .es1__menu_item.lbl3:before, .icon-mdl1, .b-middle-menu__item.mdl1:before, .icon-mdl2, .b-middle-menu__item.mdl2:before, .icon-mdl3, .b-middle-menu__item.mdl3:before, .icon-mkv, .b-raschet__form .b-form__item .b-form__field:after, .icon-phone, .es3__phone_number:before, .icon-prezent, .b-prezent__ttl:before, .icon-rash, .b-raschet__form .b-form__item .b-form__field:before, .icon-seo, .icon-str, .b-footer-menu_slogan:after, .icon-str2, .b-footer-menu_slogan:before, .icon-time, .b-time:before, .icon-ugl, .es4__form_item._phone:before, .icon-zamer, .b-zamer:before {
-  background-image: url('../img/icon-s01679a48fb.png');
-  background-repeat: no-repeat; }
+  content: "м";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #D0D0D0;
+}
 
 /* line 84, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-S, .b-tipov__flat_item-S:before {
@@ -5737,11 +5559,7 @@ color: #000000;
   height: 53px;
   width: 63px; }
 
-/* line 84, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-mkv, .b-raschet__form .b-form__item .b-form__field:after {
-  background-position: -19px -82px;
-  height: 38px;
-  width: 50px; }
+
 
 /* line 84, C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-phone, .es3__phone_number:before {

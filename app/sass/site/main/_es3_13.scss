@@ -1,0 +1,49 @@
+.es3{
+
+    .interest-ib{
+        display: inline-block;
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        border-radius: 30px;
+        margin: 0 22px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;/* identical to box height */
+        text-align: center;
+        padding: 0 22px;
+        color: #FFFFFF;
+        @media only screen and (max-width: 480px) {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+    .es3__ttl_2{
+        display: flex;
+        align-items: center;
+        margin-bottom: 48px;
+        @media only screen and (max-width: 1200px){
+            justify-content: center;
+        }
+        @media only screen and (max-width: 480px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    @media only screen and (max-width: 1200px){
+        .es3__info{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .es3__block{
+
+        @media only screen and (min-width: 1200px) {
+            max-width: 85%;
+            
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+}
+

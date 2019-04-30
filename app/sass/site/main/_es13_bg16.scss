@@ -1,0 +1,152 @@
+.es13_bg{
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #015B77;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    .container{
+        max-width: 750px;
+    }
+
+    
+    .digit{
+        width: 50px;
+        background-color: #fff;
+        padding: 10px 2px;
+    }
+    .digit.static{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        text-align: center;
+        color: #000000;
+        background-color: #fff;
+        background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.5, #EDEDED), color-stop(0.5, #FFFFFF) );
+    }
+    .position{
+        height: 80px;
+        width: 50px;
+    }
+    .countdownHolder{
+        font-family: "Montserrat", sans-serif;
+        font-size: 48px;
+        letter-spacing: -1px;
+        margin: 0px auto 70px auto;
+        @media only screen and (max-width: 580px) {
+            margin-bottom: 50px;
+        }
+    }
+    .countDiv{
+        width: 16px;
+        @media only screen and (max-width: 580px) {
+            height: 20px;
+        }
+    }
+    .countHours, .countMinutes, .countSeconds{
+        background: none;
+        position: relative;
+        @media only screen and (max-width: 580px) {
+            display: block;
+        }
+        &::before{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-transform: uppercase;
+        }
+    }
+    .countHours::before {
+        content: "ЧАСОВ";
+    }
+    .countMinutes::before{
+        content: "МИНУТ";
+    }
+    .countSeconds::before{
+        content: "СЕКУНД";
+    }
+    .es13_input{
+        background: #FAFAFA url(../img/b_sms_input.png) no-repeat;
+        width: 180px;
+        height: 40px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 30px;
+        padding-top: 12px;
+        text-align: left;
+        @media only screen and (max-width: 580px) {
+            margin-right: 0;
+        }
+        input{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            border: 0px;
+            background: none;
+            margin-left: 40px;
+            
+        }
+
+    }
+    .es13_block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media only screen and (max-width: 580px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .red-pink-button{
+            margin-left: 0;
+            @media only screen and (max-width: 580px) {
+                margin-bottom: 20px;
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
+    
+}
+
+.red-pink-button{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E21F69), to(#A3003D));
+    background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: block;
+    margin-left: 15px;
+    padding: 9px 15px;
+}
+
+.agreement{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    margin-top: 10px;
+    color: #000000;
+    a{
+        text-decoration-line: underline;
+        color: #000000;
+    }
+    &.white{
+        color: #fff;
+        a{
+            color: #fff;
+        }
+    }
+}

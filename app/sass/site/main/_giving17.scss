@@ -1,0 +1,26 @@
+.giving{
+    font-family: "Montserrat", sans-serif;
+    padding: 40px 0 35px;
+    .container{
+        max-width: 700px;
+    }
+    h3{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;/* identical to box height */
+        text-align: center;
+        margin-bottom: 33px;
+        text-transform: uppercase;
+        color: #DF0054;
+    }
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #000000;
+    }
+}

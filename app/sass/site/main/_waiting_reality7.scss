@@ -1,0 +1,72 @@
+.waiting_reality7{
+    background-color: #EDEDED;
+    padding-bottom: 40px;
+    .flex-container{
+        flex-direction: column;
+    }
+    .b-sms__text{
+        text-align: center;
+    }
+
+    .flex-block{
+        display: flex;
+        justify-content: space-between;
+
+        .text-block{
+            width: 52%;;
+        }
+    }
+    .b-sms__undertext,
+    .b-vid-remonta__price_old{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;/* identical to box height */
+        
+        color: #000000;
+    }
+
+    .b-sms__undertext{
+        margin-bottom: 30px;
+    }
+    
+    .b-vid-remonta__price_old ~ span{
+        margin-left: 25px;
+    }
+    .b-vid-remonta__price_old::before{
+        border: 1px solid #DD0053;
+        transform: rotate(-162.41deg);
+    }
+    .b-sms__text{
+        margin-bottom: 30px;
+    }
+
+    .red-button{
+        width: 196px;
+        height: 40px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        margin-top: 0;
+        color: #000000;
+    }
+    @media only screen and (max-width: 992px){
+        margin-bottom: -40px;
+        .flex-block{
+            justify-content: center;
+            .img-block{
+                display: none;
+            }
+           .text-block{
+                text-align: center;
+                max-width: 375px;
+                width: 100%;
+           }
+        }
+    }
+}

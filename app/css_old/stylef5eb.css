@@ -56,7 +56,7 @@ body {
 h2 {
   font-size: 49px;
   color: #171616;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-align: center; }
 
@@ -70,7 +70,7 @@ h1 {
 /* line 41, ../../sass/_common.sass */
 h3 {
   font-size: 40px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   line-height: 1.1;
   margin-bottom: 20px; }
@@ -81,7 +81,7 @@ h4 {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding-top: 74px;
   line-height: 1;
   margin-bottom: 15px;
@@ -428,7 +428,7 @@ button {
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
     border-radius: 15px;
-    font-family: "ALSSchlangesans-Black";
+    font-family: "Montserrat", sans-serif;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease; }
 
@@ -469,7 +469,7 @@ button {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.475); }
   /* line 58, ../../sass/blocks/top_menu/_top_menu.sass */
   .top_menu .dropdown-menu li > a {
-    font-family: "ALSSchlangesans-black";
+    font-family: "Montserrat", sans-serif;
     font-size: 1.1em;
     display: block;
     padding: 3px 10px;
@@ -548,7 +548,7 @@ button {
   /* line 122, ../../sass/blocks/top_menu/_top_menu.sass */
   .top_menu.navbar-default .navbar-brand {
     color: #030303;
-    font-family: "ALSSchlangesans-Black";
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     margin-top: 3px; }
 
@@ -1104,7 +1104,7 @@ span.red-button {
   padding-top: 14px;
   text-align: center;
   font-size: 30px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   line-height: 1; }
   /* line 25, ../../sass/blocks/b-top__zamer/_b-top__zamer.sass */
   .b-top__zamer_txt span {
@@ -1378,7 +1378,7 @@ span.red-button {
   text-align: center;
   font-size: 46px;
   color: #fff;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   padding: 15px 0px;
   cursor: pointer;
@@ -2591,7 +2591,7 @@ span.red-button {
 .es12_ico_name {
   font-size: 27px;
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   line-height: 1.3;
   margin: 0 auto 50px auto;
   width: 236px; }
@@ -2817,7 +2817,7 @@ span.red-button {
   line-height: 67px; }
   /* line 56, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
   .b-vid-remonta__item_ttl span {
-    font-family: "ALSSchlangesans-Black";
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-size: 30px;
     z-index: 2;
@@ -3213,7 +3213,7 @@ span.red-button {
       font-size: inherit;
       color: #ff0000;
       text-shadow: none;
-      font-family: "ALSSchlangesans-Black"; }
+      font-family: "Montserrat", sans-serif; }
   /* line 15, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
   .b-kosmet-remont._line {
     position: relative; }
@@ -4347,7 +4347,7 @@ span.red-button {
 .b-footer-menu_slogan {
   font-size: 22px;
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   position: relative;
   color: #ffffff;
   padding-left: 30px;
@@ -4573,7 +4573,7 @@ span.red-button {
   vertical-align: top;
   font-size: 50px;
   color: #fc1010;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   margin-right: 20px;
   margin-left: 20px; }
   /* line 124, ../../sass/blocks/b-tipov/_b-tipov.sass */
@@ -4608,7 +4608,7 @@ span.red-button {
     margin: 0;
     text-align: center;
     font-size: 36px;
-    font-family: "ALSSchlangesans-Black"; }
+    font-family: "Montserrat", sans-serif; }
 
 /* line 149, ../../sass/blocks/b-tipov/_b-tipov.sass */
 .b-tipov__others_block {
@@ -4796,7 +4796,7 @@ span.red-button {
   background-color: #fde700;
   color: #000000;
   font-size: 18px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding: 8px 20px 7px 65px;
   position: relative;
   margin-top: 15px;
@@ -5033,7 +5033,7 @@ span.red-button {
 .katalog__price_newprice {
   display: inline-block;
   /*padding-left: 13px */
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   font-size: 50px; }
   /* line 60, ../../sass/blocks/katalog/_katalog.sass */
   .katalog__price_newprice span {
@@ -5101,7 +5101,7 @@ span.red-button {
 .b-ustanovka_ttl {
   line-height: 1;
   font-size: 40px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   color: #ff0000;
   text-align: center; }
 
@@ -5253,7 +5253,7 @@ span.red-button {
   .b-ustanovka__price._new {
     padding-left: 30px;
     font-size: 28px;
-    font-family: "ALSSchlangesans-Black";
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase; }
     /* line 131, ../../sass/blocks/b-ustanovka/_b-ustanovka.sass */
     .b-ustanovka__price._new .new-price {
@@ -5571,7 +5571,7 @@ span.red-button {
   box-sizing: bordet-box;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding: 5px 60px 5px 15px; }
   /* line 27, ../../sass/blocks/gk-menu/_gk-menu.sass */
   .gk-menu__block:hover {
@@ -5605,7 +5605,7 @@ span.red-button {
   -webkit-box-sizing: bordet-box;
   box-sizing: bordet-box;
   font-size: 18px;
-  font-family: "ALSSchlangesans-Black";
+  font-family: "Montserrat", sans-serif;
   padding: 7px 60px 5px 28px;
   position: relative;
   line-height: 1;
