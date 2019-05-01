@@ -1196,10 +1196,15 @@ span.red-button {
   position: relative;
   text-transform: uppercase;
   display: block;
-  margin-bottom: 30px;
-  padding-top: 15px; 
   font-weight: 500;
   color: #000;
+  min-height: 43px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  span{
+    border-top: 1px solid transparent;
+  }
 }
 
   /* line 78, ../../sass/blocks/es1/_es1.sass */

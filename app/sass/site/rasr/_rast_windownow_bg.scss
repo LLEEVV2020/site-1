@@ -1,0 +1,47 @@
+.rast_windownow_bg{
+    background-color: #015B77;
+    padding-top: 54px;
+    height: 366px;
+    @media only screen and (max-width: 768px) {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    h4{
+        color: #fff;
+        text-align: left;
+        margin-bottom: 32px;
+        @media only screen and (max-width: 768px) {
+            text-align: center;
+        }
+    }
+    
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 32px;
+        color: #FFFFFF;
+    }
+    a.b_windownow__btn{
+        display: inline-block;
+        padding: 9px 15px;
+    }
+    .b_windownow_man{
+        margin-top: -54px;
+        @media only screen and (max-width: 1200px){
+            display: block;
+        }
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+
+    }
+    @media only screen and (max-width: 768px) {
+        .b_windownow_block{
+            text-align: center;
+        }
+    }
+
+}

@@ -16,10 +16,11 @@ id="happy"
 Купить дешевле
 id="kupitDeshevle"
 
-http://192.168.1.244:3000/
 
 
+rasr_evrbank.png
+rasr_alfabank.png
 
-
+rasr_bg.png
 
 

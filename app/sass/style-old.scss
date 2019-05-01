@@ -10135,20 +10135,11 @@ border-radius: 5px;
     margin-top: 30px
 }
 
-.es1_otzivy_bg {
-    min-height: 320px;
-    background: url(../img/es1_bg.jpg) center top no-repeat
-}
 
-.es1_otzivy_bg .es1_otzivy_item {
-    margin: 46px 15px 35px 15px
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__img {
-    margin-right: 10px;
-    float: left;
-    width: 312px
-}
+
+
+
 
 .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otzleft {
     float: left;
@@ -10158,151 +10149,93 @@ border-radius: 5px;
     margin-top: 60px
 }
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__right {
-    margin-left: 344px;
-    padding-bottom: 0px
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext {
-    background: #ffe600;
-    padding: 20px 35px;
-    border-radius: 7px;
-    box-shadow: 1px 1px 2px #ccc;
-    margin-bottom: 25px
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    margin-bottom: 10px;
-    line-height: 1.2
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name .es1_otzivy_item__otztext__city {
-    color: #323131;
-    font-size: 0.8em;
-    float: right;
-    font-weight: 300;
-    padding-top: 4px
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
-    font-size: 18px;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
-    text-align: justify
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star {
-    float: left;
-    width: 450px;
-    font-size: 18px;
-    color: #333;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-    padding-left: 30px
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star span {
-    padding: 0 10px
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek {
-    text-align: right;
-    padding-right: 30px;
-    font-size: 18px;
-    color: #333;
-    font-weight: 300;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: -5px
-}
 
-.es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek img {
-    margin-left: 10px
-}
 
-.es1_otzivy__form_bg {
-    width: 1171px;
-    height: 440px;
-    background: url(../img/form_bg.png) no-repeat center center;
-    margin: 0 auto 40px auto
-}
 
-.es1_otzivy__form_bg .es1_otzivy__form_bg__form_photo {
-    width: 310px;
-    height: 227px;
-    cursor: pointer;
-    background: url(../img/form_photo.png) no-repeat center center;
-    float: left;
-    margin: 40px 0px 0px 55px
-}
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right {
-    float: right;
-    width: 711px;
-    margin: 40px 55px 0px 0px
+    margin: 0px 0px 0px 195px;    margin: 0px 0px 0px 195px;    margin: 0px 0px 0px 195px;    margin: 0px 0px 0px 195px;
 }
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name {
-    width: 434px;
-    height: 55px;
-    background: url(../img/form_name.png) no-repeat center center;
-    float: left
+    width: 264px;
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
 }
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name input {
-    width: 370px;
-    height: 30px;
+    height: 40px;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin-left: 21px;
     border: 0px;
-    background: none
+    background: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
 }
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city {
-    width: 258px;
-    height: 55px;
-    background: url(../img/form_city.png) no-repeat center center;
-    float: right
+    width: 264px;
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
 }
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city input {
-    width: 190px;
-    height: 30px;
+    height: 40px;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 50px;
-    margin-top: 10px;
+    margin-left: 21px;
     border: 0px;
-    background: none
+    background: none;
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
 }
 
-.es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text {
-    width: 711px;
-    height: 161px;
-    background: url(../img/form_text.png) no-repeat center center;
-    margin: 66px 0px 30px
-}
+
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text textarea {
-    width: 670px;
+    width: 100%;
     height: 120px;
     font-size: 18px;
     font-style: italic;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-    margin-left: 20px;
+    
     margin-top: 20px;
     border: 0px;
     background: none;
-    resize: none
+    resize: none;
+    background: #FFFFFF;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 11px 21px;
 }
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star {
@@ -10373,93 +10306,8 @@ border-radius: 5px;
         margin-top: 30px
     }
 
-    .es1_otzivy_bg {
-        min-height: 320px;
-        background: url(../img/es1_bg.jpg) center top no-repeat
-    }
+  
 
-    .es1_otzivy_bg .es1_otzivy_item {
-        margin: 46px 15px 35px 15px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__img {
-        margin-right: 10px;
-        float: left;
-        width: 312px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otzleft {
-        float: left;
-        background: url(../img/otzleft.html) center top no-repeat;
-        width: 22px;
-        height: 42px;
-        margin-top: 60px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__right {
-        margin-left: 344px;
-        padding-bottom: 0px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext {
-        background: #ffe600;
-        padding: 20px 35px;
-        border-radius: 7px;
-        box-shadow: 1px 1px 2px #ccc;
-        margin-bottom: 25px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
-        font-size: 30px;
-        font-family: 'Montserrat', sans-serif;
-        margin-bottom: 10px;
-        line-height: 1.2
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name .es1_otzivy_item__otztext__city {
-        color: #323131;
-        font-size: 0.8em;
-        float: none;
-        font-weight: 300;
-        padding-top: 4px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
-        font-size: 18px;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        color: #333;
-        text-align: justify
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star {
-        float: none;
-        width: 450px;
-        font-size: 18px;
-        color: #333;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        padding-left: 30px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star span {
-        padding: 0 10px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek {
-        text-align: left;
-        padding-right: 30px;
-        font-size: 18px;
-        color: #333;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 5px;
-        padding-left: 30px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek img {
-        margin-left: 10px
-    }
 
     .es1_otzivy__form_bg {
         width: 90%;
@@ -10620,90 +10468,7 @@ border-radius: 5px;
         margin-top: 30px
     }
 
-    .es1_otzivy_bg {
-        min-height: 320px;
-        background: url(../img/es1_bg.jpg) center top no-repeat
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item {
-        margin: 46px 15px 35px 15px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__img {
-        margin: 0px auto 15px auto;
-        float: none;
-        width: 312px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otzleft {
-        display: none
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__right {
-        width: 90%;
-        margin: 0 auto;
-        padding-bottom: 0px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext {
-        background: #ffe600;
-        padding: 20px 35px;
-        border-radius: 7px;
-        box-shadow: 1px 1px 2px #ccc;
-        margin-bottom: 25px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
-        font-size: 30px;
-        font-family: 'Montserrat', sans-serif;
-        margin-bottom: 10px;
-        line-height: 1.2
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name .es1_otzivy_item__otztext__city {
-        color: #323131;
-        font-size: 0.8em;
-        float: none;
-        font-weight: 300;
-        padding-top: 4px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
-        font-size: 18px;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        color: #333;
-        text-align: justify
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star {
-        float: none;
-        width: 450px;
-        font-size: 18px;
-        color: #333;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        padding-left: 30px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star span {
-        padding: 0 10px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek {
-        text-align: left;
-        padding-right: 30px;
-        font-size: 18px;
-        color: #333;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 5px;
-        padding-left: 30px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek img {
-        margin-left: 10px
-    }
+    
 
     .es1_otzivy__form_bg {
         width: 90%;
@@ -10867,99 +10632,8 @@ border-radius: 5px;
         margin-top: 30px
     }
 
-    .es1_otzivy_bg {
-        min-height: 320px;
-        background: url(../img/es1_bg.jpg) center top no-repeat
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item {
-        margin: 46px 15px 35px 15px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__img {
-        margin: 0px auto 15px auto;
-        float: none;
-        width: 240px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__img img {
-        width: 100%
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otzleft {
-        display: none
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__right {
-        width: 100%;
-        margin: 0 auto;
-        padding-bottom: 0px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext {
-        background: #ffe600;
-        padding: 20px 25px;
-        border-radius: 7px;
-        box-shadow: 1px 1px 2px #ccc;
-        margin-bottom: 25px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name {
-        font-size: 20px;
-        font-family: 'Montserrat', sans-serif;
-        margin-bottom: 10px;
-        line-height: 1.2
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__name .es1_otzivy_item__otztext__city {
-        color: #323131;
-        font-size: 0.9em;
-        float: none;
-        font-weight: 300;
-        padding-top: 4px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otztext__text {
-        font-size: 16px;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        color: #333;
-        text-align: justify
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star {
-        float: none;
-        width: 100%;
-        font-size: 18px;
-        line-height: 1.6;
-        color: #333;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        padding-left: 0px;
-        text-align: center;
-        margin-bottom: 20px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__star span {
-        padding: 0 10px;
-        display: none
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek {
-        text-align: center;
-        padding-right: 0px;
-        font-size: 18px;
-        line-height: 1.6;
-        color: #333;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 5px;
-        padding-left: 30px
-    }
-
-    .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__rek img {
-        margin-left: 10px
-    }
+   
+    
 
     .es1_otzivy__form_bg {
         width: 98%;
