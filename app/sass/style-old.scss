@@ -2,7 +2,7 @@
 :focus {
     outline: 0
 }
-a:hover { text-decoration: none
+a:hover { text-decoration: none;
 }
 .es2 .es2_red {
     color: #ff3333
@@ -9224,33 +9224,8 @@ border-radius: 5px;
     text-align: right
 }
 
-.b-contact__cityform .b_contact_input_city {
-    background: url(../img/b_contact_input_city.png) no-repeat center center;
-    width: 349px;
-    height: 55px;
-    float: left;
-    margin-right: 30px
-}
 
-.b-contact__cityform .b_contact_input_city input {
-    width: 335px;
-    height: 45px;
-    margin: 4px 0px 0px 6px;
-    border: 0px;
-    background: none;
-    color: #666;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 26px
-}
 
-.b-contact__cityform .b_contact_but_city {
-    width: 189px;
-    height: 53px;
-    background: url(../img/b_contact_but_city.png) no-repeat center center;
-    float: left;
-    cursor: pointer
-}
 
 .b_contact_zhdu_bg {
     background: url(../img/b_contact_zhdu_bg.png) no-repeat center top;
@@ -9324,11 +9299,7 @@ border-radius: 5px;
     margin-bottom: 20px
 }
 
-.b_contact_ceo_bg {
-    height: 620px;
-    background: url(../img/b_contact_ceo_bg_big.png) no-repeat center top;
-    margin-top: 80px
-}
+
 
 .b_contact_ceo_bg .b_contact_ceo_bg_zag {
     text-align: center;
@@ -9338,10 +9309,7 @@ border-radius: 5px;
     padding-top: 30px
 }
 
-.b_contact_ceo_bg .b_contact_ceo_form {
-    width: 784px;
-    margin: 67px auto 0 auto
-}
+
 
 .b_contact_ceo_bg .b_contact_ceo_form .b_contact_ceo_input_name {
     width: 412px;
@@ -9535,34 +9503,10 @@ border-radius: 5px;
         text-align: center
     }
 
-    .b-contact__cityform .b_contact_input_city {
-        background: url(../img/b_contact_input_city.png) no-repeat center center;
-        width: 349px;
-        height: 55px;
-        float: none;
-        margin: 0px auto 20px auto
-    }
+    
 
-    .b-contact__cityform .b_contact_input_city input {
-        width: 335px;
-        height: 45px;
-        margin: 4px 0px 0px 6px;
-        border: 0px;
-        background: none;
-        color: #666;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        font-size: 26px
-    }
 
-    .b-contact__cityform .b_contact_but_city {
-        width: 189px;
-        height: 53px;
-        background: url(../img/b_contact_but_city.png) no-repeat center center;
-        float: none;
-        cursor: pointer;
-        margin: 0 auto
-    }
+
 
     .b_contact_zhdu_bg {
         background: url(../img/b_contact_zhdu_bg.png) no-repeat center top;
@@ -9834,34 +9778,11 @@ border-radius: 5px;
         text-align: center
     }
 
-    .b-contact__cityform .b_contact_input_city {
-        background: url(../img/b_contact_input_city260.png) no-repeat center center;
-        width: 260px;
-        height: 55px;
-        float: none;
-        margin: 0px auto 20px auto
-    }
+   
 
-    .b-contact__cityform .b_contact_input_city input {
-        width: 246px;
-        height: 45px;
-        margin: 4px 0px 0px 6px;
-        border: 0px;
-        background: none;
-        color: #666;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 300;
-        font-size: 2.6em
-    }
+   
 
-    .b-contact__cityform .b_contact_but_city {
-        width: 189px;
-        height: 53px;
-        background: url(../img/b_contact_but_city.png) no-repeat center center;
-        float: none;
-        cursor: pointer;
-        margin: 0 auto
-    }
+
 
     .b_contact_zhdu_bg {
         background: url(../img/b_contact_zhdu_bg.png) no-repeat center top;
@@ -10136,11 +10057,6 @@ border-radius: 5px;
 }
 
 
-
-
-
-
-
 .es1_otzivy_bg .es1_otzivy_item .es1_otzivy_item__otzleft {
     float: left;
     background: url(../img/otzivy/otzleft.html) center top no-repeat;
@@ -10151,23 +10067,13 @@ border-radius: 5px;
 
 
 
-
-
-
-
-
-
-
-
-
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right {
-    margin: 0px 0px 0px 195px;    margin: 0px 0px 0px 195px;    margin: 0px 0px 0px 195px;    margin: 0px 0px 0px 195px;
+    margin: 0px 0px 0px 195px;
 }
 
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name {
     width: 264px;
     background: #FFFFFF;
-    border: 1px solid #D0D0D0;
     box-sizing: border-box;
     border-radius: 5px;
     float: left;
@@ -10191,7 +10097,6 @@ line-height: 17px;
 .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city {
     width: 264px;
     background: #FFFFFF;
-    border: 1px solid #D0D0D0;
     box-sizing: border-box;
     border-radius: 5px;
     float: left;
@@ -10308,17 +10213,6 @@ line-height: 17px;
 
   
 
-
-    .es1_otzivy__form_bg {
-        width: 90%;
-        height: auto;
-        background: #ffdf00;
-        border-radius: 15px;
-        margin: 0 auto 40px auto;
-        padding-top: 40px;
-        padding-bottom: 40px
-    }
-
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_photo {
         width: 310px;
         height: 227px;
@@ -10328,75 +10222,13 @@ line-height: 17px;
         margin: 0px auto 20px auto
     }
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right {
-        float: none;
-        width: 711px;
-        margin: 0px auto 0px auto !important
-    }
+    
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name {
-        width: 434px;
-        height: 55px;
-        background: url(../img/form_name.png) no-repeat center center;
-        float: left;
-        margin-bottom: 20px
-    }
-
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name input {
-        width: 370px;
-        height: 30px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 50px;
-        margin-top: 10px;
-        border: 0px;
-        background: none
-    }
-
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city {
-        width: 258px;
-        height: 55px;
-        background: url(../img/form_city.png) no-repeat center center;
-        float: right;
-        margin-bottom: 20px
-    }
-
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city input {
-        width: 190px;
-        height: 30px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 50px;
-        margin-top: 10px;
-        border: 0px;
-        background: none
-    }
-
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text {
-        width: 711px;
-        height: 161px;
-        background: url(../img/form_text.png) no-repeat center center;
-        margin: 0px 0px 30px;
-        float: none;
-        clear: both
-    }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text textarea {
-        width: 670px;
+        
         height: 120px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 20px;
-        margin-top: 20px;
-        border: 0px;
-        background: none;
-        resize: none
+       
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star {
@@ -10416,14 +10248,7 @@ line-height: 17px;
         cursor: pointer
     }
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__rek {
-        text-align: right;
-        font-size: 18px;
-        color: #333;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: -5px
-    }
+   
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__rek img {
         margin-left: 10px;
@@ -10470,16 +10295,6 @@ line-height: 17px;
 
     
 
-    .es1_otzivy__form_bg {
-        width: 90%;
-        height: auto;
-        background: #ffdf00;
-        border-radius: 15px;
-        margin: 0 auto 40px auto;
-        padding-top: 40px;
-        padding-bottom: 40px
-    }
-
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_photo {
         width: 310px;
         height: 227px;
@@ -10490,74 +10305,33 @@ line-height: 17px;
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right {
-        float: none;
+        
         width: 100%;
-        margin: 0px auto 0px auto !important
+        margin: 0px auto 0px auto;
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name {
-        width: 434px;
-        height: 55px;
-        background: url(../img/form_name.png) no-repeat center center;
-        float: none;
-        margin: 0 auto 20px auto
+            width: 434px;
+            float: none;
+            margin: 0 auto 20px auto;
     }
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name input {
-        width: 370px;
-        height: 30px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 50px;
-        margin-top: 10px;
-        border: 0px;
-        background: none
-    }
+    
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city {
         width: 434px;
-        height: 55px;
-        background: url(../img/form_city_434.png) no-repeat center center;
         float: none;
-        margin: 0 auto 20px auto
+        margin: 0 auto 20px auto;
     }
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city input {
-        width: 370px;
-        height: 30px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 50px;
-        margin-top: 10px;
-        border: 0px;
-        background: none
-    }
-
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text {
-        width: 434px;
-        height: 161px;
-        background: url(../img/form_text_434.png) no-repeat center center;
-        margin: 0px auto 30px;
-        float: none;
-        clear: both
-    }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text textarea {
-        width: 400px;
-        height: 120px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 20px;
-        margin-top: 20px;
+        
         border: 0px;
-        background: none;
-        resize: none
+        margin-left:  auto;
+        margin-right:  auto;
+        width: 434px;
+        display: block;
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star {
@@ -10635,16 +10409,6 @@ line-height: 17px;
    
     
 
-    .es1_otzivy__form_bg {
-        width: 98%;
-        height: auto;
-        background: #ffdf00;
-        border-radius: 15px;
-        margin: 0 auto 40px auto;
-        padding-top: 40px;
-        padding-bottom: 40px
-    }
-
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_photo {
         width: 260px;
         height: 190px;
@@ -10655,76 +10419,23 @@ line-height: 17px;
         margin: 0px auto 20px auto
     }
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right {
-        float: none;
-        width: 100%;
-        margin: 0px auto 0px auto !important
-    }
+    
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name {
-        width: 258px;
-        height: 55px;
-        background: url(../img/form_name_258.png) no-repeat center center;
-        float: none;
-        margin: 0 auto 20px auto
-    }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name input {
-        width: 190px;
-        height: 30px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 50px;
-        margin-top: 10px;
-        border: 0px;
-        background: none
+        width: 100%;
     }
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city {
-        width: 258px;
-        height: 55px;
-        background: url(../img/form_city.png) no-repeat center center;
-        float: none;
-        margin: 0 auto 20px auto
-    }
+   
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city input {
-        width: 190px;
-        height: 30px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 50px;
-        margin-top: 10px;
-        border: 0px;
-        background: none
+        width: 100%;
+        
     }
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text {
-        width: 258px;
-        height: 161px;
-        background: url(../img/form_text_258.png) no-repeat center center;
-        margin: 0px auto 30px;
-        float: none;
-        clear: both
-    }
+   
 
-    .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text textarea {
-        width: 220px;
-        height: 120px;
-        font-size: 18px;
-        font-style: italic;
-        font-weight: 300;
-        font-family: 'Montserrat', sans-serif;
-        margin-left: 20px;
-        margin-top: 20px;
-        border: 0px;
-        background: none;
-        resize: none
-    }
+   
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star {
         float: none;
@@ -10734,10 +10445,15 @@ line-height: 17px;
         color: #333;
         font-weight: 300;
         font-family: 'Montserrat', sans-serif;
+        nobr{
+            display: block;
+            
+        }
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star span {
-        display: none
+        
+        padding: 0 5px;
     }
 
     .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__star img {
@@ -10786,6 +10502,17 @@ line-height: 17px;
         background: none
     }
 }
+@media only screen and (max-width: 520px) {
+        .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_name {
+                width: 100%;
+        }
+        .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_city {
+            width: 100%;
+        }
+        .es1_otzivy__form_bg .es1_otzivy__form_bg__form_right .es1_otzivy__form_bg__form_text textarea {
+            width: 100%;
+        }
+    }
 
 .es1_rassr_bg {
     background: url(../img/es1_bg.jpg) center top no-repeat;
