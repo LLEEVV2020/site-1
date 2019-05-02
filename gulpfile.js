@@ -33,7 +33,11 @@ gulp.task('serve', gulp.parallel('sass', 'js', function() {
 
     browserSync.init({
         browser: 'chrome',
-        server: "./app",
+       //server: "./app",
+        server: {
+            baseDir: './app'
+        },
+        port: 8080,
         notify: false
     });
 
