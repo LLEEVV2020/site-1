@@ -24,6 +24,8 @@ id="happy"
 id="kupitDeshevle"
 
 
+ style="display:block; opacity: 1; "
+
 letter_bg.png
 
 seal.png
