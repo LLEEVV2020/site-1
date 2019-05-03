@@ -136,37 +136,21 @@ button {
 
 /* line 98, ../../sass/_common.sass */
 .red-button {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -o-background-clip: padding-box;
-  -webkit-background-clip: padding;
-  background-clip: padding-box;
-  background-color: #f00;
-  -moz-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.2);
-  color: #fff;
-  font-family: "Roboto";
-  font-size: 24px;
-  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.28);
-  padding: 15px 35px;
-  text-transform: uppercase;
-  cursor: pointer; 
-
-  background: linear-gradient(180deg, #E21F69 0%, #A3003D 100%);
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-
-  font-family: "Montserrat", sans-serif;
-  font-style: normal;
+  display: block;
   font-weight: bold;
   font-size: 18px;
-  line-height: 22px;/* identical to box height */
+  line-height: 22px;/* identical tso box height */
   text-align: center;
 
   color: #FFFFFF;
+
+  background: linear-gradient(180deg, #DF0054 0%, #A4164A 100%);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  padding: 9px 22px;
+  text-transform: uppercase;
+  cursor: pointer;
 
 }
   /* line 110, ../../sass/_common.sass */
