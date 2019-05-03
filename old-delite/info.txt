@@ -1,0 +1,30 @@
+    font-family: "Montserrat", sans-serif;
+
+
+
+<a href="https://www.figma.com/file/fWkj36LpSRgqDyrru9HNd46m/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B?node-id=25%3A0">ffff</a>
+
+https://www.figma.com/file/fWkj36LpSRgqDyrru9HNd46m/%D0%A8%D0%BA%D0%B0%D1%84%D1%8B?node-id=1%3A4
+http://info.css-world.ru/remont-kvartir/index.html
+http://qaru.site/questions/2256177/chrome-cant-open-localhost3000-with-gulp-browsersync
+hosts
+
+"[[++assets_url]]img/
+
+
+b_sms_phone.png
+
+не уходите без подарка
+id="gift"
+
+поздравляю вы стали 100 посетителем сайта
+id="happy"
+
+Купить дешевле
+id="kupitDeshevle"
+
+
+letter_bg.png
+
+seal.png
+
