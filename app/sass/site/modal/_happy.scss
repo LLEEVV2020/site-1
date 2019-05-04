@@ -1,0 +1,43 @@
+#happy{
+    
+    .modal-dialog{
+        background: #FFFFFF url(../img/happy_bg_.png) no-repeat center bottom;
+        width: 458px;
+        height: 609px;
+
+        .modal-header{
+            padding: 10px;
+            height: 28px;
+        }
+        #clock_wrapper{
+            display: none;
+        }
+    
+        h2{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;/* identical to box height */
+            text-align: center;
+            text-transform: uppercase;
+            color: #DF0054;
+            margin-bottom: 18px;
+        }
+        p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            margin-bottom: 0;
+            color: #000000;
+            span{
+                font-weight: bold;
+                color: #DF0054;
+            }
+        }
+        .modal_form_happy{
+            margin-top: 21px;
+        }
+
+    }
+    
+}

@@ -1552,32 +1552,25 @@
                             секунд
                         </div>
                     </div>
-                    <div class="modal_zag">
-                        <img src="img/pazdr.png" alt="">
-                    </div>
-                    <div class="madal_t1">
-                        Вы стали 100 посетителем сайта!
-                    </div>
-                    <div class="madal_t2">
-                        Ваш уникальный<br>
-                        код: 9503
-                    </div>
-                    <div class="madal_t3">
-                        Для получения подарка заполните форму
-                    </div>
+                   <h2>ПОЗДРАВЛЯЕМ!</h2>   
+                    <p>Вы стали 100 посетителем сайта! </p>
+                    <p>Ваш уникальный код: <span>0000</span> </p>
+                    <p>Для получения подарка заполните форму </p>
+                    
                     <div class="modal_form_happy">
                         <!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
                         <!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
                         <!-- ######### Вы стали 100 посетителем сайта! (Подарок) ######### -->
                         <form action="php/mail2.php" method="POST">
                             <input type="hidden" name="lang" value="Вы стали 100 посетителем сайта! (Подарок)" />
+                            
+                            <div class="modal_input_tel form-group">
+                                <input type="text" placeholder="Ваш телефон" class="phonemask" data-validation="required"
+                                    id="form_text_21" name="phone" value="" size="0" />
+                            </div>
                             <div class="modal_input_name form-group">
                                 <input type="text" placeholder="Ваше имя" id="form_text_21" name="name" value=""
                                     size="0" />
-                            </div>
-                            <div class="modal_input_tel form-group">
-                                <input type="text" placeholder="Телефон" class="phonemask" data-validation="required"
-                                    id="form_text_21" name="phone" value="" size="0" />
                             </div>
                             <div class="happy_but">
                                 <button type="submit" class="red-button">Хочу подарок</button>

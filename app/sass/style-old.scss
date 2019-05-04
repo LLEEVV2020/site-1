@@ -7729,8 +7729,6 @@ border-radius: 5px;
     background: none;
     box-shadow: none;
     border: 0px;
-    width: 579px;
-    height: 731px
 }
 
 #happy .modal-header .close {
@@ -7743,8 +7741,8 @@ border-radius: 5px;
     opacity: 1;
     margin: 0px;
     position: absolute;
-    bottom: 83px;
-    right: 59px
+    top: 10px;
+    right: 10px;
 }
 
 #happy .modal_zag {
@@ -8189,54 +8187,11 @@ border-radius: 5px;
         line-height: 1
     }
 
-    #gift .madal_t1 {
-        text-align: center;
-        font-size: 23px;
-        font-weight: 600;
-        margin-bottom: 10px;
-        width: 96%;
-        margin-left: auto;
-        margin-right: auto;
-        line-height: 1
-    }
+   
 
-    #gift .madal_t2 {
-        text-align: center;
-        font-size: 23px;
-        font-weight: 600;
-        line-height: 1.1;
-        margin-bottom: 18px;
-        color: #ff0000;
-        text-transform: uppercase;
-        width: 96%;
-        margin-left: auto;
-        margin-right: auto
-    }
+    
 
-    #gift .modal_input_ema {
-        margin: 0 auto 10px auto;
-        background: url(../img/input260.html) no-repeat left top;
-        width: 260px;
-        height: 55px;
-        margin-bottom: 19px
-    }
 
-    #gift .modal_input_ema input {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        font-weight: 300;
-        font-style: italic;
-        height: 34px;
-        margin: 10px 0px 0px 15px;
-        width: 230px;
-        border: 0px;
-        background: none
-    }
-
-    #gift .gift_but {
-        text-align: center;
-        position: relative
-    }
 
     #clock_wrapper {
         position: relative;
