@@ -9,6 +9,7 @@ http://info.css-world.ru/remont-kvartir/index.html
 http://qaru.site/questions/2256177/chrome-cant-open-localhost3000-with-gulp-browsersync
 hosts
 
+"img/
 "[[++assets_url]]img/
 
 
