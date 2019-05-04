@@ -7777,10 +7777,7 @@ border-radius: 5px;
     margin-bottom: 4px
 }
 
-#happy .modal_input_name,#happy .modal_input_tel {
-    margin: 0 auto 10px auto;
-    font-size: 18px
-}
+
 
 #happy .happy_but {
     text-align: center;
@@ -7927,43 +7924,9 @@ border-radius: 5px;
     color: #ff0000
 }
 
-.modal_input_name {
-    background: url(../img/modal_input_name.png) no-repeat left top;
-    width: 350px;
-    height: 57px;
-    margin-bottom: 10px
-}
 
-.modal_input_name input {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    font-style: italic;
-    height: 38px;
-    margin: 9px 0px 0px 45px;
-    width: 295px;
-    border: 0px;
-    background: none
-}
 
-.modal_input_tel {
-    background: url(../img/modal_input_tel.png) no-repeat left top;
-    width: 350px;
-    height: 57px;
-    margin-bottom: 42px
-}
 
-.modal_input_tel input {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
-    font-style: italic;
-    height: 38px;
-    margin: 9px 0px 0px 45px;
-    width: 295px;
-    border: 0px;
-    background: none
-}
 
 .modal_hochu_but {
     margin-left: 55px
@@ -7987,44 +7950,8 @@ border-radius: 5px;
         color: #ff0000
     }
 
-    .modal_input_name {
-        background: url(../img/modal_input_name.png) no-repeat left top;
-        width: 350px;
-        height: 57px;
-        margin-bottom: 10px;
-        margin: 0 auto 10px auto
-    }
-
-    .modal_input_name input {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        font-weight: 300;
-        font-style: italic;
-        height: 38px;
-        margin: 9px 0px 0px 45px;
-        width: 295px;
-        border: 0px;
-        background: none
-    }
-
-    .modal_input_tel {
-        background: url(../img/modal_input_tel.png) no-repeat left top;
-        width: 350px;
-        height: 57px;
-        margin: 0 auto 32px auto
-    }
-
-    .modal_input_tel input {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        font-weight: 300;
-        font-style: italic;
-        height: 38px;
-        margin: 9px 0px 0px 45px;
-        width: 295px;
-        border: 0px;
-        background: none
-    }
+   
+    
 
     .modal_hochu_but {
         margin: 0 auto
@@ -8068,73 +7995,8 @@ border-radius: 5px;
         margin: 0px auto 2px auto
     }
 
-    #happy .modal_zag img {
-        width: 100%
-    }
-
-    #happy .madal_t1 {
-        text-align: center;
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 4px
-    }
-
-    #happy .madal_t2 {
-        text-align: center;
-        font-size: 31px;
-        font-weight: 600;
-        line-height: 1.1;
-        margin-bottom: 4px
-    }
-
-    #happy .madal_t3 {
-        text-align: center;
-        font-size: 14px;
-        font-weight: 600;
-        margin-bottom: 4px
-    }
-
-    #happy .modal_input_name {
-        background: url(../img/modal_input_name_sm.png) no-repeat left top;
-        width: 260px;
-        height: 57px;
-        margin-bottom: 10px;
-        margin: 0 auto 10px auto;
-        text-align: left
-    }
-
-    #happy .modal_input_name input {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        font-weight: 300;
-        font-style: italic;
-        height: 38px;
-        margin: 9px 0px 0px 45px;
-        width: 200px;
-        border: 0px;
-        background: none
-    }
-
-    #happy .modal_input_tel {
-        background: url(../img/modal_input_tel_sm.png) no-repeat left top;
-        width: 260px;
-        height: 57px;
-        margin: 0 auto 32px auto;
-        text-align: left
-    }
-
-    #happy .modal_input_tel input {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 22px;
-        font-weight: 300;
-        font-style: italic;
-        height: 38px;
-        margin: 9px 0px 0px 45px;
-        width: 200px;
-        border: 0px;
-        background: none
-    }
-
+    
+    
     #happy .modal_input_name,#happy .modal_input_tel {
         margin: 0 auto 10px auto;
         font-size: 18px
