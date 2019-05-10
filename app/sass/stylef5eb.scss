@@ -136,7 +136,7 @@ button {
 
 /* line 98, ../../sass/_common.sass */
 .red-button {
-  display: block;
+  /*display: block;*/
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;/* identical tso box height */
@@ -3607,23 +3607,7 @@ color: #FFFFFF;
   .b-beforeAfter__item:last-child {
     margin-left: 60px; }
 
-/* line 47, ../../sass/blocks/bf-slider/_bf-slider.sass */
-.b-beforeAfter__item_slider {
-  -moz-border-radius: 21px;
-  -webkit-border-radius: 21px;
-  border-radius: 21px;
-  -moz-background-clip: padding;
-  -o-background-clip: padding-box;
-  -webkit-background-clip: padding;
-  background-clip: padding-box;
-  background-color: #fff;
-  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.29);
-  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.29);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.29);
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px; }
+
   /* line 55, ../../sass/blocks/bf-slider/_bf-slider.sass */
   .b-beforeAfter__item_slider img {
     width: 100%;
@@ -3637,10 +3621,7 @@ color: #FFFFFF;
     display: block;
     margin: auto;
     width: 550px; }
-    /* line 64, ../../sass/blocks/bf-slider/_bf-slider.sass */
-    .b-beforeAfter__item:last-child {
-      margin-left: 0px;
-      margin: 40px auto 0 auto; }
+    
 
   /* line 68, ../../sass/blocks/bf-slider/_bf-slider.sass */
   .b-beforeAfter h2 {

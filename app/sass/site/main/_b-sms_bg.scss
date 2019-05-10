@@ -38,8 +38,74 @@
             color: #000000;
         }
     }
+    .img-block{
+        position: relative;
+        &>img{
+            transform: scale(0.9) translateY(-10px);
+        }
+    }
     
+    /*
+    Плагинная вещь - стили
+    */
+    .b-beforeAfter__item:last-child {
+        margin-left: 0;
+    }
+    .b-beforeAfter__item{
+        width: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
 
+        .b-beforeAfter__item_slider{
+            border-radius: 4px;
+            background-clip: padding-box;
+            background-color: #fff;
+            box-sizing: border-box;
+            padding: 4px;
+            img{
+                border-radius: 4px;
+            }
+        }
+        
+        .twentytwenty-handle{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -13px;
+            margin-top: -15px;
+            background: #FBC035 url(../img/s-handle.png) center center no-repeat;
+            z-index: 40;
+            cursor: pointer;
+            width: 26px;
+            height: 25px;
+            border-radius: 50%;
+        }
+    }
+
+    .twentytwenty-horizontal .twentytwenty-handle:before, 
+    .twentytwenty-horizontal .twentytwenty-handle:after, 
+    .twentytwenty-vertical .twentytwenty-handle:before, 
+    .twentytwenty-vertical .twentytwenty-handle:after{
+        background-color: #FBC035;
+        width: 2px;
+        box-shadow: none;
+    }
+
+    .twentytwenty-horizontal .twentytwenty-handle:before, 
+    .twentytwenty-vertical .twentytwenty-handle:before{
+        margin-bottom: 13px;
+        margin-left: -1px;
+    }
+
+    
+    
+    .twentytwenty-vertical .twentytwenty-handle:after,
+    .twentytwenty-horizontal .twentytwenty-handle:after{
+        margin-top: 13px;
+        margin-left: -1px;
+    }
 }
 
 input::placeholder{
