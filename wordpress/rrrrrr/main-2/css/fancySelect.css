@@ -1,0 +1,15 @@
+div.fancy-select{position:relative;font-weight:bold;font-family:'Ubuntu', sans-serif;font-size:13px;color:#46565D;}
+div.fancy-select.disabled{opacity:0.5;}
+div.fancy-select select:focus + div.trigger{}
+div.fancy-select select:focus + div.trigger.open{box-shadow:none;}
+div.fancy-select div.trigger{background:url('../img/v_select.jpg') no-repeat;cursor:pointer;padding:10px 24px 9px 9px;white-space:nowrap;overflow:hidden;position:relative;color:#fff;width:150px;transition:all 240ms ease-out;-webkit-transition:all 240ms ease-out;-moz-transition:all 240ms ease-out;-ms-transition:all 240ms ease-out;-o-transition:all 240ms ease-out;}
+div.fancy-select div.trigger:after{}
+div.fancy-select div.trigger.open{}
+div.fancy-select div.trigger.open:after{}
+div.fancy-select ul.options{background:none repeat scroll 0 0 #fff;box-shadow:0 1px 2px rgba(0, 0, 0, 0.2);left:2px;list-style:outside none none;margin:0;max-height:200px;min-width:181px;opacity:0;overflow:auto;position:absolute;top:40px;transition:opacity 300ms ease-out 0s, top 300ms ease-out 0s, visibility 300ms ease-out 0s;visibility:hidden;z-index:50;}
+div.fancy-select ul.options.open{visibility:visible;top:29px;opacity:1;transition:opacity 300ms ease-out, top 300ms ease-out;-webkit-transition:opacity 300ms ease-out, top 300ms ease-out;-moz-transition:opacity 300ms ease-out, top 300ms ease-out;-ms-transition:opacity 300ms ease-out, top 300ms ease-out;-o-transition:opacity 300ms ease-out, top 300ms ease-out;}
+div.fancy-select ul.options.overflowing{top:auto;bottom:40px;transition:opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;-webkit-transition:opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;-moz-transition:opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;-ms-transition:opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;-o-transition:opacity 300ms ease-out, bottom 300ms ease-out, visibility 300ms ease-out;}
+div.fancy-select ul.options.overflowing.open{top:auto;bottom:50px;transition:opacity 300ms ease-out, bottom 300ms ease-out;-webkit-transition:opacity 300ms ease-out, bottom 300ms ease-out;-moz-transition:opacity 300ms ease-out, bottom 300ms ease-out;-ms-transition:opacity 300ms ease-out, bottom 300ms ease-out;-o-transition:opacity 300ms ease-out, bottom 300ms ease-out;}
+div.fancy-select ul.options li{padding:8px 12px;color:#999999;cursor:pointer;white-space:nowrap;transition:all 150ms ease-out;-webkit-transition:all 150ms ease-out;-moz-transition:all 150ms ease-out;-ms-transition:all 150ms ease-out;-o-transition:all 150ms ease-out;}
+div.fancy-select ul.options li.selected{background:none repeat scroll 0 0 rgba(43, 84, 150, 0.3);color:rgba(255, 255, 255, 0.75);}
+div.fancy-select ul.options li.hover{color:#2b5496;}

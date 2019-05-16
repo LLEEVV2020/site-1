@@ -1,0 +1,20 @@
+Создание и удаление таблиц
+https://metanit.com/web/php/7.3.php
+
+https://www.hostinger.ru/rukovodstva/zapis-v-bazu-dannyh-mysql-php-kod/
+
+https://metanit.com/sql/mysql/2.2.php
+
+https://ru.stackoverflow.com/questions/1473/%D0%9A%D0%B0%D0%BA-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%82%D1%8C-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D1%83-%D0%B2-%D0%B1%D0%B0%D0%B7%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-phpmysql
+
+https://www.internet-technologies.ru/articles/zagruzka-izobrazheniy-v-bazu-dannyh-ili-na-server-s-pomoschyu-html-php-i-mysql.html
+
+
+
+
+
+
+
+
+
+

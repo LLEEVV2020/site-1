@@ -1,0 +1,53 @@
+Сделаем структуру
+
+template-custom
+--head.php
+
+--main
+
+
+
+Чтоб вызвать head.php нужно
+get_template_part( 'template-custom/custom-head' ); 
+
+
+1. Чтоб поправить head нужно открыть файл "function.php"
+Находим функцию "twentynineteen_scripts" 
+В ней имеются функции 
+  - wp_enqueue_style
+  - wp_enqueue_script
+
+1) Закинул стили скрипты шрифты в папки css js fonts
+2) Создал папку "php"
+
+
+"http://<?php echo $_SERVER['SERVER_NAME']; ?>/js/
+"http://<?php echo $_SERVER['SERVER_NAME']; ?>/img/
+
+http://<?php echo $_SERVER['SERVER_NAME']; ?>/
+
+3) В файл functions.php
+220 отключил
+236 добавил
+
+
+rassrochki_na_shkafy_1	InstallmentPlan		
+shkafy_otzyvy_2		WardrobeReviews
+gde_kupit_shkafy_3	WhereCanOneBuy
+aktsii_i_skidki_4	StockDiscounts
+
+трансляция языка
+https://www.calc.ru/transliteratsyya.html
+
+
+
+
+
+
+
+
+
+
+
+
+

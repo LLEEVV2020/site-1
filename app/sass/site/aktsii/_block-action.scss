@@ -4,6 +4,9 @@
     margin-bottom: 0;
     height: 560px;
     overflow: hidden;
+    .container{
+        height: 100%;
+    }
     .es1__pict{
         background: url(../img/accii-men.png) top right no-repeat;
         background-position-x: 90%;

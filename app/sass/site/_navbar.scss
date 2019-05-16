@@ -1,4 +1,11 @@
 .top_menu.navbar-default{
+    margin-top: 8px;
+    .main-menu-more{
+        display: none;
+    }
+    .menu-top-menu-container{
+        width: 100%;
+    }
     .navbar-nav {
         display: flex;
         width: 100%;
@@ -13,7 +20,8 @@
                 justify-content: center;
             }
         }
-        & > li.active{
+        & > li.active,
+        & > li.current_page_item{
             & > a{
                 font-weight: bold;
                 background-color: #1C819E;
@@ -21,7 +29,9 @@
             }
             
         }
-        & > li.last{
+        & > li.last,
+        & > li:last-child,
+        & > li.current_page_item:last-child:hover{
             background-image: url(../img/menu_aksii.png);
             @media only screen and (max-width: 767px) {
                 background-image: none !important;
@@ -32,7 +42,10 @@
             }
         }
         & > li.last.active,
-        & > li.last:hover{
+        & > li.last:hover,
+        & > li.current_page_item,
+        & > li:last-child:hover
+        {
             background-image: url(../img/menu_aksii_active.png);
             a{
                 @media only screen and (max-width: 767px) {

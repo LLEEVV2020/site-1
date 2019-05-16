@@ -95,6 +95,10 @@
             }
             .modal_hochu_but{
                 margin-left: 0;
+                text-align: right;
+                @media only screen and (max-width: 992px){
+                    text-align: center;
+                }
                 .red-button{
                     background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
                     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);

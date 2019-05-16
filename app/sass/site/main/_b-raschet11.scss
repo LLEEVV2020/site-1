@@ -1,7 +1,7 @@
 .b-raschet{
     background-image: url(../img/b_market_filtr_bg.png);
     background-color: #015B77;
-    h2{
+    h2, .h2{
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -9,6 +9,7 @@
         text-align: center;
         margin-bottom: 35px;
         color: #FFFFFF;
+        
     }
     .b-raschet__form .b-form__item .b-form__field:before{
         display: none;

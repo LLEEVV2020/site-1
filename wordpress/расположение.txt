@@ -1,0 +1,21 @@
+1.
+<title></title> 
+<meta name="description"  content="Описание" />  
+<meta name="keywords"  content="слово, слово" />
+
+в файле functions.php вызывается кастомные head
+get_template_part( 'custom-head' );  (строка 236)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
