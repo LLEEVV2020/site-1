@@ -3,3 +3,13 @@ https://css-world.ru/aktsii-i-skidki/
 
 https://css-world.ru/shkafy-otzyvy/
 нет h1
+
+Где добавлять
+"Описать hCard с подстановкой котактной информацией для каждого региона"
+Образец кода возьму от сюда 
+https://wpnew.ru/raskrutka-bloga/seo_optimizaciya/karta-yandeks-na-sait-i-microformat-hcard.html
+
+/css-world.ru/public_html/wp-content/uploads/2019/05
+
+
+Создать xml карту сайта sitemap.xml

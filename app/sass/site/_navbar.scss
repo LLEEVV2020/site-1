@@ -26,6 +26,7 @@
                 font-weight: bold;
                 background-color: #1C819E;
                 white-space: nowrap;
+                color: #fff;
             }
             
         }
@@ -39,6 +40,8 @@
             background-size: cover;
             a{
                 background-color: transparent !important;
+                font-weight: normal;
+                color: #fff;
             }
         }
         & > li.last.active,
@@ -47,6 +50,7 @@
         & > li:last-child:hover
         {
             background-image: url(../img/menu_aksii_active.png);
+            
             a{
                 @media only screen and (max-width: 767px) {
                     background-color: #1C819E !important;

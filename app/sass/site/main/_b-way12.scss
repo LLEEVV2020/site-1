@@ -10,4 +10,9 @@
         
         color: #000000;
     }
+
+    abbr[title]{
+        white-space: nowrap;
+        text-decoration: none;
+    }
 }

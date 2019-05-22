@@ -384,10 +384,11 @@ button {
       margin-right: 0px; }
   /* line 19, ../../sass/blocks/top_menu/_top_menu.sass */
   .top_menu.navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     text-decoration: none;
     padding: 0 10px 0 10px;
+    padding: 0 1vw;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     -webkit-transition: all 0.3s ease;
@@ -395,6 +396,7 @@ button {
     font-weight: 400;    
     display: flex;
     align-items: center;
+    font-weight: bold;
   }
 
 /* line 31, ../../sass/blocks/top_menu/_top_menu.sass */
@@ -1031,8 +1033,8 @@ span.red-button {
 
 /* line 1, ../../sass/blocks/b-top__zamer/_b-top__zamer.sass */
 .b-top__zamer {
-  width: 264px;
-  height: 60px;
+  width: 361px;
+  height: 82px;
   background: #DD0053;
   border-radius: 40px;
   margin-right: 95px;
@@ -1045,10 +1047,11 @@ span.red-button {
 
 /* line 11, ../../sass/blocks/b-top__zamer/_b-top__zamer.sass */
 .b-top__zamer_ruler {
-  width: 70px;
-  height: 55px;
+  width: 96px;
+  height: 78px;
   background: url(../img/es1_ruler.png) no-repeat center center;
-  margin-left: -7px;
+  margin-left: -14px;
+  margin-top: auto;
 }
 
 /* line 18, ../../sass/blocks/b-top__zamer/_b-top__zamer.sass */
@@ -1059,7 +1062,12 @@ span.red-button {
   font-weight: bold;
   color: #fff;    
   padding-left: 10px;
-  line-height: 1.28;
+  font-size: 24px;
+line-height: 29px;
+  span{
+    font-size: 28px;
+  line-height: 34px;
+  }
 }
   
 @media only screen and (max-width: 850px) {
@@ -1100,7 +1108,7 @@ span.red-button {
 
 /* line 22, ../../sass/blocks/es1/_es1.sass */
 .es1__block {
-  margin-top: 45px;
+  margin-top: 60px;
   position: relative;
   z-index: 5;
   display: flex;
@@ -1111,7 +1119,7 @@ span.red-button {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 /* line 26, ../../sass/blocks/es1/_es1.sass */
@@ -1140,7 +1148,8 @@ span.red-button {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   line-height: 1;
-  
+  font-size: 20px;
+line-height: 24px;
   
 }
   /* line 48, ../../sass/blocks/es1/_es1.sass */
@@ -1151,7 +1160,8 @@ span.red-button {
 /* line 52, ../../sass/blocks/es1/_es1.sass */
 .es1_sale {
 
-  font-size: 46px;
+  font-size: 64px;
+line-height: 78px;
   color: #FBC035;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
@@ -1162,6 +1172,7 @@ span.red-button {
   display: flex;
   height: 100%;
   padding-top: 15px;
+  flex-direction: column;
  }
 
 /* line 61, ../../sass/blocks/es1/_es1.sass */
@@ -1384,11 +1395,12 @@ span.red-button {
 /* line 219, ../../sass/blocks/es1/_es1.sass */
 .es1._main .es1_skidka__block {
   background-position: center;
+  background-position-x: right;
   background-image: url(../img/63p.png);
   background-size: cover;
   color: #fff;
-  width: 264px;
-  height: 60px;
+  width: 361px;
+  height: 82px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -2675,14 +2687,7 @@ span.red-button {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 
-  @media only screen and (max-width: 1200px) {
-    margin-left: 5vw;
-    margin-right: 5vw;
-  }
-  @media only screen and (max-width: 500px) {
-    margin-left: 0;
-    margin-right: 0;
-  }
+  
 
 }
 
@@ -2729,12 +2734,14 @@ color: #000000;
     position: absolute;
     z-index: 1; 
     top: 0px;
-    left: -8px;
-    width: 264px;
+    left: 0;
     height: 58px;
     background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+    width: 100%;
+    height: 58px;
+    transform: scale(1.065, 1);
   }
 
 /* line 75, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
