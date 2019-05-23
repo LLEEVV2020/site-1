@@ -1,16 +1,12 @@
 .b-kosmet-remont{
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     .flex-container{
         display: flex;
         justify-content: space-between;
-        @media only screen and (min-width: 1200px) {
-            max-width: 85%;
-            margin: 0 auto;
-        }
+        
         .text-block{
-            max-width: 60%;
-            margin-top: 25px;
+            max-width: 66%;
             @media only screen and (max-width: 1200px) {
                 max-width: 62%;
             }
@@ -31,8 +27,8 @@
     h2, .h2 {
         font-style: normal;
         font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
+        font-size: 32px;
+        line-height: 39px;
         color: #000000;
         text-align: left;
         @media only screen and (max-width: 992px){
@@ -41,22 +37,22 @@
         span{
             font-style: normal;
             font-weight: bold;
-            font-size: 24px;
-            line-height: 29px;
+            font-size: 32px;
+            line-height: 39px;
             color: #DD0053;
         }
     }
     .b-kosmet-remont__item{
         font-style: normal;
         font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-        
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 50px;
         color: #000000;
     }
     /* line 34, ../../sass/blocks/b-kosmet-remont/_b-kosmet-remont.sass */
     .b-kosmet-remont__block{
-        margin-top: 25px; 
+        margin-top: 40px; 
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -66,10 +62,13 @@
         
     }
     .b-kosmet-remont__item{
-        width: 45%;
+        width: 48%;
         display: flex;
         align-items: center;
         text-align: left;
+        background-color: rgb(236, 236, 236);
+        border-radius: 34px;
+        
         @media only screen and (max-width: 482px){
             width: 90%;
         }

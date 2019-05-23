@@ -397,7 +397,6 @@ line-height: 39px;
 }
 
 .b_windownow_bg {
-    height: 324px;
     margin: 0 auto ;
     position: relative;
 }
@@ -408,13 +407,19 @@ line-height: 39px;
 
 .es13_bg .es13_bg__text {
     font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;/* identical to box height */
+    font-size: 32px;
+    line-height: 39px;
     text-align: center;
 
     color: #FFFFFF;
     margin-bottom: 30px;
     text-transform: uppercase;
+    max-width: 866px;
+    margin-right: auto;
+    margin-left: auto;
+    span{
+        color: #FBC035;
+    }
 }
 
 .es13_bg .es13_bg__text2 {
@@ -1215,8 +1220,8 @@ line-height: 39px;
     margin-bottom: 20px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 32px;
+    line-height: 39px;
     color: #000000;
 }
 

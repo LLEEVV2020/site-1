@@ -84,7 +84,7 @@
     <script src="js/twentytwenty-master/jquery.event.move.js"></script>
     <script src="js/twentytwenty-master/jquery.twentytwenty.js"></script>
 
-    <script src="js/compile.js?1"></script>
+    <!--<script src="js/compile.js?1"></script>-->
 
 
 
@@ -554,20 +554,23 @@
                 <div class="item">
                 
                     <img src="img/es7_ico1.png" alt="">
-                
-                    <h4 class="media-heading">Бесплатный замер</h4>
-                    <div>Замерщик "LEVEL" произведет точный замер и расчет стоимости заказа в удобное для
+                    <div class="item-text">
+                        <h4 class="media-heading">Бесплатный замер</h4>
+                        <div>Замерщик "LEVEL" произведет точный замер и расчет стоимости заказа в удобное для
                         Вас время. Возможно заключение договора на дому.</div>
-                
+                    </div>
+                                  
                 </div>
 
                 <div class="item">
                     
                     <img src="img/es7_ico2.png" alt="">
-                
-                    <h4 class="media-heading">Рассрочка 0%</h4>
-                    <div>Разместите заказ уже сейчас! Воспользуйтесь беспроцентной рассрочкой сроком до
-                        12&nbsp;месяцев с минимальным первоначальным взносом.</div>
+                    <div class="item-text">
+                        <h4 class="media-heading">Рассрочка 0%</h4>
+                        <div>Разместите заказ уже сейчас! Воспользуйтесь беспроцентной рассрочкой сроком до
+                            12&nbsp;месяцев с минимальным первоначальным взносом.</div>
+                    </div>
+                   
                 
                 </div>
 
@@ -664,9 +667,10 @@
                                 <span class="b-vid-remonta__price_old">700</span>
                                 <span>=</span>
                                 <span>0</span>
+                                <button class="red-button"  data-toggle="modal" data-target="#kupitDeshevle">ХОЧУ ТАКОЙ ЖЕ</button>
                             </div>
                             
-                            <button class="red-button"  data-toggle="modal" data-target="#kupitDeshevle">ХОЧУ ТАКОЙ ЖЕ</button>
+                            
                             
                             <p>Звоните прямо сейчас и получите самое
                                 выгодное
@@ -742,7 +746,7 @@
                     </div>
                 
                     <div class="text-block item">
-                        <div class="h2">НОВЫЙ ШКАФ ЗА <span>5 ДНЕЙ</span>?<br> ЭТО РЕАЛЬНО!</div>
+                        <div class="h2">НОВЫЙ ШКАФ ЗА <span>5 ДНЕЙ</span>? ЭТО РЕАЛЬНО!</div>
                         <div class="b-kosmet-remont__block">
                         
                             <div class="b-kosmet-remont__item ico1">Не нужно искать доставку</div>
@@ -1048,11 +1052,9 @@
 
         <div class="es13_bg">
             <div class="es13_bg__text">
-                Успей купить до подорожания!
+                Успей купить до подорожания! <span>ВНИМАНИЕ! ОСТАЛОСЬ ВСЕГО:</span>
             </div>
-            <div class="es13_bg__text2">
-                ВНИМАНИЕ! ОСТАЛОСЬ ВСЕГО:
-            </div>
+            
             <script src="../js/jquery.countdown.js"></script>
             <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
             <script>
@@ -1112,15 +1114,40 @@
             </div>
         </div><!-- /.es13_14 -->
 
-
-
+        <div class="es14_bg_custom">
+            <div class="h2">
+                ОТЗЫВЫ НАШИХ ЗАКАЗЧИКОВ
+            </div>
+            <div class="container">
+                <section class="regular slider">
+                    <div>
+                      <img src="http://placehold.it/350x300?text=1">
+                    </div>
+                    <div>
+                      <img src="http://placehold.it/350x300?text=2">
+                    </div>
+                    <div>
+                      <img src="http://placehold.it/350x300?text=3">
+                    </div>
+                    <div>
+                      <img src="http://placehold.it/350x300?text=4">
+                    </div>
+                    <div>
+                      <img src="http://placehold.it/350x300?text=5">
+                    </div>
+                    <div>
+                      <img src="http://placehold.it/350x300?text=6">
+                    </div>
+                  </section>
+            </div>
+        </div>
 
         <div class="es14_bg reviews">
             <div class="h2">
                 ОТЗЫВЫ НАШИХ ЗАКАЗЧИКОВ
             </div>
             <div class="container">
-                
+                 
                 <div class="iosSlider4">
                     <div class="slider">
 
@@ -1359,8 +1386,8 @@
 
         <div class="map-wrapper">
             <div id="BX_YMAP_officemap" class="bx-yandex-map" style="height: 600px; width: 100%;">
-                <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-                <script> ymapload(); </script>
+                <!--<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+                <script> ymapload(); </script>-->
             </div>
         </div>
 
@@ -2273,6 +2300,20 @@
         <!-- Pixel -->
         <script type="text/javascript" src="js/pixel.js"></script>
         <!-- /Pixel -->
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $(".regular").slick({
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3
+                });
+            });
+          </script>
+
 </body>
 
 </html>

@@ -2,29 +2,36 @@
     background-image: url(../img/b_market_filtr_bg.png);
     background-color: #015B77;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 21px;
     .container{
         max-width: 750px;
     }
 
     
     .digit{
-        width: 50px;
+        width: 68px;
+        height: 124px;
         background-color: #fff;
         padding: 10px 2px;
+        border-radius: 0;
     }
     .digit.static{
         font-weight: bold;
-        font-size: 48px;
-        line-height: 59px;
+        font-size: 72px;
+        line-height: 104px;
+        width: 68px;
         text-align: center;
         color: #000000;
         background-color: #fff;
         background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.5, #EDEDED), color-stop(0.5, #FFFFFF) );
+        
     }
     .position{
-        height: 80px;
-        width: 50px;
+        height: 124px;
+        width: 68px;
+    }
+    .position + .position{
+        margin-left: 20px;
     }
     .countdownHolder{
         font-family: "Montserrat", sans-serif;
@@ -36,7 +43,7 @@
         }
     }
     .countDiv{
-        width: 16px;
+        width: 30px;
         @media only screen and (max-width: 580px) {
             height: 20px;
         }
@@ -49,16 +56,17 @@
         }
         &::before{
             font-style: normal;
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 17px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
             text-align: center;
             color: #FFFFFF;
             position: absolute;
-            bottom: -10px;
+            bottom: -27px;
             left: 50%;
             transform: translateX(-50%);
             text-transform: uppercase;
+            
         }
     }
     .countHours::before {
@@ -72,7 +80,7 @@
     }
     .es13_input{
         background: #FAFAFA url(../img/b_sms_input.png) no-repeat;
-        width: 180px;
+        width: 264px;
         height: 40px;
         border-radius: 5px;
         display: inline-block;
@@ -119,8 +127,8 @@
 .agreement{
     font-style: normal;
     font-weight: 500;
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 12px;
+    line-height: 15px;
     margin-top: 10px;
     color: #000000;
     a{
