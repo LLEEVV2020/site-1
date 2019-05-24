@@ -2877,6 +2877,11 @@ color: #000000;
     line-height: 22px;/* identical to box height */
     
     color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
     /* line 156, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
     .b-vid-remonta__item_btn .red-button-radius:hover {
