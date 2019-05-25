@@ -7,6 +7,10 @@
 @import "base/reset/reset";
 @import "base/libs/font-size";
 
+// слайдер
+@import "site/slick";
+@import "site/slick-theme";
+
 @import "grid/main";
 
 //@import "hack/grid";
@@ -53,7 +57,3 @@
 @import "site/modal/gift";
 @import "site/modal/happy";
 @import "site/modal/kupitdeshevle";
-
-// слайдер
-@import "site/slick";
-@import "site/slick-theme";
