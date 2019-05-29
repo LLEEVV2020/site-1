@@ -10,6 +10,8 @@
     .es1__pict{
         background: url(../img/accii-men.png) top right no-repeat;
         background-position-x: 90%;
+        background-position-y: bottom;
+        top: 0;
         @media only screen and (max-width: 1200px) {
 
             background-position-x: 105%;
@@ -53,6 +55,7 @@
             }
         }
         .action-img{
+           // margin-top: -45px;
             @media only screen and (max-width: 768px) {
                 display: flex;
                 align-items: center;

@@ -4,9 +4,11 @@
     margin-bottom: 0;
     background-image: url(../img/b_market_filtr_bg.png);
     background-color: #015B77;
-    padding-top: 5px;
-    padding-bottom: 5px;    
-
+    padding-top: 0;
+    padding-bottom: 0;    
+    .b-sms-form{
+        max-width: 612px;
+    }
     .b-sms__text{
         color: #fff;
         padding-top: 30px;

@@ -1,6 +1,6 @@
 .es16_bg{
     padding-top: 40px;
-    height: 440px;
+    padding-bottom: 80px;
     @media only screen and (max-width: 992px){
         height: auto;
     }
@@ -18,7 +18,10 @@
     }
 
     .thanky{
-        width: 570px;
+        width: 951px;
+        zoom-gallery{
+            width: 951px;
+        }
     }
     #thanky-left-button{
         left: -10vw;

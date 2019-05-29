@@ -1,7 +1,8 @@
 .b-sms_bg{
     .b-sms-form{
         
-        max-width: 66%;
+       
+       max-width: 66%;
         @media only screen and (max-width: 1200px) {
             max-width: 58%;
         }
@@ -40,9 +41,10 @@
     p{
         font-style: normal;
         font-weight: 500;
-        font-size: 10px;
-        line-height: 12px;
-        margin-top: 10px;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 23px;
+        margin-bottom: 25px;
         color: #000000;
         a{
             text-decoration-line: underline;
@@ -133,4 +135,36 @@ input:-ms-input-placeholder {
 
 input::-webkit-input-placeholder {
     color: #D0D0D0;
+}
+
+.sms-discount.b-sms_bg{
+    .b-sms__undertext{
+        margin-bottom: 23px;
+    }
+    p{
+        margin-top: 12px;
+    }
+}
+
+.sms-discount.b-sms_bg,
+.design-project.b-sms_bg {
+    @media (max-width: 1200px){
+        .b-sms__undertext{
+            margin-bottom: 18px;
+        }
+        p{
+            margin-top: 6px;
+        }
+    }
+    
+
+}
+
+.design-project.b-sms_bg{
+    margin: 0px auto -30px;
+    .b-sms-form{
+        max-width: 612px;
+    }
+
+
 }
