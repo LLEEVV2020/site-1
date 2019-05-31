@@ -131,6 +131,7 @@ http://prntscr.com/nusxq7
 /img/seo
 
 al ek sea 5- ter mo- QlQ EcL XE
-
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
 
 
