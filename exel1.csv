@@ -1,0 +1,101 @@
+City_rus;City;domain name;name;text_1;text_2;text_3
+Москва;moscow;kupit-shkaf.ru; ;В Москве;по всей Москве и области;от Москвы
+Санкт-Петербург;St. Petersburg;st-petersburg.kupit-shkaf.ru;st-petersburg;в Санкт-Петербурге;по всему Санкт-Петербургу и   области ; от Санкт-Петербурга
+Новосибирск;Novosibirsk;novosibirsk.kupit-shkaf.ru;novosibirsk;в Новосибирске;по всему  Новосибирску и области;от Новосибирска
+Екатеринбург;Yekaterinburg;yekaterinburg.kupit-shkaf.ru;yekaterinburg;в Екатеринбурге;по всему  Екатеринбургу и областиот Екатеринбурга;
+Нижний Новгород;Nizhny Novgorod;nizhny-novgorod.kupit-shkaf.ru;nizhny-novgorod;в Нижний Новгороде;по всему  Нижний Новгороду и области;от Нижний Новгорода
+Казань;Kazan;kazan.kupit-shkaf.ru;kazan;в Казане;в  Казане и республике;от Казани
+Челябинск;Chelyabinsk;chelyabinsk.kupit-shkaf.ru;chelyabinsk;в Челябинске;по всему  Челябинску и области;от Челябинска
+Омск;Omsk;omsk.kupit-shkaf.ru;omsk;в Омске;по всему  Омску и области;от Омска
+Самара;Samara;samara.kupit-shkaf.ru;samara;в Самаре;по всей  Самаре и области;от Самары
+Ростов-на-Дону;rostov-na-donu;rostov-na-donu.kupit-shkaf.ru;rostov-na-donu;в Ростове-на-Дону;по всему  Ростову-на-Дону и области;от Ростова-на-Дону
+Уфа;Ufa;ufa.kupit-shkaf.ru;ufa;в Уфе;по всей Уфе и области;от Уфы
+Красноярск;Krasnoyarsk;krasnoyarsk.kupit-shkaf.ru;krasnoyarsk;в Красноярске;по всему  Красноярску и области;от Красноярска
+Воронеж;Voronezh;voronezh.kupit-shkaf.ru;voronezh;в Воронеже;по всему  Воронежу и области;от Воронежа
+Пермь;Perm;perm.kupit-shkaf.ru;perm;в Перми;по всей  Перми и области;от Перми
+Волгоград;Volgograd;volgograd.kupit-shkaf.ru;volgograd;в Волгограде;по всему  Волгограду и области;от Волгограда
+Краснодар;Krasnodar;krasnodar.kupit-shkaf.ru;krasnodar;в Краснодаре;по всему  Краснодаре и области;от Краснодара
+Саратов;Saratov;saratov.kupit-shkaf.ru;saratov;в Саратове;по всему  Саратову и области;от Саратова
+Тюмень;Tyumen;tyumen.kupit-shkaf.ru;tyumen;в Тюмене;по всей  Тюмени и области;от Тюмени
+Тольятти;Tolyatti;tolyatti.kupit-shkaf.ru;tolyatti;в Тольятти;по всему  Тольятти и области;от Тольятти
+Ижевск;Izhevsk;izhevsk.kupit-shkaf.ru;izhevsk;в Ижевске;по всему  Ижевску и области;от Ижевска
+Барнаул;Barnaul;barnaul.kupit-shkaf.ru;barnaul;в Барнауле;по всему  Барнаулу и области;от  Барнаула
+Ульяновск;Ulyanovsk;ulyanovsk.kupit-shkaf.ru;ulyanovsk;в Ульяновске;по всему  Ульяновску и области;от Ульяновска
+Иркутск;Irkutsk;irkutsk.kupit-shkaf.ru;irkutsk;в Иркутске;по всему  Иркутску и области;от Иркутска
+Хабаровск;Khabarovsk;khabarovsk.kupit-shkaf.ru;khabarovsk;в Хабаровске;по всему  Хабаровску и области;от Хабаровска
+Ярославль;Yaroslavl;yaroslavl.kupit-shkaf.ru;yaroslavl;в Ярославле;по всему  Ярославлю и области;от Ярославля
+Владивосток;Vladivostok;vladivostok.kupit-shkaf.ru;vladivostok;в Владивостоке;по всему  Владивостоку и области;от Владивостока
+Махачкала;Makhachkala;makhachkala.kupit-shkaf.ru;makhachkala;в Махачкале;по всей  Махачкале и области;от Махачкалы
+Томск;Tomsk;tomsk.kupit-shkaf.ru;tomsk;в Томске;по всему  Томску и области;от Томска
+Оренбург;Orenburg;orenburg.kupit-shkaf.ru;orenburg;в Оренбурге;по всему  Оренбургу и области;от Оренбурга
+Кемерово;Kemerovo;kemerovo.kupit-shkaf.ru;kemerovo;в Кемерово;по всему  Кемерово и области;от Кемерово
+Новокузнецк;Novokuznetsk;novokuznetsk.kupit-shkaf.ru;novokuznetsk;в Новокузнецке;по всему  Новокузнецку и области;от Новокузнецка
+Рязань;Ryazan;ryazan.kupit-shkaf.ru;ryazan;в Рязане;по всей  Рязане и области;от Рязани
+Астрахань;Astrakhan;astrakhan.kupit-shkaf.ru;astrakhan;в Астрахане;по всему  Астрахану и области;от Астрахани
+Набережные Челны;Naberezhnye Chelny;naberezhnye-chelny.kupit-shkaf.ru;naberezhnye-chelny;в Набережных Челнах;по всем   Набережным Челнам и области;от  Набережных Челнов
+Пенза;Penza;penza.kupit-shkaf.ru;penza;в Пензе;по всей  Пензе и области;от Пензы
+Киров;Kirov;kirov.kupit-shkaf.ru;kirov;в Кирове;по всему  Кирову и области;от Кирова
+Липецк;Lipetsk;lipetsk.kupit-shkaf.ru;lipetsk;в Липецке;по всему  Липецку и области;от Липецка
+Чебоксары;Cheboksary;cheboksary.kupit-shkaf.ru;cheboksary;в Чебоксаре;в  Чебоксаре и области;от Чебоксар
+Калининград;Kaliningrad;kaliningrad.kupit-shkaf.ru;kaliningrad;в Калининграде;по всему  Калининграду и области;от Калининграда
+Тула;Tula;tula.kupit-shkaf.ru;tula;в Туле;по всей Туле и области;от Тулы
+Балашиха;Balashikha;balashikha.kupit-shkaf.ru;balashikha;в Балашихе;по всей  Балашихе и области;от Балашихе
+Курск;Kursk;kursk.kupit-shkaf.ru;kursk;в Курске;по всему  Курску и области;от Курска
+Севастополь;Sevastopol;sevastopol.kupit-shkaf.ru;sevastopol;в Севастополе;по всему  Севастополу и области;от Севастополя
+Сочи;Sochi;sochi.kupit-shkaf.ru;sochi;в Сочи;по всему  Сочи и области;от Сочи
+Ставрополь;Stavropol;stavropol.kupit-shkaf.ru;stavropol;в Ставрополе;по всему  Ставрополю и области;от Ставрополя
+Улан-Удэ;Ulan-Ude;ulan-ude.kupit-shkaf.ru;ulan-ude;в Улан-Уде;по всему  Улан-Уде и области;от Улан-Уде
+Тверь;Tver;tver.kupit-shkaf.ru;tver;в Твери;по всей  Твери и области;от Твери
+Магнитогорск;Magnitogorsk;magnitogorsk.kupit-shkaf.ru;magnitogorsk;в Магнитогорске;по всему  Магнитогорску и области;от Магнитогорска
+Брянск;Bryansk;bryansk.kupit-shkaf.ru;bryansk;в Брянске;по всему  Брянску и области;от Брянска
+Иваново;Ivanovo;ivanovo.kupit-shkaf.ru;ivanovo;в Иванове;по всему  Иванову и области;от Иванова
+Белгород;Belgorod;belgorod.kupit-shkaf.ru;belgorod;в Белгороде;по всему  Белгороду и области;от Белгорода
+Сургут;Surgut;surgut.kupit-shkaf.ru;surgut;в Сургуте;по всему  Сургуту и области;от Сургута
+Владимир;Vladimir;vladimir.kupit-shkaf.ru;vladimir;в Владимире;по всему  Владимиру и области;от Владимира
+Нижний Тагил;Nizhny Tagil;nizhny-tagil.kupit-shkaf.ru;nizhny-tagil;в Нижнем Тагиле;по всему   Нижнему Тагилу и области;от  Нижнего Тагила
+Архангельск;Arkhangelsk;arkhangelsk.kupit-shkaf.ru;arkhangelsk;в Архангельске;по всему  Архангельску и области;от Архангельска
+Чита;Chita;chita.kupit-shkaf.ru;chita;в Чите;по всей  Чите и области;от Читы
+Симферополь;Simferopol;simferopol.kupit-shkaf.ru;simferopol;в Симферополе;по всему  Симферополю и области;от Симферополя
+Калуга;Kaluga;kaluga.kupit-shkaf.ru;kaluga;в Калуге;по всей  Калуге и области;от Калуги
+Смоленск;Smolensk;smolensk.kupit-shkaf.ru;smolensk;в Смоленске;по всему  Смоленску и области;от Смоленска
+Волжский;Volzhsky;volzhsky.kupit-shkaf.ru;volzhsky;в Волжске;по всему  Волжску и области;от Волжска
+Саранск;Saransk;saransk.kupit-shkaf.ru;saransk;в Саранске;по всему  Саранску и области;от Саранска
+Якутск;Yakutsk;yakutsk.kupit-shkaf.ru;yakutsk;в Якутске;по всему  Якутску и области;от Якутска
+Череповец;Cherepovets;cherepovets.kupit-shkaf.ru;cherepovets;в Череповце;по всему  Череповцу и области;от Череповца
+Курган;kurgan;kurgan.kupit-shkaf.ru;kurgan;в Кургане;по всему  Кургану и области;от Кургана
+Орёл;oryol;oryol.kupit-shkaf.ru;oryol;в Орле;по всему  Орлу и области;от Орла
+Вологда;Vologda;vologda.kupit-shkaf.ru;vologda;в Вологде;по всей  Вологде и области;от Вологды
+Владикавказ;Vladikavkaz;vladikavkaz.kupit-shkaf.ru;vladikavkaz;в Владикавказе;по всему  Владикавказу и области;от Владикавказа
+Подольск;Podolsk;podolsk.kupit-shkaf.ru;podolsk;в Подольске;по всему  Подольску и области;от Подольска
+Грозный;Grozny;grozny.kupit-shkaf.ru;grozny;в Грозном;по всему  Грозному и области;от Грозного
+Мурманск;Murmansk;murmansk.kupit-shkaf.ru;murmansk;в Мурманске;по всему  Мурманску и области;от Мурманска
+Тамбов;Tambov;tambov.kupit-shkaf.ru;tambov;в Тамбове;по всему  Тамбову и области;от Тамбова
+Петрозаводск;petrozavodsk;petrozavodsk.kupit-shkaf.ru;petrozavodsk;в Петрозаводске;по всему  Петрозаводску и области;от Петрозаводска
+Стерлитамак;Sterlitamak;sterlitamak.kupit-shkaf.ru;sterlitamak;в Стерлитамаке;по всему  Стерлитамаку и области;от Стерлитамака
+Нижневартовск;Nizhnevartovsk;nizhnevartovsk.kupit-shkaf.ru;nizhnevartovsk;в Нижневартовске;по всему  Нижневартовску и области;от Нижневартовска
+Кострома;Kostroma;kostroma.kupit-shkaf.ru;kostroma;в Костроме;по всей  Костроме и области;от Костромы
+Новороссийск;Novorossiysk;novorossiysk.kupit-shkaf.ru;novorossiysk;в Новороссийске;по всему  Новороссийску и области;от Новороссийска
+Йошкар-Ола;Yoshkar-Ola;yoshkar-ola.kupit-shkaf.ru;yoshkar-ola;в Йошкар-Оле;по всей  Йошкар-Оле и области;от Йошкар-Олы
+Химки;Khimki;khimki.kupit-shkaf.ru;khimki;в Химке;в  Химках и области;от Химком
+Таганрог;Taganrog;taganrog.kupit-shkaf.ru;taganrog;в Таганроге;по всему  Таганрогу и области;от Таганрога
+Комсомольск-на-Амуре;komsomolsk-na-amure;komsomolsk-na-amure.kupit-shkaf.ru;komsomolsk-na-amure;в Комсомольск-на-Амуре;по всему   Комсомольск-на-Амуру и области;от   Комсомольск-на-Амуре
+Сыктывкар;Syktyvkar;syktyvkar.kupit-shkaf.ru;syktyvkar;в Сыктывкаре;в  Сыктывкаре и области;от Сыктывкара
+Нижнекамск;Nizhnekamsk;nizhnekamsk.kupit-shkaf.ru;nizhnekamsk;в Нижнекамске;по всему  Нижнекамску и области;от Нижнекамска
+Нальчик;Nalchik;nalchik.kupit-shkaf.ru;nalchik;в Нальчике;по всему  Нальчику и области;от Нальчика
+Шахты;shahty;shahty.kupit-shkaf.ru;shahty;в Шахтах;по всем  Шахтам и области;от Шахтах
+Дзержинск;Dzerzhinsk;dzerzhinsk.kupit-shkaf.ru;dzerzhinsk;в Дзержинске;по всему  Дзержинску и области;от Дзержинска
+Орск;Orsk;orsk.kupit-shkaf.ru;orsk;в Орске;по всему  Орску и области;от Орска
+Братск;Bratsk;bratsk.kupit-shkaf.ru;bratsk;в Братске;по всему  Братску и области;от Братска
+Энгельс;Engels;engels.kupit-shkaf.ru;engels;в Энгельсе;по всему  Энгельсу и области;от Энгельса
+Ангарск;Angarsk;angarsk.kupit-shkaf.ru;angarsk;в Ангарске;по всему  Ангарску и области;от Ангарска
+Благовещенск;Blagoveshchensk;blagoveshchensk.kupit-shkaf.ru;blagoveshchensk;в Благовещенске;по всему  Благовещенску и области;от Благовещенска
+Королёв;Korolev;korolev.kupit-shkaf.ru;korolev;в Королёве;по всему  Королёву и области;от Королёва
+Великий Новгород;Velikiy Novgorod;velikiy-novgorod.kupit-shkaf.ru;velikiy-novgorod;в Великом Новгороде;по всему  Великому Новгороду и области;от Великого Новгорода
+Старый Оскол;Stary Oskol;stary-oskol.kupit-shkaf.ru;stary-oskol;в Старом Осколе;по всему  Старому Осколу и области;от Старого Оскола
+Мытищи;Mytishchi;mytishchi.kupit-shkaf.ru;mytishchi;в Мытищи;по всем  Мытищам и области;от Мытищ
+Псков;Pskov;pskov.kupit-shkaf.ru;pskov;в Пскове;по всему  Пскову и области;от Пскова
+Люберцы;Lyubertsy;lyubertsy.kupit-shkaf.ru;lyubertsy;в Люберцах;по всем  Люберцам и области;от Люберец
+Южно-Сахалинск;Yuzhno-Sakhalinsk;yuzhno-sakhalinsk.kupit-shkaf.ru;yuzhno-sakhalinsk;в Южно-Сахалинске;по всему  Южно-Сахалинску и области;от Южно-Сахалинска
+Бийск;Biysk;biysk.kupit-shkaf.ru;biysk;в Бийске;по всему  Бийску и области;от Бийска
+Прокопьевск;Prokopyevsk;prokopyevsk.kupit-shkaf.ru;prokopyevsk;в Прокопьевске;по всему  Прокопьевску и области;от Прокопьевска
+Армавир;Armavir;armavir.kupit-shkaf.ru;armavir;в Армавире;по всему  Армавиру и области;от Армавира
