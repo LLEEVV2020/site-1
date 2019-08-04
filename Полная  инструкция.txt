@@ -1,10 +1,15 @@
+НЮАНС ПРО РУССКИЕ ДОМЕННЫЕ ИМЕНА https://wpcraft.ru/notes/kirillicheskie-domeny-i-wordpress-multisite-rezhim-seti/
+https://freesitemapgenerator.com/idn-to-punycode.html
+
 1. после приготовление добавляем строчку
 /* Multisite */
 define('WP_ALLOW_MULTISITE', true);
 СЮДА http://prntscr.com/nuk67q
+wp-config.php
 
 2. Заходим в админку вордпресс
-Потом в "Инструменты" --> "Настройка сети"
+Потом в "Инструменты" --> "Настройка сети" (или "Установка сети")
+
 
 Я назвал сеть сайтов "Шкафы Цены" и нажал  кнопку "установить"
 Появилось окно http://prntscr.com/nukiwv
