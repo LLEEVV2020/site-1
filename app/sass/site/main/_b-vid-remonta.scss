@@ -13,6 +13,8 @@
     
     }
     .b-vid-remonta__item{
+        display: flex;
+        flex-direction: column;
         width: 30%;
         @media only screen and (max-width: 1200px) {
             margin-left: 2vw;
@@ -26,7 +28,9 @@
             margin-right: 0;
           }
           
-      
+          .b-vid-remonta__item_spisok{
+            flex: 1;
+          }
     }
     .b-vid-remonta__item_pict{
         height: 225px;
