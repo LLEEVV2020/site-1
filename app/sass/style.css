@@ -890,6 +890,11 @@ table {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+<<<<<<< HEAD
+=======
+    font-size: 18px;
+    line-height: 22px;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   }
 }
 
@@ -1143,6 +1148,19 @@ s.b-zamer:before {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
+=======
+.zoom-gallery > ul > li {
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+.zoom-gallery > ul > li .zoom-gallery > ul > li > img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 .es1._main {
   overflow: hidden;
   margin-bottom: 28px;
@@ -1236,20 +1254,39 @@ body {
 
 .wrap-b-vid-remonta {
   background-color: #015B77;
+<<<<<<< HEAD
   padding-top: 40px;
+=======
+  padding-top: 31px;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 .wrap-b-vid-remonta h2, .wrap-b-vid-remonta .h2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
+=======
+  font-size: 32px;
+  line-height: 39px;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   color: #FFFFFF;
 }
 
 .wrap-b-vid-remonta .b-vid-remonta__item {
+<<<<<<< HEAD
+=======
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   width: 30%;
 }
 
@@ -1270,6 +1307,15 @@ body {
   }
 }
 
+<<<<<<< HEAD
+=======
+.wrap-b-vid-remonta .b-vid-remonta__item .b-vid-remonta__item_spisok {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 .wrap-b-vid-remonta .b-vid-remonta__item_pict {
   height: 225px;
 }
@@ -1963,9 +2009,14 @@ input::-webkit-input-placeholder {
 .quick-calculation h2, .quick-calculation .h2 {
   font-style: normal;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
+=======
+  font-size: 32px;
+  line-height: 39px;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   text-align: center;
   color: #000000;
   margin-bottom: 37px;
@@ -2066,9 +2117,14 @@ input::-webkit-input-placeholder {
 .b-raschet h2, .b-raschet .h2 {
   font-style: normal;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
+=======
+  font-size: 32px;
+  line-height: 39px;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   text-align: center;
   margin-bottom: 35px;
   color: #FFFFFF;
@@ -2762,6 +2818,19 @@ input::-webkit-input-placeholder {
       grid-column-start: 1;
   grid-column-end: 3;
   z-index: 1;
+<<<<<<< HEAD
+=======
+  width: 208px;
+}
+
+.es14_bg_custom .item-rewiews .box1 img {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  width: 100%;
+  height: 208px;
+  -o-object-fit: cover;
+     object-fit: cover;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 .es14_bg_custom .item-rewiews .box1, .es14_bg_custom .item-rewiews .box1 img {
@@ -2934,9 +3003,14 @@ input::-webkit-input-placeholder {
   margin-bottom: 40px;
   font-style: normal;
   font-weight: bold;
+<<<<<<< HEAD
   font-size: 24px;
   line-height: 29px;
   /* identical to box height */
+=======
+  font-size: 32px;
+  line-height: 39px;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -3747,6 +3821,12 @@ input::-webkit-input-placeholder {
   display: block;
   border-radius: 50%;
   width: 100%;
+<<<<<<< HEAD
+=======
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 166px;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 .es1_otzivy_bg .es1_otzivy_item__otztext {
@@ -4169,6 +4249,105 @@ input::-webkit-input-placeholder {
   }
 }
 
+<<<<<<< HEAD
+=======
+.b-cont-wrap {
+  background: #EDEDED;
+  padding-top: 35px;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+.b-cont-wrap h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #E21F69;
+}
+
+.b-cont-wrap .es13_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 1201px) {
+  .b-cont-wrap .es13_block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.b-cont-wrap .es13_block .text-wr {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: #000000;
+}
+
+@media only screen and (max-width: 1201px) {
+  .b-cont-wrap .es13_block .text-wr {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.b-cont-wrap .es13_block .es13_input {
+  width: 361px;
+  margin-bottom: 30px;
+  height: 55px;
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-top: 0;
+  background-image: url(../img/phone-img.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 14px;
+  position: relative;
+}
+
+.b-cont-wrap .es13_block .es13_input input {
+  border: 0px;
+  background: none;
+  padding-top: 15px;
+  padding-left: 0;
+  position: absolute;
+  top: 0;
+  left: 60px;
+}
+
+.b-cont-wrap .es13_block .es13_item {
+  width: 264px;
+  height: 55px;
+}
+
+.b-cont-wrap .es13_block .es13_item .red-pink-button {
+  width: 100%;
+  font-size: 24px;
+  line-height: 29px;
+  border-radius: 30px;
+  white-space: nowrap;
+  padding: 12px 15px;
+}
+
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 .b_contact_ceo_bg {
   background-color: #FBC035;
   background-image: url(../img/b_market_filtr_bg.png);

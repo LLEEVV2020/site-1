@@ -74,3 +74,77 @@
 		}
 	}
 }
+
+.b-cont-wrap{
+	background: #EDEDED;
+	padding-top: 35px;
+	margin-top: 40px;
+	padding-bottom: 10px;
+	h3{
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 29px;
+		text-align: center;
+		margin-bottom: 35px;
+		color: #E21F69;
+	}
+	.es13_block{
+		display: flex;
+		@media only screen and (max-width: 1201px) {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.text-wr{
+			font-weight: 500;
+			font-size: 24px;
+			line-height: 29px;
+			flex: 1;
+			color: #000000;
+			@media only screen and (max-width: 1201px) {
+				flex-grow: 1;
+				flex-shrink: 1;
+				flex-basis: 100%;
+				margin-bottom: 20px;
+			}
+		}
+		.es13_input{
+			width: 361px;
+			margin-bottom: 30px;
+			height: 55px;
+			background: #FFFFFF;
+			border: 1px solid #D0D0D0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			border-radius: 5px;
+			padding-top: 0;
+			background-image: url(../img/phone-img.png);
+			background-repeat: no-repeat;
+			background-position-y: center;
+			background-position-x: 14px;
+			position: relative;
+
+			input{
+				border: 0px;
+				background: none;
+				padding-top: 15px;
+				padding-left: 0;
+				position: absolute;
+				top: 0;
+				left: 60px;
+			}
+		}
+		.es13_item{
+			width: 264px;
+			height: 55px;
+			.red-pink-button{
+				width: 100%;
+				font-size: 24px;
+				line-height: 29px;
+				border-radius: 30px;
+				white-space: nowrap;
+				padding: 12px 15px;
+			}
+		}
+
+	}
+}

@@ -1,0 +1,3 @@
+http://qaru.site/questions/64485/how-to-get-base-url-with-php
+
+$_SERVER['SERVER_NAME']

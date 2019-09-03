@@ -8659,7 +8659,12 @@ a:hover {
 }
 
 .b-radar {
+<<<<<<< HEAD
   margin: 87px auto;
+=======
+  overflow: hidden;
+  margin: 40px auto;
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 .b-radar .b-radar_bg {
@@ -8669,8 +8674,13 @@ a:hover {
   margin: 0 auto;
   padding-top: 3px;
   position: relative;
+<<<<<<< HEAD
   -webkit-transform: scale(0.65);
           transform: scale(0.65);
+=======
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+>>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   margin: -220px auto;
 }
 
