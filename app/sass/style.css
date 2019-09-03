@@ -890,11 +890,8 @@ table {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-<<<<<<< HEAD
-=======
     font-size: 18px;
     line-height: 22px;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   }
 }
 
@@ -1148,8 +1145,6 @@ s.b-zamer:before {
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-=======
 .zoom-gallery > ul > li {
   -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
           box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
@@ -1160,7 +1155,6 @@ s.b-zamer:before {
      object-fit: cover;
 }
 
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 .es1._main {
   overflow: hidden;
   margin-bottom: 28px;
@@ -1254,31 +1248,19 @@ body {
 
 .wrap-b-vid-remonta {
   background-color: #015B77;
-<<<<<<< HEAD
-  padding-top: 40px;
-=======
   padding-top: 31px;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 .wrap-b-vid-remonta h2, .wrap-b-vid-remonta .h2 {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: bold;
-<<<<<<< HEAD
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-=======
   font-size: 32px;
   line-height: 39px;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   color: #FFFFFF;
 }
 
 .wrap-b-vid-remonta .b-vid-remonta__item {
-<<<<<<< HEAD
-=======
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1286,7 +1268,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   width: 30%;
 }
 
@@ -1307,15 +1288,12 @@ body {
   }
 }
 
-<<<<<<< HEAD
-=======
 .wrap-b-vid-remonta .b-vid-remonta__item .b-vid-remonta__item_spisok {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
 }
 
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 .wrap-b-vid-remonta .b-vid-remonta__item_pict {
   height: 225px;
 }
@@ -2009,14 +1987,8 @@ input::-webkit-input-placeholder {
 .quick-calculation h2, .quick-calculation .h2 {
   font-style: normal;
   font-weight: bold;
-<<<<<<< HEAD
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-=======
   font-size: 32px;
   line-height: 39px;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   text-align: center;
   color: #000000;
   margin-bottom: 37px;
@@ -2117,14 +2089,8 @@ input::-webkit-input-placeholder {
 .b-raschet h2, .b-raschet .h2 {
   font-style: normal;
   font-weight: bold;
-<<<<<<< HEAD
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-=======
   font-size: 32px;
   line-height: 39px;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   text-align: center;
   margin-bottom: 35px;
   color: #FFFFFF;
@@ -2818,8 +2784,6 @@ input::-webkit-input-placeholder {
       grid-column-start: 1;
   grid-column-end: 3;
   z-index: 1;
-<<<<<<< HEAD
-=======
   width: 208px;
 }
 
@@ -2830,7 +2794,6 @@ input::-webkit-input-placeholder {
   height: 208px;
   -o-object-fit: cover;
      object-fit: cover;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 .es14_bg_custom .item-rewiews .box1, .es14_bg_custom .item-rewiews .box1 img {
@@ -3003,14 +2966,8 @@ input::-webkit-input-placeholder {
   margin-bottom: 40px;
   font-style: normal;
   font-weight: bold;
-<<<<<<< HEAD
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-=======
   font-size: 32px;
   line-height: 39px;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -3821,12 +3778,9 @@ input::-webkit-input-placeholder {
   display: block;
   border-radius: 50%;
   width: 100%;
-<<<<<<< HEAD
-=======
   -o-object-fit: cover;
      object-fit: cover;
   height: 166px;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 .es1_otzivy_bg .es1_otzivy_item__otztext {
@@ -4249,8 +4203,6 @@ input::-webkit-input-placeholder {
   }
 }
 
-<<<<<<< HEAD
-=======
 .b-cont-wrap {
   background: #EDEDED;
   padding-top: 35px;
@@ -4347,7 +4299,6 @@ input::-webkit-input-placeholder {
   padding: 12px 15px;
 }
 
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 .b_contact_ceo_bg {
   background-color: #FBC035;
   background-image: url(../img/b_market_filtr_bg.png);

@@ -3074,23 +3074,13 @@ span.red-button {
 .b-vid-remonta__block {
   text-align: center;
   margin-bottom: 0;
-<<<<<<< HEAD
-  margin-top: 40px;
+  margin-top: 31px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-=======
-  margin-top: 31px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -3106,11 +3096,7 @@ span.red-button {
 /* line 29, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
 .b-vid-remonta__item {
   width: 254px;
-<<<<<<< HEAD
   display: block;
-=======
-  display: inline-block;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
   vertical-align: top;
   background-clip: padding-box;
   background-color: #fff;
@@ -3122,11 +3108,8 @@ span.red-button {
   -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-<<<<<<< HEAD
   margin-left: auto;
   margin-right: auto;
-=======
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 /* line 43, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
@@ -3141,11 +3124,8 @@ span.red-button {
   width: 100%;
   height: 100%;
   border-radius: 4px;
-<<<<<<< HEAD
-=======
   -o-object-fit: cover;
      object-fit: cover;
->>>>>>> 99c5c3ce00532e018e3f63f24f91f0b72938a620
 }
 
 /* line 51, ../../sass/blocks/b-vid-remonta/_b-vid-remonta.sass */
